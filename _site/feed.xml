@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Sumedh Joshi</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="/feed.xml" />
+<link rel="alternate" type="text/html" href="" />
+<updated>2015-07-02T18:54:48-05:00</updated>
+<id>/</id>
+<author>
+  <name>Sumedh Joshi</name>
+  <uri>/</uri>
+  <email>sumedh.m.joshi@gmail.com</email>
+</author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Setting Up MathJax LaTeX Support]]></title>
+  <link rel="alternate" type="text/html" href="/meta/setup/setting-up-mathjax-latex-support/" />
+  <id>/meta/setup/setting-up-mathjax-latex-support</id>
+  <published>2015-06-27T17:31:33-05:00</published>
+  <updated>2015-06-27T17:31:33-05:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri></uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;This is easy, just add the following snippet into the body of the _layout/post.html:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text/javascript&amp;quot;&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This will add MathJax support to all posts. To typset LaTeX, just surround any LaTeX syntax with two dollar signs, like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-latex&quot; data-lang=&quot;latex&quot;&gt;&lt;span class=&quot;sb&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;u,v&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\int&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\Omega&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; u&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; v^&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; d&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\Omega&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;$$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;to produce&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(u,v) = \int_\Omega u(x) v^*(x) d\Omega&lt;/script&gt;
+
+&lt;p&gt;If you also want MathJax support on website pages, add the same code snippet to _layout/page.html.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/meta/setup/setting-up-mathjax-latex-support/&quot;&gt;Setting Up MathJax LaTeX Support&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Setting Up Disqus]]></title>
+  <link rel="alternate" type="text/html" href="/meta/setup/setting-up-disqus/" />
+  <id>/meta/setup/setting-up-disqus</id>
+  <published>2015-06-27T14:45:07-05:00</published>
+  <updated>2015-06-27T14:45:07-05:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri></uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;I basically followed the very clear instructions set up on &lt;a href=&quot;http://joshualande.com/jekyll-github-pages-poole/&quot;&gt;this&lt;/a&gt; blog post.
+There are instructions there for setting up a GitHub hosting account (which is free, for some reason, if you’re using Jekyll), setting up a domain name to point to the GitHub host, setting up Google Analytics, and setting up the Disqus commenting system.&lt;/p&gt;
+
+&lt;h2 id=&quot;disqus&quot;&gt;Disqus&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make a &lt;a href=&quot;www.disqus.com&quot;&gt;Disqus&lt;/a&gt; account.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a short-name by registering &lt;a href=&quot;https://disqus.com/admin/create/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enable Disqus by setting the disqus-shortname variable in the Jekyll config file.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set “comments: true” in the YAML front matter of any post that you want commenting enabled on!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/meta/setup/setting-up-disqus/&quot;&gt;Setting Up Disqus&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[How I Set Up This Site]]></title>
+  <link rel="alternate" type="text/html" href="/programming/meta/notes/how-i-set-up-this-site/" />
+  <id>/programming/meta/notes/how-i-set-up-this-site</id>
+  <published>2015-06-27T01:47:07-05:00</published>
+  <updated>2015-06-27T01:47:07-05:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri></uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Upgraded Ruby to version 2.1.1 to be compatible with clang.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Downloaded and installed Jekyll from http://jekyllrb.com/.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Downloaded and installed the &lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/blob/master/theme-setup/index.md&quot;&gt;Minimial Mistakes&lt;/a&gt; theme.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Modified the images in the /images folder to be smaller in height to save vertical real estate (first installed imagemagick):&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt; $ mogrify -crop 100%x40%+0+0 sample-image-?.jpg
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Installed the octopress gem:&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt; $ gem install octopress
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Made this post with octopress:&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt; $ octopress new post &quot;How I Set Up This Site&quot;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/programming/meta/notes/how-i-set-up-this-site/&quot;&gt;How I Set Up This Site&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+</feed>

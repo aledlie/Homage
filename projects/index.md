@@ -1,0 +1,34 @@
+---
+layout: page
+title: Projects
+tags: [projects]
+modified: 2014-08-08T20:53:07.573882-04:00
+image:
+  feature: sample-image-1.jpg
+  credit: WeGraphics
+  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+---
+
+## SMPM: Incompressible Navier-Stokes Solver
+
+   * Modeling of shoaling nonlinear internal waves over a shallow, sloping bathymetry.
+   * A fortran90/Matlab suite of tools to solve the incompressible Navier-Stokes equations with a high-order element-based discretization and a Schur-complement based domain decomposition.  Under development with Greg Thomsen and Peter Diamessis.
+
+## Preconditioning Schur complements of elliptic problems.
+
+   * Use of deflation alongside block-diagonal preconditioning for designing a parallel sparse matrix solver for elliptic FEM problems.
+   * Acheives convergence rate of GMRES independent of grid deformations and grid size.
+
+## Computational acoustics
+
+   * High-frequency rough-surface scattering using COMSOL FEM and Matlab-based boundary element methods.
+   * High-order continuous spectral element collocation method for sound propagation through moving incompressible flows.
+
+<a markdown="0" href="https://bitbucket.org/smj96/spectral-element-method-acoustics" class="btn">Bitbucket Repository</a>
+
+## College football data scraping, analysis, and blogging
+
+   * Scraping college football play-by-play data into a SQL database for analysis.
+   * Data analysis with Pandas/Matlab, visualization with d3.js and dimple.js.
+
+<a markdown="0" href="http://www.sbnation.com/users/Sumedh%20Joshi%20(pleaseplaykindle)/blog" class="btn">Burnt Orange Nation Blog Posts</a>

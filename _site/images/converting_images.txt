@@ -1,0 +1,7 @@
+To crop the original images to 30% of their height I used:
+
+$ convert sample-image-1.jpg -crop 100%x30%+0+0 test.jpg
+
+or to over-write the original image:
+
+$ mogrify sample-image-1.jpg -crop 100%x30%+0+0

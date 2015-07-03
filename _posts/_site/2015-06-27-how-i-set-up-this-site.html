@@ -1,0 +1,29 @@
+<ol>
+  <li>
+    <p>Upgraded Ruby to version 2.1.1 to be compatible with clang.</p>
+  </li>
+  <li>
+    <p>Downloaded and installed Jekyll from http://jekyllrb.com/.</p>
+  </li>
+  <li>
+    <p>Downloaded and installed the <a href="https://github.com/mmistakes/minimal-mistakes/blob/master/theme-setup/index.md">Minimial Mistakes</a> theme.</p>
+  </li>
+  <li>
+    <p>Modified the images in the /images folder to be smaller in height to save vertical real estate (first installed imagemagick):</p>
+
+    <pre><code> $ mogrify -crop 100%x40%+0+0 sample-image-?.jpg
+</code></pre>
+  </li>
+  <li>
+    <p>Installed the octopress gem:</p>
+
+    <pre><code> $ gem install octopress
+</code></pre>
+  </li>
+  <li>
+    <p>Made this post with octopress:</p>
+
+    <pre><code> $ octopress new post "How I Set Up This Site"
+</code></pre>
+  </li>
+</ol>
