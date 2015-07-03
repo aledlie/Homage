@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>/football/google-pagerank-and-ncaa-football/</loc>
+    <lastmod>2015-07-03T03:00:45-05:00</lastmod>
+  </url>
+  <url>
     <loc>/golf/how-good-is-the-average-golfer/</loc>
     <lastmod>2015-07-02T23:47:09-05:00</lastmod>
   </url>
@@ -17,31 +21,27 @@
     <lastmod>2015-06-27T14:45:07-05:00</lastmod>
   </url>
   <url>
-    <loc>/football/google-pagerank-and-ncaa-football/</loc>
-    <lastmod>2015-06-27T03:00:45-05:00</lastmod>
-  </url>
-  <url>
     <loc>/programming/meta/notes/how-i-set-up-this-site/</loc>
     <lastmod>2015-06-27T01:47:07-05:00</lastmod>
   </url>
   <url>
     <loc>/projects/</loc>
-    <lastmod>2015-07-03T15:40:16-05:00</lastmod>
+    <lastmod>2015-07-03T15:51:11-05:00</lastmod>
   </url>
   <url>
     <loc>/posts/</loc>
-    <lastmod>2015-07-03T15:40:16-05:00</lastmod>
+    <lastmod>2015-07-03T15:51:11-05:00</lastmod>
   </url>
   <url>
     <loc>/about/</loc>
-    <lastmod>2015-07-03T15:40:16-05:00</lastmod>
+    <lastmod>2015-07-03T15:51:11-05:00</lastmod>
   </url>
   <url>
     <loc>/vita/</loc>
-    <lastmod>2015-07-03T15:40:16-05:00</lastmod>
+    <lastmod>2015-07-03T15:51:11-05:00</lastmod>
   </url>
   <url>
     <loc>/</loc>
-    <lastmod>2015-07-03T15:40:16-05:00</lastmod>
+    <lastmod>2015-07-03T15:51:11-05:00</lastmod>
   </url>
 </urlset>

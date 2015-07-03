@@ -9,7 +9,7 @@ comments: true
 published: true
 image:
   feature:
-date: 2015-06-27T03:00:45-05:00
+date: 2015-07-03T03:00:45-05:00
 ---
 
 ## Graph of sports leagues

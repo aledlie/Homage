@@ -4,13 +4,229 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-07-03T15:40:16-05:00</updated>
+<updated>2015-07-03T15:51:11-05:00</updated>
 <id>/</id>
 <author>
   <name>Sumedh Joshi</name>
   <uri>/</uri>
   <email>sumedh.m.joshi@gmail.com</email>
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Google PageRank, NCAA Football, and Luck]]></title>
+  <link rel="alternate" type="text/html" href="/football/google-pagerank-and-ncaa-football/" />
+  <id>/football/google-pagerank-and-ncaa-football</id>
+  <published>2015-07-03T03:00:45-05:00</published>
+  <updated>2015-07-03T03:00:45-05:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri></uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h2 id=&quot;graph-of-sports-leagues&quot;&gt;Graph of sports leagues&lt;/h2&gt;
+
+&lt;p&gt;If you think of sports teams as nodes (vertices) and games between teams as edges between the nodes, professional sports leagues have very different characters as graphs.  Most leagues are divided into divisions, or conferences, and so the graphs tend to have clusters within a division, and fewer edges between divisions.  All the graphs are connected, and some, like the one of the NBA, are even complete.  Usually, the sports leagues are divided into subgraphs that are themselves complete; for example Major League Baseball is divided into the American League and National League.  Within each League, all teams play each other, and teams have a limited set of games against teams in the other league (so-called interleague play).&lt;/p&gt;
+
+&lt;p&gt;The graphs of the major American sports leagues are characterized in the table below.  &lt;em&gt;Nodes&lt;/em&gt; means teams, &lt;em&gt;degree&lt;/em&gt; means games, and &lt;em&gt;complete sub-graphs&lt;/em&gt; means the number of divisions/conferences/etc.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;League&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;# of Nodes&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Degree of each node&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;# of Complete Sub-Graphs&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;NBA&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;30&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;82&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;MLB&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;32&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;162&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;NFL&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;32&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;16&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;(&lt;em&gt;Complete sub-graph&lt;/em&gt; is a term I’m using sort of heuristically here; every graph has lots of complete subgraphs of small size; I mean complete sub-graph of conference/division size.)&lt;/p&gt;
+
+&lt;h2 id=&quot;the-graph-of-college-football&quot;&gt;The graph of college football&lt;/h2&gt;
+
+&lt;p&gt;The graph of college football is very different from the ones described above.  This is because a college football team will only play about 12 games in a season, and there is something like 130 college football teams.  There is little hope of there being just 1 or 2 of complete graphs.  This is a characteristic in the NFL too, in which teams play only 16 games per season, but unlike college football, there are only 32 NFL teams.  Take a look at the graph of college football from the 2012 season:&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/cfb_network_cluster.png&quot;&gt;&lt;img width=&quot;60%&quot; src=&quot;/images/cfb_network_cluster.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+   &lt;figcaption&gt; The network of college football.  Teams are nodes, and edges are games between teams.  The six power conferences are clustered together, and the gray circle of teams in the middle are the non-power conference teams. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;There are six so-called &lt;em&gt;power&lt;/em&gt; conferences which are well-connected within themselves, and are represented by the six clustered groups of teams around the perimeter of the above picture.  Outside of these six conferences, there are the remaining 50% of college football teams that are either independent or in lesser conferences; these teams are represented in gray in the inner circle.  There are few games between power conferences, but lots of games between power and non-power conference teams (these are the edges connecting vertices in the inner circle to one of the outer circle teams).&lt;/p&gt;
+
+&lt;h2 id=&quot;ranking-teams-with-pagerank&quot;&gt;Ranking teams with PageRank&lt;/h2&gt;
+
+&lt;p&gt;Because there no large, complete sub-graphs in the college football network, ranking college football teams is a non-trivial task.  Until recently, there was a selection procedure that used computer models to determine rankings.&lt;/p&gt;
+
+&lt;p&gt;Google’s PageRank is an algorithm developed by Google co-founder Larry Page for ranking webpages for importance.  In Page’s original formulation, the internet was modeled as a directed graph with pages as nodes and edges being links from one page to another.  This graph was represented with an adjacency matrix &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, whose entries &lt;script type=&quot;math/tex&quot;&gt;a_{ij}&lt;/script&gt; are givn by&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a_{ij} = \textrm{edge weight from node } i \textrm{ to node } j&lt;/script&gt;
+
+&lt;p&gt;The PageRank algorithm works (roughly) by using power iteration to obtain the dominant eigenvector &lt;script type=&quot;math/tex&quot;&gt;v&lt;/script&gt; of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;.  The value of entry &lt;script type=&quot;math/tex&quot;&gt;v_i&lt;/script&gt; in the eigenvector represents the PageRank of node &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt;.  PageRank includes some extra steps to treat edge cases in which the graph is disconnected or there are closed loops, but this is the basic idea.&lt;/p&gt;
+
+&lt;p&gt;We can apply PageRank to rank college football teams too.  Again, the teams are the nodes &lt;script type=&quot;math/tex&quot;&gt;v_i&lt;/script&gt;, the edges are the games between them, and the edge weights are the score differential; the edges point from the winning team to the losing team.  Like anything else reasonably famous, these is a Python package to compute pageranks of directed, weighted graphs called networkx.  I used Python/networkx along with data from the 2014 college football season.&lt;/p&gt;
+
+&lt;p&gt;First, let’s just see how PageRank does with the 2015 season.  Here is the ranking of the top-10 teams of the 2015 college football season according to PageRank.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1. Ohio St.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2. Oregon&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3. Baylor&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4. Mississippi&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5. Georgia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6. Georgia Tech&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7. Virginia Tech&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8. Alabama&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9. Texas Christian&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10. Missouri&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;These are somewhat reasonable results; the national champion and runner-up are correctly ranked at #1 and #2.  The rest of the teams are at least all pretty good.  Florida St. is not ranked in the top ten even though they were ranked as the #3 team before the playoffs, but that was a questionable ranking and Florida St. was beaten soundly in their first playoff game.  All-in-all, this seems to produce reasonable results.&lt;/p&gt;
+
+&lt;h2 id=&quot;adding-noise-to-the-network&quot;&gt;Adding noise to the network&lt;/h2&gt;
+
+&lt;p&gt;The question I want to ask is, &lt;em&gt;How sensitive is PageRank to noise&lt;/em&gt;?  In this context, noise can be interpreted as luck, and can be modeled as adding to the score differential a zero-mean Gaussian random variable with some variance.  In math, this means that I’ll modify the non-zero entries of the adjacency matrix &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; and create a new matrix &lt;script type=&quot;math/tex&quot;&gt;\tilde{A}&lt;/script&gt; whose entries are defined as&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\tilde{a}_{ij} =a_{ij} + N(0,\sigma)&lt;/script&gt;
+
+&lt;p&gt;where-ever &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is non-zero.  &lt;script type=&quot;math/tex&quot;&gt;N(0,\sigma)&lt;/script&gt; is a zero-mean Gaussian random variable with standard deviation &lt;script type=&quot;math/tex&quot;&gt;\sigma&lt;/script&gt;.  In my interpretation, &lt;script type=&quot;math/tex&quot;&gt;\sigma&lt;/script&gt; represents how much we think luck matters.  Some possible choices of &lt;script type=&quot;math/tex&quot;&gt;\sigma&lt;/script&gt; are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 0&lt;/script&gt;: this means we think the scores represent perfectly who the better team was and by how much.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 3&lt;/script&gt;: this means we think that luck matters about a field goal’s worth of points.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 6&lt;/script&gt;: this means we think that luck matters about a touchdown’s worth of points.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Naturally many other choices are possible, but I wanted to try these three since they have clear interpretations in the context of college football.&lt;/p&gt;
+
+&lt;p&gt;Lastly, and most importantly, I wanted to  make sure I wasn’t monkeying around too much with the data by adding noise everywhere in the college football network.  So, I only added the &lt;script type=&quot;math/tex&quot;&gt;N(0,\sigma)&lt;/script&gt; noise term to games between bad teams.  Any games that included teams ranked roughly in the top-25 of PageRank scores were not modified at all.  My goal was to see if adding noise to &lt;em&gt;unimportant&lt;/em&gt; games (those between bad teams) would affect the rankings of good teams.  Basically what I’m saying is that no one really cares about the outcome of Idaho St. vs. Bowling Green (sorry Vandals and Falcons), and so adding noise to those games should, in principle, not affect the top-10 teams at all.  This turns out to not be true.&lt;/p&gt;
+
+&lt;p&gt;Most of the time, as you would expect, when you add noise to teams outside of the top 25, you see no difference in the top-10 rankings; they’re the same ones I posted above.  But every once in a while, the top-10 will change, and even less frequenctly, the &lt;em&gt;number&lt;/em&gt; &lt;em&gt;one&lt;/em&gt; ranked team will change!  In the following table I’ve summarized the results of simulating 1000 trials of random noise with &lt;script type=&quot;math/tex&quot;&gt;\sigma = 0,3&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;6&lt;/script&gt;.  I picked out the resulting subset of trials in which Oregon was ranked higher than Ohio St., and have listed the the results for the top-10 teams.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 0&lt;/script&gt; (1000/1000 times)&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 3&lt;/script&gt; (1/1000 times)&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 6&lt;/script&gt; (12/1000 times)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1. Ohio St.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1. Oregon&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1. Oregon&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2. Oregon&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2. Ohio St.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2. Ohio St.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;3. Baylor&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;3. Baylor&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;3. Baylor&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;4. Mississippi&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;4. Mississippi&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;4. Georgia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;5. Georgia&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;5. Georgia&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;5. Mississippi&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;6. Georgia Tech&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;6. Georgia Tech&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;6. Georgia Tech&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;7. Virginia Tech&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;7. Virginia Tech&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;7. Virginia Tech&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;8. Alabama&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;8. Alabama&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;8. Alabama&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;9. Texas Christian&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;9. Texas Christian&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;9. Texas Christian&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;10. Missouri&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;10. Missouri&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;10. Missouri&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This is a weird thing that is happening, and sort of shows the limitation of PageRank as it pertains to the college football network.  First, we (as college football fans) care a &lt;em&gt;lot&lt;/em&gt; about who is #1 and who is #2.  PageRank doesn’t care about this as much; it just wants to make sure that good teams are given good scores.&lt;/p&gt;
+
+&lt;p&gt;Second, the college football network has a very peculiar characteristic in that most paths from high-ranked nodes to other high-ranked nodes travel through the set of low-ranked nodes.  This means that information flows from good teams to good teams through bad teams and the unimportant games between them.  When I add noise to those unimportant games, it can alter the way the paths connect good teams to good teams.  This manifests as changing the PageRank of teams whose games I did not touch.&lt;/p&gt;
+
+&lt;p&gt;I would be curious to see what would happen if I did a similar PageRank + noise experiment with other sports leagues, especially those, like the NBA, whose graphs are complete.  Would the PageRank then be more resilient to noise?&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/football/google-pagerank-and-ncaa-football/&quot;&gt;Google PageRank, NCAA Football, and Luck&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 03, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
   
@@ -236,222 +452,6 @@ There are instructions there for setting up a GitHub hosting account (which is f
 &lt;/ol&gt;
 
     &lt;p&gt;&lt;a href=&quot;/meta/setup/setting-up-disqus/&quot;&gt;Setting Up Disqus&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[Google PageRank, NCAA Football, and Luck]]></title>
-  <link rel="alternate" type="text/html" href="/football/google-pagerank-and-ncaa-football/" />
-  <id>/football/google-pagerank-and-ncaa-football</id>
-  <published>2015-06-27T03:00:45-05:00</published>
-  <updated>2015-06-27T03:00:45-05:00</updated>
-  <author>
-    <name>Sumedh Joshi</name>
-    <uri></uri>
-    <email>sumedh.m.joshi@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;h2 id=&quot;graph-of-sports-leagues&quot;&gt;Graph of sports leagues&lt;/h2&gt;
-
-&lt;p&gt;If you think of sports teams as nodes (vertices) and games between teams as edges between the nodes, professional sports leagues have very different characters as graphs.  Most leagues are divided into divisions, or conferences, and so the graphs tend to have clusters within a division, and fewer edges between divisions.  All the graphs are connected, and some, like the one of the NBA, are even complete.  Usually, the sports leagues are divided into subgraphs that are themselves complete; for example Major League Baseball is divided into the American League and National League.  Within each League, all teams play each other, and teams have a limited set of games against teams in the other league (so-called interleague play).&lt;/p&gt;
-
-&lt;p&gt;The graphs of the major American sports leagues are characterized in the table below.  &lt;em&gt;Nodes&lt;/em&gt; means teams, &lt;em&gt;degree&lt;/em&gt; means games, and &lt;em&gt;complete sub-graphs&lt;/em&gt; means the number of divisions/conferences/etc.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;League&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;# of Nodes&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Degree of each node&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;# of Complete Sub-Graphs&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;NBA&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;30&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;82&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;MLB&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;32&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;162&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;NFL&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;32&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;16&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;(&lt;em&gt;Complete sub-graph&lt;/em&gt; is a term I’m using sort of heuristically here; every graph has lots of complete subgraphs of small size; I mean complete sub-graph of conference/division size.)&lt;/p&gt;
-
-&lt;h2 id=&quot;the-graph-of-college-football&quot;&gt;The graph of college football&lt;/h2&gt;
-
-&lt;p&gt;The graph of college football is very different from the ones described above.  This is because a college football team will only play about 12 games in a season, and there is something like 130 college football teams.  There is little hope of there being just 1 or 2 of complete graphs.  This is a characteristic in the NFL too, in which teams play only 16 games per season, but unlike college football, there are only 32 NFL teams.  Take a look at the graph of college football from the 2012 season:&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;center&gt;
-   &lt;a href=&quot;/images/cfb_network_cluster.png&quot;&gt;&lt;img width=&quot;60%&quot; src=&quot;/images/cfb_network_cluster.png&quot; /&gt;&lt;/a&gt;
-&lt;/center&gt;
-   &lt;figcaption&gt; The network of college football.  Teams are nodes, and edges are games between teams.  The six power conferences are clustered together, and the gray circle of teams in the middle are the non-power conference teams. &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;There are six so-called &lt;em&gt;power&lt;/em&gt; conferences which are well-connected within themselves, and are represented by the six clustered groups of teams around the perimeter of the above picture.  Outside of these six conferences, there are the remaining 50% of college football teams that are either independent or in lesser conferences; these teams are represented in gray in the inner circle.  There are few games between power conferences, but lots of games between power and non-power conference teams (these are the edges connecting vertices in the inner circle to one of the outer circle teams).&lt;/p&gt;
-
-&lt;h2 id=&quot;ranking-teams-with-pagerank&quot;&gt;Ranking teams with PageRank&lt;/h2&gt;
-
-&lt;p&gt;Because there no large, complete sub-graphs in the college football network, ranking college football teams is a non-trivial task.  Until recently, there was a selection procedure that used computer models to determine rankings.&lt;/p&gt;
-
-&lt;p&gt;Google’s PageRank is an algorithm developed by Google co-founder Larry Page for ranking webpages for importance.  In Page’s original formulation, the internet was modeled as a directed graph with pages as nodes and edges being links from one page to another.  This graph was represented with an adjacency matrix &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, whose entries &lt;script type=&quot;math/tex&quot;&gt;a_{ij}&lt;/script&gt; are givn by&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a_{ij} = \textrm{edge weight from node } i \textrm{ to node } j&lt;/script&gt;
-
-&lt;p&gt;The PageRank algorithm works (roughly) by using power iteration to obtain the dominant eigenvector &lt;script type=&quot;math/tex&quot;&gt;v&lt;/script&gt; of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;.  The value of entry &lt;script type=&quot;math/tex&quot;&gt;v_i&lt;/script&gt; in the eigenvector represents the PageRank of node &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt;.  PageRank includes some extra steps to treat edge cases in which the graph is disconnected or there are closed loops, but this is the basic idea.&lt;/p&gt;
-
-&lt;p&gt;We can apply PageRank to rank college football teams too.  Again, the teams are the nodes &lt;script type=&quot;math/tex&quot;&gt;v_i&lt;/script&gt;, the edges are the games between them, and the edge weights are the score differential; the edges point from the winning team to the losing team.  Like anything else reasonably famous, these is a Python package to compute pageranks of directed, weighted graphs called networkx.  I used Python/networkx along with data from the 2014 college football season.&lt;/p&gt;
-
-&lt;p&gt;First, let’s just see how PageRank does with the 2015 season.  Here is the ranking of the top-10 teams of the 2015 college football season according to PageRank.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1. Ohio St.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2. Oregon&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;3. Baylor&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;4. Mississippi&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;5. Georgia&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;6. Georgia Tech&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;7. Virginia Tech&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;8. Alabama&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;9. Texas Christian&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;10. Missouri&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;These are somewhat reasonable results; the national champion and runner-up are correctly ranked at #1 and #2.  The rest of the teams are at least all pretty good.  Florida St. is not ranked in the top ten even though they were ranked as the #3 team before the playoffs, but that was a questionable ranking and Florida St. was beaten soundly in their first playoff game.  All-in-all, this seems to produce reasonable results.&lt;/p&gt;
-
-&lt;h2 id=&quot;adding-noise-to-the-network&quot;&gt;Adding noise to the network&lt;/h2&gt;
-
-&lt;p&gt;The question I want to ask is, &lt;em&gt;How sensitive is PageRank to noise&lt;/em&gt;?  In this context, noise can be interpreted as luck, and can be modeled as adding to the score differential a zero-mean Gaussian random variable with some variance.  In math, this means that I’ll modify the non-zero entries of the adjacency matrix &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; and create a new matrix &lt;script type=&quot;math/tex&quot;&gt;\tilde{A}&lt;/script&gt; whose entries are defined as&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\tilde{a}_{ij} =a_{ij} + N(0,\sigma)&lt;/script&gt;
-
-&lt;p&gt;where-ever &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is non-zero.  &lt;script type=&quot;math/tex&quot;&gt;N(0,\sigma)&lt;/script&gt; is a zero-mean Gaussian random variable with standard deviation &lt;script type=&quot;math/tex&quot;&gt;\sigma&lt;/script&gt;.  In my interpretation, &lt;script type=&quot;math/tex&quot;&gt;\sigma&lt;/script&gt; represents how much we think luck matters.  Some possible choices of &lt;script type=&quot;math/tex&quot;&gt;\sigma&lt;/script&gt; are:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 0&lt;/script&gt;: this means we think the scores represent perfectly who the better team was and by how much.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 3&lt;/script&gt;: this means we think that luck matters about a field goal’s worth of points.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 6&lt;/script&gt;: this means we think that luck matters about a touchdown’s worth of points.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Naturally many other choices are possible, but I wanted to try these three since they have clear interpretations in the context of college football.&lt;/p&gt;
-
-&lt;p&gt;Lastly, and most importantly, I wanted to  make sure I wasn’t monkeying around too much with the data by adding noise everywhere in the college football network.  So, I only added the &lt;script type=&quot;math/tex&quot;&gt;N(0,\sigma)&lt;/script&gt; noise term to games between bad teams.  Any games that included teams ranked roughly in the top-25 of PageRank scores were not modified at all.  My goal was to see if adding noise to &lt;em&gt;unimportant&lt;/em&gt; games (those between bad teams) would affect the rankings of good teams.  Basically what I’m saying is that no one really cares about the outcome of Idaho St. vs. Bowling Green (sorry Vandals and Falcons), and so adding noise to those games should, in principle, not affect the top-10 teams at all.  This turns out to not be true.&lt;/p&gt;
-
-&lt;p&gt;Most of the time, as you would expect, when you add noise to teams outside of the top 25, you see no difference in the top-10 rankings; they’re the same ones I posted above.  But every once in a while, the top-10 will change, and even less frequenctly, the &lt;em&gt;number&lt;/em&gt; &lt;em&gt;one&lt;/em&gt; ranked team will change!  In the following table I’ve summarized the results of simulating 1000 trials of random noise with &lt;script type=&quot;math/tex&quot;&gt;\sigma = 0,3&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;6&lt;/script&gt;.  I picked out the resulting subset of trials in which Oregon was ranked higher than Ohio St., and have listed the the results for the top-10 teams.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 0&lt;/script&gt; (1000/1000 times)&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 3&lt;/script&gt; (1/1000 times)&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 6&lt;/script&gt; (12/1000 times)&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1. Ohio St.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1. Oregon&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;1. Oregon&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2. Oregon&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2. Ohio St.&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;2. Ohio St.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;3. Baylor&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;3. Baylor&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;3. Baylor&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;4. Mississippi&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;4. Mississippi&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;4. Georgia&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5. Georgia&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5. Georgia&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;5. Mississippi&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6. Georgia Tech&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6. Georgia Tech&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;6. Georgia Tech&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;7. Virginia Tech&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;7. Virginia Tech&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;7. Virginia Tech&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;8. Alabama&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;8. Alabama&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;8. Alabama&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;9. Texas Christian&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;9. Texas Christian&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;9. Texas Christian&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;10. Missouri&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;10. Missouri&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;10. Missouri&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;This is a weird thing that is happening, and sort of shows the limitation of PageRank as it pertains to the college football network.  First, we (as college football fans) care a &lt;em&gt;lot&lt;/em&gt; about who is #1 and who is #2.  PageRank doesn’t care about this as much; it just wants to make sure that good teams are given good scores.&lt;/p&gt;
-
-&lt;p&gt;Second, the college football network has a very peculiar characteristic in that most paths from high-ranked nodes to other high-ranked nodes travel through the set of low-ranked nodes.  This means that information flows from good teams to good teams through bad teams and the unimportant games between them.  When I add noise to those unimportant games, it can alter the way the paths connect good teams to good teams.  This manifests as changing the PageRank of teams whose games I did not touch.&lt;/p&gt;
-
-&lt;p&gt;I would be curious to see what would happen if I did a similar PageRank + noise experiment with other sports leagues, especially those, like the NBA, whose graphs are complete.  Would the PageRank then be more resilient to noise?&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;/football/google-pagerank-and-ncaa-football/&quot;&gt;Google PageRank, NCAA Football, and Luck&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
   </content>
 </entry>
 
