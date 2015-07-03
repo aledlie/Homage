@@ -1,7 +1,7 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+excerpt: "Personal webpage and blog of Sumedh Joshi"
+tags: [Sumedh, Joshi, blog, ]
 image:
   feature: sample-image-5.jpg
   credit: WeGraphics
