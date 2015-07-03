@@ -5,6 +5,7 @@ modified:
 categories: golf
 excerpt: In which I make excuses for being bad at golf.
 tags: [golf]
+comments: true
 image:
   feature:
 date: 2015-07-02T23:47:09-05:00
