@@ -4,13 +4,77 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-07-02T18:54:48-05:00</updated>
+<updated>2015-07-02T21:28:28-05:00</updated>
 <id>/</id>
 <author>
   <name>Sumedh Joshi</name>
   <uri>/</uri>
   <email>sumedh.m.joshi@gmail.com</email>
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Setting Up a Github Repository for Hosting on Github Pages]]></title>
+  <link rel="alternate" type="text/html" href="/meta/setting-up-a-github-repository-for-hosting-on-github-pages/" />
+  <id>/meta/setting-up-a-github-repository-for-hosting-on-github-pages</id>
+  <published>2015-07-02T20:21:01-05:00</published>
+  <updated>2015-07-02T20:21:01-05:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri></uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Most of this was taken from the helpful guide on Github’s &lt;a href=&quot;https://pages.github.com/&quot;&gt;own webpage&lt;/a&gt;.  It is incredibly easy to host
+pages on Github so long as you have a basic working knowledge of version control (I had never used Git before, but I know Mercurial
+and that was enough).  Here are the steps I took.&lt;/p&gt;
+
+&lt;h3 id=&quot;steps&quot;&gt;Steps&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a Github account with username &lt;em&gt;sumedhjoshi&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a repository called &lt;em&gt;sumedhjoshi.github.io&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;On your local machine, clone the git repository you just made:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone sumedhjoshi.github.io&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Copy the Jekyll directory tree that contains your Jekyll webpage into this folder.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;sumedhjoshi.github.io
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;cp -R /path/to/jekyll/folder .&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add all the Jekyll files to your repository, and commit and push the changes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add --all
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Navigate to &lt;em&gt;sumedhjoshi.github.io&lt;/em&gt;, Github Pages will automatically generate your webpage and serve it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;All future updates can be made locally and pushed with git to &lt;em&gt;sumedhjoshi.github.io&lt;/em&gt; and they will take effect immediately!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/meta/setting-up-a-github-repository-for-hosting-on-github-pages/&quot;&gt;Setting Up a Github Repository for Hosting on Github Pages&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 02, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
   
