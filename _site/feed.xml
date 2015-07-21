@@ -4,13 +4,97 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-07-03T15:59:07-05:00</updated>
+<updated>2015-07-21T14:32:02-05:00</updated>
 <id>/</id>
 <author>
   <name>Sumedh Joshi</name>
   <uri>/</uri>
   <email>sumedh.m.joshi@gmail.com</email>
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[When Do I Write Code?]]></title>
+  <link rel="alternate" type="text/html" href="/programming/when-do-i-write-code/" />
+  <id>/programming/when-do-i-write-code</id>
+  <published>2015-07-21T12:12:22-05:00</published>
+  <updated>2015-07-21T12:12:22-05:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri></uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;I use &lt;a href=&quot;https://mercurial.selenic.com/&quot;&gt;Mercurial&lt;/a&gt; as a version control system for part of my dissertation work, the development of a finite element code.  Besides being easy to use, &lt;a href=&quot;http://www.bitbucket.org&quot;&gt;hosted online&lt;/a&gt;, and useful, it also lets me evaluate how/when I make changes to my code.  By looking at the number of changes I make per day/month/whatever, I can get a rough estimate of when I’m working, when I’m not, and what my work habits are in general.  In Mercurial, this is really easy to do since all change logs can be accessed via command line with&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;hg log -v &amp;gt; logs.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Then just use your favorite text parser to sort the straightforward logs.txt file which contains records of each change in a standardized format, e.g.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  changeset:   59:783a1a00679c0i
+  user:        Sumedh Joshi &amp;lt;smj96@cornell.edu&amp;gt;
+  date:        Tue Jan 07 08:35:49 2014 -0500
+  files:       apply_laplacian.f90
+  description:
+  Topic: Fixed minor error in Laplacian.
+  Description:
+  * Factor of two error incorrect in the Laplacian.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I’ve made about 600 changes to my repository over the last 1.5 years, and they tell me something about how I work.&lt;/p&gt;
+
+&lt;h2 id=&quot;changes-by-day-and-month&quot;&gt;Changes by day and month.&lt;/h2&gt;
+
+&lt;p&gt;First, I just sorted all of my changes by month and day (shown in the two pie charts below).  I work, predictably, little on the weekends, and least of all on Saturdays, which are reserved for college football.  Tuesday is my most productive day, slightly edging out Mondays.  Wednesdays are my least productive weekday.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/sumedh_commits_by_day.png&quot;&gt;&lt;img width=&quot;50%&quot; src=&quot;/images/sumedh_commits_by_day.png&quot; /&gt;&lt;/a&gt;
+   &lt;a href=&quot;/images/sumedh_commits_by_month.png&quot;&gt;&lt;img width=&quot;50%&quot; src=&quot;/images/sumedh_commits_by_month.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+   &lt;figcaption&gt; Left: The number of changes per day over the last year.  Right: The number of changes per month over the last year. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Month-wise, I am at my most productive in the winter months: January, December, and February in that order.  Probably this just because over the last 1.5 years these months have occured twice, but so have several other months which are not as productive.  My best explanation is that these months have bad weather so I probably spend more time inside, and also there isn’t any major team I am a fan of that is in season.&lt;/p&gt;
+
+&lt;p&gt;By far my least productive months are August (football), September (football), and May (NBA playoffs).&lt;/p&gt;
+
+&lt;h2 id=&quot;changes-by-hour-of-day&quot;&gt;Changes by hour of day.&lt;/h2&gt;
+
+&lt;p&gt;Part of perks of being a graduate student is that you don’t have to work in the middle of the day.  These are great times to run errands, work out at an empty gym, go play golf, whatever.  Looking at my changes logs over a 24-hour day (below bar graph) it’s clear that 1. I am not a morning person and 2. I take full advantage of my schedule’s flexibility by working evenings.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/sumedh_commits_by_hour.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/sumedh_commits_by_hour.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+   &lt;figcaption&gt; The number of changes per hour of the day. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Most of my changes (like, the vast majority of them), occur between noon and midnight, with a slight peak at 7pm.  I’ve only had a handful of changes between 7-9am, and if I was working before then, it’s probably just because I was up from the night before.  My schedule has gotten more regular since my fiancee started working so I expect this to change over the next year.  It’ll be fun to look back on this.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-many-changes-on-an-average-day-of-work&quot;&gt;How many changes on an average day of work?&lt;/h2&gt;
+
+&lt;p&gt;Over the 450 or so days I’ve had this repository I’ve made 600 or so changes, which averages to a little over 1 per day.  But, if I had to guess, the vast majority of days I make no changes at all, and on days that I &lt;em&gt;do&lt;/em&gt; make changes I make way more than 1.  To see if my guess was correct, I made a histogram of number of changes I make on days that I actually worked (shown below).&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/sumedh_commits_per_day_of_work.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/sumedh_commits_per_day_of_work.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+   &lt;figcaption&gt; The number of changes I make on a day in which I actually work.  April 2nd, 2014: 28 changes.  Never forget.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;So, I’m only sort of right.  On the average day I worked, I made about 5 code changes.  The distribution is very non-symmetric (naturally since you can’t have &lt;em&gt;negative&lt;/em&gt; changes) and looks basically like a &lt;a href=&quot;https://en.wikipedia.org/wiki/Rayleigh_distribution&quot;&gt;Rayleigh distribution&lt;/a&gt;.  There is still a large chunk of days in which I made just 1 or 2 changes which is surprising since I don’t remember those days, but perhaps also unsurprising since… why would I?&lt;/p&gt;
+
+&lt;p&gt;Lastly, I don’t know what got into me on April 2nd of last year, but I checked in 28 changes in a single 24-hour period.  This is over 30 times my daily average over the last year.  Probably some combination of my impending dissertation proposal and the lack of any sort of football motivated me to work.&lt;/p&gt;
+
+&lt;p&gt;To conclude: today is Tuesday, it is July, and it is about 2:30pm.  By historical measures, I should be working diligently instead of writing this post, which is the only commit I’m making to any repository today.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/programming/when-do-i-write-code/&quot;&gt;When Do I Write Code?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 21, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
   
