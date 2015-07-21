@@ -14,6 +14,7 @@ image:
 ###Cornell University, Ithaca, New York
 
 * Ph.D. Applied Mathematics, 2011-2016
+* M.S. Applied Mathematics, 2011-2014
 
 ###The University of Texas, Austin, Texas
 
