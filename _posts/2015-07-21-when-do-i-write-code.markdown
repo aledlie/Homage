@@ -43,14 +43,14 @@ First, I just sorted all of my changes by month and day (shown in the two pie ch
    <figcaption> Left: The number of changes per day over the last year.  Right: The number of changes per month over the last year. </figcaption>
 </figure>
 
-Month-wise, I am at my most productive in the winter months: January, December, and February in that order.  Probably this just because over the last 1.5 years these months have occured twice, but so have several other months which are not as productive.  My best explanation is that these months have bad weather so I probably spend more time inside, and also there isn't any major team I am a fan of that is in season.
+Month-wise, I am at my most productive in the winter months: January, December, and February in that order.  Probably this is just because over the last 1.5 years these months have occured twice, but so have several other months which are not as productive.  My best explanation is that these months have bad weather so I probably spend more time inside, and also there isn't any major team I am a fan of that is in season.
 
 By far my least productive months are August (football), September (football), and May (NBA playoffs).
 
 
 ## Changes by hour of day.
 
-Part of perks of being a graduate student is that you don't have to work in the middle of the day.  These are great times to run errands, work out at an empty gym, go play golf, whatever.  Looking at my changes logs over a 24-hour day (below bar graph) it's clear that 1. I am not a morning person and 2. I take full advantage of my schedule's flexibility by working evenings.
+One of the perks of being a graduate student is that you don't have to work in the middle of the day.  These are great times to run errands, work out at an empty gym, go play golf, whatever.  Looking at my changes logs over a 24-hour day (below bar graph) it's clear that 1. I am not a morning person and 2. I take full advantage of my schedule's flexibility by working evenings.
 
 
 <figure>
