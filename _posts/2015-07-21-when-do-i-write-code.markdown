@@ -7,6 +7,7 @@ excerpt: The poor work habits of a graduate student.
 tags: []
 image:
   feature:
+  thumbnail: default-thumb.png
 comments: true
 date: 2015-07-21T12:12:22-05:00
 ---
