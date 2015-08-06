@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>/football/estimating-the-winning-team-in-a-college-football-game/</loc>
+    <lastmod>2015-08-06T13:51:11-05:00</lastmod>
+  </url>
+  <url>
     <loc>/programming/when-do-i-write-code/</loc>
     <lastmod>2015-07-21T12:12:22-05:00</lastmod>
   </url>
@@ -30,22 +34,22 @@
   </url>
   <url>
     <loc>/projects/</loc>
-    <lastmod>2015-07-21T22:26:44-05:00</lastmod>
+    <lastmod>2015-08-06T18:04:37-05:00</lastmod>
   </url>
   <url>
     <loc>/posts/</loc>
-    <lastmod>2015-07-21T22:26:44-05:00</lastmod>
+    <lastmod>2015-08-06T18:04:37-05:00</lastmod>
   </url>
   <url>
     <loc>/about/</loc>
-    <lastmod>2015-07-21T22:26:44-05:00</lastmod>
+    <lastmod>2015-08-06T18:04:37-05:00</lastmod>
   </url>
   <url>
     <loc>/vita/</loc>
-    <lastmod>2015-07-21T22:26:44-05:00</lastmod>
+    <lastmod>2015-08-06T18:04:37-05:00</lastmod>
   </url>
   <url>
     <loc>/</loc>
-    <lastmod>2015-07-21T22:26:44-05:00</lastmod>
+    <lastmod>2015-08-06T18:04:37-05:00</lastmod>
   </url>
 </urlset>
