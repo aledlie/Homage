@@ -20,7 +20,7 @@ image:
    * Modeling of shoaling nonlinear internal waves over a shallow, sloping bathymetry.
    * A fortran90/Matlab suite of tools to solve the incompressible Navier-Stokes equations with a high-order element-based discretization and a Schur-complement based domain decomposition.  Under development with Greg Thomsen and Peter Diamessis.
 
-## Preconditioning Schur complements of elliptic problems.
+## Deflation of Schur complements of elliptic problems
 
 <figure>
    <center>
@@ -31,7 +31,7 @@ image:
    * Use of deflation alongside block-diagonal preconditioning for designing a parallel sparse matrix solver for elliptic FEM problems.
    * Acheives convergence rate of GMRES independent of grid deformations and grid size.
 
-## Computational acoustics
+## High-order FEM acoustic propagation through incompressible flows
 
 <figure>
 <center>
