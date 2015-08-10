@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-08-07T00:35:59-05:00</updated>
+<updated>2015-08-10T15:14:46-07:00</updated>
 <id>/</id>
 <author>
   <name>Sumedh Joshi</name>
@@ -16,11 +16,135 @@
   
 
 <entry>
+  <title type="html"><![CDATA[Computing the CFL Number for Deformed Grids]]></title>
+  <link rel="alternate" type="text/html" href="/numerical/computing-the-cfl-number-for-deformed-grids/" />
+  <id>/numerical/computing-the-cfl-number-for-deformed-grids</id>
+  <published>2015-08-10T13:58:40-07:00</published>
+  <updated>2015-08-10T13:58:40-07:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri></uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;A necessary (but not sufficient) condition for numerical stability is the &lt;a href=&quot;https://en.wikipedia.org/wiki/Courant%E2%80%93Friedrichs%E2%80%93Lewy_condition&quot;&gt;Courant-Freidrich-Lewy&lt;/a&gt; condition which restricts the maximum timestep:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{align}
+      \Delta t \leq \frac{ \Delta x }{ c }
+   \end{align}&lt;/script&gt;
+
+&lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;\Delta x&lt;/script&gt; is the grid spacing and &lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt; the characteristic velocity of the flow.  This is easy to calculate if the grid is regular, but what if your grid is a discretized slice of the ocean, and consequently looks something like this:&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/cfl_mesh.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/cfl_mesh.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; A 540,000 node grid with 15 GLL points per direction in each of the 200 x 12 elements (the boxes drawn represent each element). &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;in which each of the tiny boxes themselves represent a 15 x 15 mesh of Gauss-Lobatto-Legendre quadrature points.  This is the case in a high-order element-based code like the spectral multi-domain penalty method, and the computation of the CFL condition (and namely the local deformation &lt;script type=&quot;math/tex&quot;&gt;\Delta x&lt;/script&gt;) is not quite so straightforward.&lt;/p&gt;
+
+&lt;h2 id=&quot;computing-the-grid-spacing-in-the-master-element&quot;&gt;Computing the grid spacing in the master element&lt;/h2&gt;
+
+&lt;p&gt;Call the coordinates on the master element &lt;script type=&quot;math/tex&quot;&gt;(\eta,\xi)&lt;/script&gt;, and noting that there are &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; GLL points in each direction, these coordinates are vectors &lt;script type=&quot;math/tex&quot;&gt;\eta,\xi \in \mathbb{R}^{n^2}&lt;/script&gt;.  The mapping functions that define the physical grid are defined on each element as &lt;script type=&quot;math/tex&quot;&gt;x_k = x_k(\eta,\xi)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;z_k = z_k(\eta,\xi)&lt;/script&gt;.  Call the collection of all of these maps &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;z&lt;/script&gt; (drop the subscripts.  What we want, for computing the CFL condition, is some measure of &lt;script type=&quot;math/tex&quot;&gt;\Delta x&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\Delta z&lt;/script&gt;, the spacing between grid points in a deformed domain like the one shown above.&lt;/p&gt;
+
+&lt;p&gt;Probably there are many ways to do this, but the one I chose was to make use of the fact that it is easy to get a measure of &lt;script type=&quot;math/tex&quot;&gt;\Delta \eta&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\Delta \xi&lt;/script&gt; on the master element.  For example for the one-dimensional case, compute &lt;script type=&quot;math/tex&quot;&gt;\Delta \eta \in \mathbb{R}^n&lt;/script&gt; using a centered finite difference approximation:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align}
+   (\Delta \eta )_j &amp;= \eta_{j+1} - \eta_{j-1}
+\end{align} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;for &lt;script type=&quot;math/tex&quot;&gt;j = 2, 3, \cdots, n - 1&lt;/script&gt;, with &lt;script type=&quot;math/tex&quot;&gt;(\Delta \eta)_1 = \eta_2 - \eta_1&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;(\Delta \eta)_n = \eta_n - \eta_{n-1}&lt;/script&gt;.  The same idea extends to two-dimensions and computing &lt;script type=&quot;math/tex&quot;&gt;\Delta\xi&lt;/script&gt; along with &lt;script type=&quot;math/tex&quot;&gt;\Delta\eta&lt;/script&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;computing-the-spacing-everywhere-in-grid&quot;&gt;Computing the spacing everywhere in grid&lt;/h2&gt;
+
+&lt;p&gt;Remember that we can easily compute derivatives in &lt;script type=&quot;math/tex&quot;&gt;\eta&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\xi&lt;/script&gt;; that is the whole point of defining these coordinates, to be able to use them in constructing spectria ldifferentiation matrices and computing numerical derivatives.  Using the mapping functions &lt;script type=&quot;math/tex&quot;&gt;x_k&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;z_k&lt;/script&gt; we can then use the chain rule to write the grid spacing on each element as (again dropping the &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt; in the subscript) as functions of derivatives in &lt;script type=&quot;math/tex&quot;&gt;(\eta,\xi)&lt;/script&gt; coordinates:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align}
+   \Delta x &amp;= \frac{\partial x}{\partial \eta } \Delta \eta + \frac{\partial x}{\partial \xi} \Delta \xi \\
+   \Delta z &amp;= \frac{\partial z}{\partial \eta } \Delta \eta + \frac{\partial z}{\partial \xi} \Delta \xi.
+\end{align} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;These quantities are shown in the figures below; the &lt;script type=&quot;math/tex&quot;&gt;\Delta x&lt;/script&gt; function is basically constant and so is kind of boring (the grid is uniformly spaced in the horizontal), but the &lt;script type=&quot;math/tex&quot;&gt;\Delta z&lt;/script&gt; function has some interesting character as the bathymetry slopes and shallows.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/cfl_dx.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/cfl_dx.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/cfl_dz.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/cfl_dz.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; Top: the local grid spacing in x.  Bottom: the local grid spacing in z. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;computing-a-maximum-time-step&quot;&gt;Computing a maximum time-step&lt;/h2&gt;
+
+&lt;p&gt;Using these two quantities, &lt;script type=&quot;math/tex&quot;&gt;\Delta x&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\Delta z&lt;/script&gt;, we can define the maximum time-step allowed in the simulation as&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{align}
+      \Delta t _{max} = \min_{(x,z)\in \Omega} \min \left\{ \frac{\Delta x(x,z)}{u_x(x,z)}, \frac{\Delta z(x,z)}{u_z(x,z)} \right\}
+   \end{align}&lt;/script&gt;
+
+&lt;p&gt;which ensures that we are satisfying &lt;script type=&quot;math/tex&quot;&gt;\Delta t \leq \Delta x / u_x&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\Delta t \leq \Delta z / u_z&lt;/script&gt; everywhere in the domain &lt;script type=&quot;math/tex&quot;&gt;\Omega&lt;/script&gt;.  All of the quantities on the right hand side of the above are computable, and are defined above.&lt;/p&gt;
+
+&lt;h2 id=&quot;example-shoaling-internal-wave&quot;&gt;Example: shoaling internal wave&lt;/h2&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/cfl_velocity.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/cfl_velocity.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; An internal wave on the grid shown before; this initial velocity disturbance will propagate to the right and shoal (steepen and potentially break). The magnitude of the velocity vector is what is visualized. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/cfl_velocity_zoom.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/cfl_velocity_zoom.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; Same plot as above but zoomed into where the velocity is non-zero. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Setting an initial velocity field that represents a propagating internal wave (as shown in the two pictures above), we can compute the quantity  &lt;script type=&quot;math/tex&quot;&gt;\Delta t(x,z)&lt;/script&gt;:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{align}
+      \Delta t(x,z) = \min \left\{ \frac{\Delta x(x,z)}{u_x(x,z)}, \frac{\Delta z(x,z)}{u_z(x,z)} \right\}.
+   \end{align}&lt;/script&gt;
+
+&lt;p&gt;The minimum value of this function is the maximum allowable time-step as determined by the CFL condition.  Of course, this function is not constant; parts of the grid will have too fine a time-step (i.e. if there is nothing going on in the velocity field there), but since the grid has to advance in time together, we have to take the minimum value.  Corresponding to the the internal wave field shown above, &lt;script type=&quot;math/tex&quot;&gt;\Delta t(x,z)&lt;/script&gt; is shown in the two figured below.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/cfl_timestep.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/cfl_timestep.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; The time-step restriction all over the grid.  Of course we have to take the minimum of these since the time-step has to be the same over the whole grid. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/cfl_timestep_zoom.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/cfl_timestep_zoom.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; The time-step restriction all over the grid (zoomed in to just where the velocity is non-zero).  Of course we have to take the minimum of these since the time-step has to be the same over the whole grid. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For this particular field, the maximum time-step allowed, as computed by this method, turns out to be &lt;script type=&quot;math/tex&quot;&gt;\Delta t_{max} \approx 1.6&lt;/script&gt; seconds, and is governed by a tiny region in the middle of wave field near an element boundary.  This makes sense, near the center of the wave the velocity is the highest, and near an element boundary the grid spacing is the most fine.&lt;/p&gt;
+
+&lt;p&gt;Finally, what if we skipped this computation and instead used a heuristic to estimate the time-step?  If instead of doing the above computation, we were to establish a minimum time-step by guessing an average grid spacing and the using the maximum velocity, we would get a very different (and too large) answer of &lt;script type=&quot;math/tex&quot;&gt;\Delta t_{max} \approx 6.3&lt;/script&gt; seconds.  If we attempted to be more conservative and calculated the difference between closest two grid points and divided by the maximum velocity in the grid, we’d get a far too conservative answer of &lt;script type=&quot;math/tex&quot;&gt;\Delta t_{max} \approx 3 \times 10^{-4}&lt;/script&gt; seconds.  The point being: don’t skip this computation.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/numerical/computing-the-cfl-number-for-deformed-grids/&quot;&gt;Computing the CFL Number for Deformed Grids&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on August 10, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
   <title type="html"><![CDATA[Guessing the Winning Team in a College Football Game]]></title>
   <link rel="alternate" type="text/html" href="/football/estimating-the-winning-team-in-a-college-football-game/" />
   <id>/football/estimating-the-winning-team-in-a-college-football-game</id>
-  <published>2015-08-06T13:51:11-05:00</published>
-  <updated>2015-08-06T13:51:11-05:00</updated>
+  <published>2015-08-06T11:51:11-07:00</published>
+  <updated>2015-08-06T11:51:11-07:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri></uri>
@@ -87,8 +211,8 @@
   <title type="html"><![CDATA[When Do I Write Code?]]></title>
   <link rel="alternate" type="text/html" href="/programming/when-do-i-write-code/" />
   <id>/programming/when-do-i-write-code</id>
-  <published>2015-07-21T12:12:22-05:00</published>
-  <updated>2015-07-21T12:12:22-05:00</updated>
+  <published>2015-07-21T10:12:22-07:00</published>
+  <updated>2015-07-21T10:12:22-07:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri></uri>
@@ -171,8 +295,8 @@
   <title type="html"><![CDATA[Google PageRank, NCAA Football, and Luck]]></title>
   <link rel="alternate" type="text/html" href="/football/google-pagerank-and-ncaa-football/" />
   <id>/football/google-pagerank-and-ncaa-football</id>
-  <published>2015-07-03T03:00:45-05:00</published>
-  <updated>2015-07-03T03:00:45-05:00</updated>
+  <published>2015-07-03T01:00:45-07:00</published>
+  <updated>2015-07-03T01:00:45-07:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri></uri>
@@ -387,8 +511,8 @@
   <title type="html"><![CDATA[How Good Is the Average Golfer?]]></title>
   <link rel="alternate" type="text/html" href="/golf/how-good-is-the-average-golfer/" />
   <id>/golf/how-good-is-the-average-golfer</id>
-  <published>2015-07-02T23:47:09-05:00</published>
-  <updated>2015-07-02T23:47:09-05:00</updated>
+  <published>2015-07-02T21:47:09-07:00</published>
+  <updated>2015-07-02T21:47:09-07:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri></uri>
@@ -476,8 +600,8 @@
   <title type="html"><![CDATA[Setting Up a Github Repository for Hosting on Github Pages]]></title>
   <link rel="alternate" type="text/html" href="/meta/setting-up-a-github-repository-for-hosting-on-github-pages/" />
   <id>/meta/setting-up-a-github-repository-for-hosting-on-github-pages</id>
-  <published>2015-07-02T20:21:01-05:00</published>
-  <updated>2015-07-02T20:21:01-05:00</updated>
+  <published>2015-07-02T18:21:01-07:00</published>
+  <updated>2015-07-02T18:21:01-07:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri></uri>
@@ -540,8 +664,8 @@ and that was enough).  Here are the steps I took.&lt;/p&gt;
   <title type="html"><![CDATA[Setting Up MathJax LaTeX Support]]></title>
   <link rel="alternate" type="text/html" href="/meta/setup/setting-up-mathjax-latex-support/" />
   <id>/meta/setup/setting-up-mathjax-latex-support</id>
-  <published>2015-06-27T17:31:33-05:00</published>
-  <updated>2015-06-27T17:31:33-05:00</updated>
+  <published>2015-06-27T15:31:33-07:00</published>
+  <updated>2015-06-27T15:31:33-07:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri></uri>
@@ -575,8 +699,8 @@ and that was enough).  Here are the steps I took.&lt;/p&gt;
   <title type="html"><![CDATA[Setting Up Disqus]]></title>
   <link rel="alternate" type="text/html" href="/meta/setup/setting-up-disqus/" />
   <id>/meta/setup/setting-up-disqus</id>
-  <published>2015-06-27T14:45:07-05:00</published>
-  <updated>2015-06-27T14:45:07-05:00</updated>
+  <published>2015-06-27T12:45:07-07:00</published>
+  <updated>2015-06-27T12:45:07-07:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri></uri>
@@ -614,8 +738,8 @@ There are instructions there for setting up a GitHub hosting account (which is f
   <title type="html"><![CDATA[How I Set Up This Site]]></title>
   <link rel="alternate" type="text/html" href="/programming/meta/notes/how-i-set-up-this-site/" />
   <id>/programming/meta/notes/how-i-set-up-this-site</id>
-  <published>2015-06-27T01:47:07-05:00</published>
-  <updated>2015-06-27T01:47:07-05:00</updated>
+  <published>2015-06-26T23:47:07-07:00</published>
+  <updated>2015-06-26T23:47:07-07:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri></uri>
@@ -652,7 +776,7 @@ There are instructions there for setting up a GitHub hosting account (which is f
   &lt;/li&gt;
 &lt;/ol&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/programming/meta/notes/how-i-set-up-this-site/&quot;&gt;How I Set Up This Site&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/programming/meta/notes/how-i-set-up-this-site/&quot;&gt;How I Set Up This Site&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 26, 2015.&lt;/p&gt;
   </content>
 </entry>
 
