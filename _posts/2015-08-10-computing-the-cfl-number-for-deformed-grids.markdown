@@ -46,7 +46,7 @@ for $$ j = 2, 3, \cdots, n - 1$$, with $$(\Delta \eta)_1 = \eta_2 - \eta_1$$ and
 
 ## Computing the spacing everywhere in grid
 
-Remember that we can easily compute derivatives in $$\eta$$ and $$\xi$$; that is the whole point of defining these coordinates, to be able to use them in constructing spectria ldifferentiation matrices and computing numerical derivatives.  Using the mapping functions $$x_k$$ and $$z_k$$ we can then use the chain rule to write the grid spacing on each element as (again dropping the $$k$$ in the subscript) as functions of derivatives in $$(\eta,\xi)$$ coordinates:
+Remember that we can easily compute derivatives in $$\eta$$ and $$\xi$$; that is the whole point of defining these coordinates, to be able to use them in constructing spectral differentiation matrices and computing numerical derivatives.  Using the mapping functions $$x_k$$ and $$z_k$$ we can then use the chain rule to write the grid spacing on each element as (again dropping the $$k$$ in the subscript) as functions of derivatives in $$(\eta,\xi)$$ coordinates:
 
 $$
 \begin{align}
@@ -104,7 +104,7 @@ $$
    \end{align}
 $$
 
-The minimum value of this function is the maximum allowable time-step as determined by the CFL condition.  Of course, this function is not constant; parts of the grid will have too fine a time-step (i.e. if there is nothing going on in the velocity field there), but since the grid has to advance in time together, we have to take the minimum value.  Corresponding to the the internal wave field shown above, $$\Delta t(x,z)$$ is shown in the two figured below.
+The minimum value of this function is the maximum allowable time-step as determined by the CFL condition.  Of course, this function is not constant, and so parts of the grid will have too fine a time-step (i.e. if there is nothing going on in the velocity field there).  But this inefficiency is inescapable since the grid has to advance in time together, and so we have to take the minimum value over the whole grid.  Corresponding to the the internal wave field shown above, $$\Delta t(x,z)$$ is shown in the two figures below.
 
 <figure>
 <center>
