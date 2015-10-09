@@ -57,7 +57,7 @@ This is a bad model for a lot of reasons:
 
 ## Single golfer results
 
-Despite all these shortcomings, I still wanted to see if this model produced at all reasonable results.  I wrote a short MATLAB script to simulate a bunch of rounds for a bunch of different values of the mean drive distance and skill (again by skill I mean $$\alpha$$).  The golf course I simulated had four par-3's, 4 par 5's, and the rest were par-4's.  All par-3's were 150 yards, par-4's were 350 yards, and par-5's were 500 yards.  The average score over a bunch of different drive distances ($$[100,350]$$ yards) and skill ratings ($$[0.0, 0.5]$$) are shown in the figure below.
+Despite all these shortcomings, I still wanted to see if this model produced at all reasonable results.  I wrote a short MATLAB script to simulate a bunch of rounds for a bunch of different values of the mean drive distance and skill (again by skill I mean $$\alpha$$).  The golf course I simulated had four par-3's, 4 par 5's, and the rest were par-4's.  All par-3's were 150 yards, par-4's were 350 yards, and par-5's were 500 yards.  The average scores (the color) over a bunch of different drive distances ($$[100,350]$$ yards) and skill ratings ($$[0.0, 0.5]$$) are shown in the figure below.
 
 <figure>
 <center>
@@ -66,7 +66,7 @@ Despite all these shortcomings, I still wanted to see if this model produced at 
     <figcaption> The average score as a function of driver distance (in yards) vs. skill (alpha). </figcaption>
 </figure>
 
-Remember that a golfer with a skill rating of $$\alpha = 0$$ hits a golf shot exactly the distance she wants it to go every single time.  She is obnoxiously good and likely resents playing with me.  Because of her skill rating of 0, even if she drove the ball only 100 yards, she should still shoot par (e.g. the bottom left corner of the above image).  A golfer that could drive the ball 250 yards with a skill rating of 0 would shoot about 50, because he would eagle all par 4's, ace all par 3's, and double-eagle about half of the par 5's.  Screw that guy.
+Remember that a golfer with a skill rating of $$\alpha = 0$$ hits a golf shot exactly the distance she wants it to go every single time.  She is obnoxiously good and likely resents playing with me.  Because of her skill rating of 0, even if she drove the ball only 100 yards, she should still shoot just about par (e.g. the bottom left corner of the above image).  A golfer that could drive the ball 250 yards with a skill rating of 0 would shoot about 50, because he would eagle all par 4's, ace all par 3's, and double-eagle about half of the par 5's.  Screw that guy.
 
 Based on my average round score of about 115, and my average longest drive distance of about 250 yards (this is _not_ the same as my average drive), my skill rating is about $$\alpha = 0.42$$.  This means, roughly, that I'm liable to hit a golf shot anywhere +/-40% of my intended distance.  If you've played golf with me, you'll know this is about correct.
 
