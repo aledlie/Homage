@@ -5,6 +5,7 @@ modified:
 categories: golf
 excerpt: Simulating a golf scramble.
 tags: []
+comments: true
 image:
   feature:
 date: 2015-10-09T11:24:52-05:00
@@ -86,7 +87,7 @@ The results are shown in the four figures below, one each for each of the 4 type
 
 The top left plot is a single golfer, and so is identical to the first picture.  The top right is a two-person scramble, bottom-left a three-person scramble, and bottom-right a four-person scramble.  In all of the plots the magenta line is par (72 strokes).  Anything above the magenta line is below par ($$< 72$$ strokes), and anything below it is above par ($$ >72$$ strokes).  As more and more golfers are added to the scramble, the magenta line moves downward (shorter drive distance required) and to the right (less skill required) -- this makes sense, as you get more oppurtunities to hit the ball, the less long and less accurate you have to be.  The drop is most dramatic from 3 to 4 players.  I'd have to dig into the data to be certain, but I'm pretty sure this is due to the inaccuracies in my model (summarized above), but it may also be real... I'm not sure.
 
-What does the above chart say about me, a $$(250.0, 0.42)$$ golfer?  Well it's not great news.  From the above plot, I would certainly not shoot par as a two-person scramble, only just graze par as a three-person scramble.   But, as a four-person scramble, I would be shooting in the high-60's!  That's great, right? Well.. not quite, since I have a data point that says that me playing with three other, better, golfers, could only muster a 65, I doubt that four of me playing together would shoot just a few strokes over.  In this case, I'm going to say that my model is incorrect, and likely because it has me occasionally driving the ball 350.0 yards (which it does, I checked).  I can say with great certainty that this has never happened before.
+What does the above chart say about me, a $$(250.0, 0.42)$$ golfer?  Well I would certainly not shoot par as a two-person scramble, and only just graze par as a three-person scramble.   But, as a four-person scramble, I would be shooting in the high-60's!  That's great, right? Well.. not quite, since I have a data point that says that me playing with three other, better, golfers, could only muster a 65, I doubt that four of me playing together would shoot just a few strokes over that.  Something's wrong.  In this case, I'm going to say that my model is incorrect, and likely because it has me occasionally driving the ball 350.0 yards (which it does, I checked).  I can say with great certainty that this has never happened before.
 
 ## Conclusion
 
