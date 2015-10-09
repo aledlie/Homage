@@ -34,7 +34,7 @@ $$
 \end{align}
 $$
 
-where $$N(\mu,\sigma)$$ is a normal distribution vith mean $$\mu$$ and standard deviation $$sigma$$.  On the other hand, if that same golfer were attempting a shot at a hole that was a distance $$d > \mu_d$$ away, then the distribution of that shot would be
+where $$N(\mu,\sigma)$$ is a normal distribution vith mean $$\mu$$ and standard deviation $$\sigma$$.  On the other hand, if that same golfer were attempting a shot at a hole that was a distance $$d > \mu_d$$ away, then the distribution of that shot would be
 
 $$
 \begin{align}
@@ -76,7 +76,7 @@ Finally notice that distance matters a lot less than $$\alpha$$; if you want to 
 
 The point of this was to see how much better I would get playing a scramble.  This is effectively like taking the same model above but for every stroke taking multiple realizations of the random variable that represents the stroke and taking the minimum resulting distance from the pin.  Pretty straightforward to program.  I wanted to consider 1, 2, 3, and 4 person scrambles over all the different values of drive distance and $$\alpha$$.  Like the simulation above, I ran many simulations to obtain an average score, and I used the same golf course as before.  All the caveats in the model continue to apply here, of course.
 
-The results are shown in the four figures below, one each for each of the 4 types of scrambles.  In my fictitious scramble, it is one, two, three, or four of the same golfer playing together; identically you can think of yourself playing golf but playing multiple shots each time and takin the best one.
+The results are shown in the four figures below, one each for each of the 4 types of scrambles.  In my fictitious scramble, it is one, two, three, or four of the same golfer playing together; identically you can think of yourself playing golf but playing multiple shots each time and taking the best one.
 
 <figure>
 <center>
