@@ -24,17 +24,29 @@ image:
 
 ## Publications
 
-+ Deflation-augmented preconditioning of the Poisson-Neumann Schur problem using a high-order discontinuous discretization on long domains, S. M. Joshi, G. N. Thomsen, P.J. Diamessis, J. Comp. Phys (submitted).
++ A post-processing technique for stabilizing the discontinuous pressure projection operator in marginally- resolved incompressible inviscid flow, S. M. Joshi, P. J. Diamessis, D. T. Steinmoeller, M. Stastna, G. N. Thomsen, Computers and Fluids (submitted)
 
-+ Geoacoustic inversions of horizontal and vertical line array acoustic data from a surface ship source of opportunity, S. A. Stotts, R. A. Koch, S. M. Joshi, V. T. Nguyen and D. P. Knobles, IEEE J. Ocean. Eng., vol. 35 No. 1 p. 79-102 (2010)
++ Deflation-augmented preconditioning of the Poisson-Neumann Schur problem using a high-order discontinuous discretization on long domains, S. M. Joshi, G. N. Thomsen, P.J. Diamessis, Journal of Computational Physics (submitted)
+
++ Geoacoustic inversions of horizontal and vertical line array acoustic data from a surface ship source of opportunity, S. A. Stotts, R. A. Koch, S. M. Joshi, V. T. Nguyen and D. P. Knobles, IEEE J. Ocean Engineering, vol. 35 No. 1 p. 79-102 (2010)
 
 + Maximum entropy principle applied to propagation uncertainty and sonar performance for a submarine towed array, D. P. Knobles, S. M. Joshi and R. A. Koch, U.S. Navy Journal of Underwater Acoustics, (2009)
 
-+ Analysis of wind-driven ambient noise in a shallow water environment with a sandy seabed, D. P. Knobles, S. M. Joshi, R. D. Gaul, H. C. Graber and N. J. Williams, J. Acoust. Soc. Am., vol. 124 No. 3 EL p.p. 157-162 (2008)
++ Analysis of wind-driven ambient noise in a shallow water environment with a sandy seabed, D. P. Knobles, S. M. Joshi, R. D. Gaul, H. C. Graber and N. J. Williams, J. Acoustical Society of America, vol. 124 No. 3 EL p.p. 157-162 (2008)
+
+## Conference Papers
+
++ Applicability of two-dimensional boundary scattering models as a proxy for three-dimensional models, B. Tran, S. M. Joshi, M. J. Isakson, Proceedings of Meetings on Acoustics 19 (1), 070079, 2013
+
++ Backscattering from a pressure-release rough surface, S. M. Joshi and M. J. Isakson, Underwater Acoustics Measurements Conference, Kos, Greece, June 2011
 
 ## Talks
 
 #### 2015
+
++ A spectral multidomain penalty method model for the simulation of internal solitary wave shoaling and breaking over gentle slopes, P. J. Diamessis, S. M. Joshi, G. N. Thomsen, G. Rivera, 2015 American Geophysics Union Ocean Sciences Meeting, San Francisco, CA, December 2015
+
++ Enforcing the divergence-free condition in an under-resolved SMPM incompressible Euler simulation, S. M. Joshi, P. J. Diamessis, D. Steinmoeller, M. Stastna, G. N. Thomsen, Environmental Fluid Mechanics and Hydrology Seminar, Cornell University, October 2015
 
 + A quadrilateral spectral multidomain penalty method model for the simulation of environmental stratified flow processes, S. M. Joshi, G. N. Thomsen, and P. J. Diamessis. 2015 AMMCS-CAIMS Congress, Waterloo, Ontario, June 2015
 
