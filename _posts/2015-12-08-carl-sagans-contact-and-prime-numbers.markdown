@@ -24,7 +24,7 @@ Of course Sagan was uniquely positioned to write the science well, too, and alth
 
 Of course, this is incorrect.  Two is an even number and is very much prime, since its only divisors are 1 and itself.  I recall reading that exchange several times, startled, that Sagan would have had his main character (who he portrays to be hyper-competant in all other scientific dialogue) make such an egregious mathematical error.  Perhaps a well-intentioned editor replaced Sagan's original text which explains the usual mysticism of the primes as atoms for the integers, or perhaps Sagan just made a mistake.
 
-In case you don't believe me, Page 86 of the 1985 edition of the Simon and Schuster printing of *Contact* is below.  And let me state again that this doesn't take away my enjoyment of the book; it is amazingly written and a great story.  
+In case you don't believe me, Page 86 of the 1985 edition of the Simon and Schuster printing of *Contact* is below, in which Arroway goes on to explain n more detail what prime numbers are.  In doing so, she even uses 2 as an example of a prime, contradicting the previous paragraph.   And let me state again that this doesn't take away my enjoyment of the book; it is amazingly written and a great story.  This is just a diversion that is obviously an oversight.
 
 
 <figure>
