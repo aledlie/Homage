@@ -7,6 +7,7 @@ excerpt: Are all prime numbers even?
 tags: [books]
 image:
   feature:
+comments: true
 date: 2015-12-08T13:17:16-06:00
 ---
 
