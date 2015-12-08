@@ -17,7 +17,7 @@ with which Sagan expresses the motivation and sentiments of scientists.  They're
 Of course Sagan was uniquely positioned to write the science well, too, and although he took licenses (as he should have, it's a work of fiction), by and large as a reader you can learn a lot about both the science and the scientific process.  Which is why I was suprised to come across this scene below, in which Eleanor Arroway (the protagonist), is explaining to Kenneth Her Deer (the President's science advisor) for the first time how the aliens contacted Earth.
 
 > **Her Deer**: I may be the President's science advisor, but I'm only a biologist.  So please explain it to me slowly.  I understand that if a radio source
-> was is twenty-six light-years away, then the message had to sent twenty-six years ago.  In the 1960's, some funny looking people with pointy ears thought we'd want to know that they like prime numbers.  But prime number's aren't difficult.  It's not like they're boasting.  It's more like they're sending us remedial arithmetic.  Maybe we should be insulted.
+> is twenty-six light-years away, then the message had to be sent twenty-six years ago.  In the 1960's, some funny-looking people with pointy ears thought we'd want to know that they like prime numbers.  But prime numbers aren't difficult.  It's not like they're boasting.  It's more like they're sending us remedial arithmetic.  Maybe we should be insulted.
 > 
 
 > **Arroway**: No, look at it this way.  This is a beacon.  It's an announcement signal.  It's designed to attract our attention.  We get strange patterns of pulses from quasars and pulsars and radio galaxies and God-knows-what.  But prime numbers are very specific.  Very artificial.  *No even number is prime*, for example.
