@@ -2,13 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Sumedh Joshi</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="/feed.xml" />
-<link rel="alternate" type="text/html" href="" />
-<updated>2015-10-09T12:15:25-05:00</updated>
-<id>/</id>
+<link rel="self" type="application/atom+xml" href="http://www.sumedhjoshi.com/feed.xml" />
+<link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com" />
+<updated>2015-12-08T13:45:24-06:00</updated>
+<id>http://www.sumedhjoshi.com/</id>
 <author>
   <name>Sumedh Joshi</name>
-  <uri>/</uri>
+  <uri>http://www.sumedhjoshi.com/</uri>
   <email>sumedh.m.joshi@gmail.com</email>
 </author>
 
@@ -16,14 +16,63 @@
   
 
 <entry>
+  <title type="html"><![CDATA[Carl Sagan's Contact and Prime Numbers]]></title>
+  <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/books/carl-sagans-contact-and-prime-numbers/" />
+  <id>http://www.sumedhjoshi.com/books/carl-sagans-contact-and-prime-numbers</id>
+  <published>2015-12-08T13:17:16-06:00</published>
+  <updated>2015-12-08T13:17:16-06:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri>http://www.sumedhjoshi.com</uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;First, &lt;em&gt;Contact&lt;/em&gt; by Carl Sagan is one of my favorite science fiction books (slightly edged out by &lt;em&gt;The Martian Chronicles&lt;/em&gt;), and perhaps one
+of my favorite books ever written.  It tells  the story of alien first contact in a believable scientific way, but my favorite part is the authenticity
+with which Sagan expresses the motivation and sentiments of scientists.  They’re portrayed as reasonable people who sometimes disagree, and even the &lt;em&gt;bad guy program director&lt;/em&gt; isn’t written to be a trope – he has legitimate concerns that aren’t boorish or at the convenience of the plot.&lt;/p&gt;
+
+&lt;p&gt;Of course Sagan was uniquely positioned to write the science well, too, and although he took licenses (as he should have, it’s a work of fiction), by and large as a reader you can learn a lot about both the science and the scientific process.  Which is why I was suprised to come across this scene below, in which Eleanor Arroway (the protagonist), is explaining to Kenneth Her Deer (the President’s science advisor) for the first time how the aliens contacted Earth.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Her Deer&lt;/strong&gt;: I may be the President’s science advisor, but I’m only a biologist.  So please explain it to me slowly.  I understand that if a radio source
+was is twenty-six light-years away, then the message had to sent twenty-six years ago.  In the 1960’s, some funny looking people with pointy ears thought we’d want to know that they like prime numbers.  But prime number’s aren’t difficult.  It’s not like they’re boasting.  It’s more like they’re sending us remedial arithmetic.  Maybe we should be insulted.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Arroway&lt;/strong&gt;: No, look at it this way.  This is a beacon.  It’s an announcement signal.  It’s designed to attract our attention.  We get strange patterns of pulses from quasars and pulsars and radio galaxies and God-knows-what.  But prime numbers are very specific.  Very artificial.  &lt;em&gt;No even number is prime&lt;/em&gt;, for example.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Of course, this is incorrect.  Two is an even number and is very much prime, since its only divisors are 1 and itself.  I recall reading that exchange several times, startled, that Sagan would have had his main character (who he portrays to be hyper-competant in all other scientific dialogue) make such an egregious mathematical error.  Perhaps a well-intentioned editor replaced Sagan’s original text which explains the usual mysticism of the primes as atoms for the integers, or perhaps Sagan just made a mistake.&lt;/p&gt;
+
+&lt;p&gt;In case you don’t believe me, Page 86 of the 1985 edition of the Simon and Schuster printing of &lt;em&gt;Contact&lt;/em&gt; is below.  And let me state again that this doesn’t take away my enjoyment of the book; it is amazingly written and a great story.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/contact.jpg&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/contact.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; Page 86 of the 1985 edition of the Simon &amp;amp; Schuster printing of Contact by Carl Sagan. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Interestingly, I don’t think this mistake remains in the movie version, which came out much later.  &lt;em&gt;Contact&lt;/em&gt; was actually always intended to be a movie way back in 1979, but because of the development hell that it found itself in, Sagan eventually just wrote a book; the movie came out in 1997, tragically just after his death in 1996.  The movie is very good, but the book is better.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/books/carl-sagans-contact-and-prime-numbers/&quot;&gt;Carl Sagan&#39;s Contact and Prime Numbers&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on December 08, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
   <title type="html"><![CDATA[How Many of Me Would It Take to Shoot Par in a Scramble?]]></title>
-  <link rel="alternate" type="text/html" href="/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/" />
-  <id>/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble</id>
+  <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/" />
+  <id>http://www.sumedhjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble</id>
   <published>2015-10-09T11:24:52-05:00</published>
   <updated>2015-10-09T11:24:52-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri></uri>
+    <uri>http://www.sumedhjoshi.com</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -48,7 +97,7 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
    \textrm{distance} \sim N( d, \alpha d )
 \end{align}&lt;/script&gt;
 
-&lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;N(\mu,\sigma)&lt;/script&gt; is a normal distribution vith mean &lt;script type=&quot;math/tex&quot;&gt;\mu&lt;/script&gt; and standard deviation &lt;script type=&quot;math/tex&quot;&gt;sigma&lt;/script&gt;.  On the other hand, if that same golfer were attempting a shot at a hole that was a distance &lt;script type=&quot;math/tex&quot;&gt;d &gt; \mu_d&lt;/script&gt; away, then the distribution of that shot would be&lt;/p&gt;
+&lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;N(\mu,\sigma)&lt;/script&gt; is a normal distribution vith mean &lt;script type=&quot;math/tex&quot;&gt;\mu&lt;/script&gt; and standard deviation &lt;script type=&quot;math/tex&quot;&gt;\sigma&lt;/script&gt;.  On the other hand, if that same golfer were attempting a shot at a hole that was a distance &lt;script type=&quot;math/tex&quot;&gt;d &gt; \mu_d&lt;/script&gt; away, then the distribution of that shot would be&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{align}
    \textrm{distance} \sim N( \mu_d, \alpha \mu_d).
@@ -75,7 +124,7 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 
 &lt;h2 id=&quot;single-golfer-results&quot;&gt;Single golfer results&lt;/h2&gt;
 
-&lt;p&gt;Despite all these shortcomings, I still wanted to see if this model produced at all reasonable results.  I wrote a short MATLAB script to simulate a bunch of rounds for a bunch of different values of the mean drive distance and skill (again by skill I mean &lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;).  The golf course I simulated had four par-3’s, 4 par 5’s, and the rest were par-4’s.  All par-3’s were 150 yards, par-4’s were 350 yards, and par-5’s were 500 yards.  The average score over a bunch of different drive distances (&lt;script type=&quot;math/tex&quot;&gt;[100,350]&lt;/script&gt; yards) and skill ratings (&lt;script type=&quot;math/tex&quot;&gt;[0.0, 0.5]&lt;/script&gt;) are shown in the figure below.&lt;/p&gt;
+&lt;p&gt;Despite all these shortcomings, I still wanted to see if this model produced at all reasonable results.  I wrote a short MATLAB script to simulate a bunch of rounds for a bunch of different values of the mean drive distance and skill (again by skill I mean &lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;).  The golf course I simulated had four par-3’s, 4 par 5’s, and the rest were par-4’s.  All par-3’s were 150 yards, par-4’s were 350 yards, and par-5’s were 500 yards.  The average scores (the color) over a bunch of different drive distances (&lt;script type=&quot;math/tex&quot;&gt;[100,350]&lt;/script&gt; yards) and skill ratings (&lt;script type=&quot;math/tex&quot;&gt;[0.0, 0.5]&lt;/script&gt;) are shown in the figure below.&lt;/p&gt;
 
 &lt;figure&gt;
 &lt;center&gt;
@@ -84,7 +133,7 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
     &lt;figcaption&gt; The average score as a function of driver distance (in yards) vs. skill (alpha). &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Remember that a golfer with a skill rating of &lt;script type=&quot;math/tex&quot;&gt;\alpha = 0&lt;/script&gt; hits a golf shot exactly the distance she wants it to go every single time.  She is obnoxiously good and likely resents playing with me.  Because of her skill rating of 0, even if she drove the ball only 100 yards, she should still shoot par (e.g. the bottom left corner of the above image).  A golfer that could drive the ball 250 yards with a skill rating of 0 would shoot about 50, because he would eagle all par 4’s, ace all par 3’s, and double-eagle about half of the par 5’s.  Screw that guy.&lt;/p&gt;
+&lt;p&gt;Remember that a golfer with a skill rating of &lt;script type=&quot;math/tex&quot;&gt;\alpha = 0&lt;/script&gt; hits a golf shot exactly the distance she wants it to go every single time.  She is obnoxiously good and likely resents playing with me.  Because of her skill rating of 0, even if she drove the ball only 100 yards, she should still shoot just about par (e.g. the bottom left corner of the above image).  A golfer that could drive the ball 250 yards with a skill rating of 0 would shoot about 50, because he would eagle all par 4’s, ace all par 3’s, and double-eagle about half of the par 5’s.  Screw that guy.&lt;/p&gt;
 
 &lt;p&gt;Based on my average round score of about 115, and my average longest drive distance of about 250 yards (this is &lt;em&gt;not&lt;/em&gt; the same as my average drive), my skill rating is about &lt;script type=&quot;math/tex&quot;&gt;\alpha = 0.42&lt;/script&gt;.  This means, roughly, that I’m liable to hit a golf shot anywhere +/-40% of my intended distance.  If you’ve played golf with me, you’ll know this is about correct.&lt;/p&gt;
 
@@ -94,7 +143,7 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 
 &lt;p&gt;The point of this was to see how much better I would get playing a scramble.  This is effectively like taking the same model above but for every stroke taking multiple realizations of the random variable that represents the stroke and taking the minimum resulting distance from the pin.  Pretty straightforward to program.  I wanted to consider 1, 2, 3, and 4 person scrambles over all the different values of drive distance and &lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;.  Like the simulation above, I ran many simulations to obtain an average score, and I used the same golf course as before.  All the caveats in the model continue to apply here, of course.&lt;/p&gt;
 
-&lt;p&gt;The results are shown in the four figures below, one each for each of the 4 types of scrambles.  In my fictitious scramble, it is one, two, three, or four of the same golfer playing together; identically you can think of yourself playing golf but playing multiple shots each time and takin the best one.&lt;/p&gt;
+&lt;p&gt;The results are shown in the four figures below, one each for each of the 4 types of scrambles.  In my fictitious scramble, it is one, two, three, or four of the same golfer playing together; identically you can think of yourself playing golf but playing multiple shots each time and taking the best one.&lt;/p&gt;
 
 &lt;figure&gt;
 &lt;center&gt;
@@ -113,7 +162,7 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 &lt;p&gt;I think the thing to fix here is that my probability distribution of a golf shot is incorrect; I should model it as a non-symmetric distribution skewed towards short vs. long.  Secondly, while I don’t know of a good way to do this, I should incorporate penalty strokes into my model; these would disproportionally hurt bad golfers like me and correctly inflate my score.  Finally, I should probably have different distributions for putts, iron shots, and driver/woods, as most people (especially bad golfers) play these differently.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/&quot;&gt;How Many of Me Would It Take to Shoot Par in a Scramble?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on October 09, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/&quot;&gt;How Many of Me Would It Take to Shoot Par in a Scramble?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on October 09, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -122,13 +171,13 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 
 <entry>
   <title type="html"><![CDATA[Computing the CFL Number for Deformed Grids]]></title>
-  <link rel="alternate" type="text/html" href="/numerical/computing-the-cfl-number-for-deformed-grids/" />
-  <id>/numerical/computing-the-cfl-number-for-deformed-grids</id>
+  <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/numerical/computing-the-cfl-number-for-deformed-grids/" />
+  <id>http://www.sumedhjoshi.com/numerical/computing-the-cfl-number-for-deformed-grids</id>
   <published>2015-08-10T15:58:40-05:00</published>
   <updated>2015-08-10T15:58:40-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri></uri>
+    <uri>http://www.sumedhjoshi.com</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -237,7 +286,7 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 &lt;p&gt;Finally, what if we skipped this computation and instead used a heuristic to estimate the time-step?  If instead of doing the above computation, we were to establish a minimum time-step by guessing an average grid spacing and the using the maximum velocity, we would get a very different (and too large) answer of &lt;script type=&quot;math/tex&quot;&gt;\Delta t_{max} \approx 6.3&lt;/script&gt; seconds.  If we attempted to be more conservative and calculated the difference between closest two grid points and divided by the maximum velocity in the grid, we’d get a far too conservative answer of &lt;script type=&quot;math/tex&quot;&gt;\Delta t_{max} \approx 3 \times 10^{-4}&lt;/script&gt; seconds.  The point being: don’t skip this computation.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/numerical/computing-the-cfl-number-for-deformed-grids/&quot;&gt;Computing the CFL Number for Deformed Grids&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on August 10, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/numerical/computing-the-cfl-number-for-deformed-grids/&quot;&gt;Computing the CFL Number for Deformed Grids&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on August 10, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -246,13 +295,13 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 
 <entry>
   <title type="html"><![CDATA[Guessing the Winning Team in a College Football Game]]></title>
-  <link rel="alternate" type="text/html" href="/football/estimating-the-winning-team-in-a-college-football-game/" />
-  <id>/football/estimating-the-winning-team-in-a-college-football-game</id>
+  <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/football/estimating-the-winning-team-in-a-college-football-game/" />
+  <id>http://www.sumedhjoshi.com/football/estimating-the-winning-team-in-a-college-football-game</id>
   <published>2015-08-06T13:51:11-05:00</published>
   <updated>2015-08-06T13:51:11-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri></uri>
+    <uri>http://www.sumedhjoshi.com</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -305,7 +354,7 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 
 &lt;p&gt;&lt;em&gt;For more examples, see some of my Burnt Orange Nation blog posts with more plots like these &lt;a href=&quot;http://www.burntorangenation.com/2014/9/2/6095989/postgame-statistical-summary-texas-vs-unt?_ga=1.81211159.1400728072.1434051539&quot;&gt;here&lt;/a&gt;, &lt;a href=&quot;http://www.burntorangenation.com/2014/10/14/6973381/postgame-statistical-summary-texas-vs-oklahoma?_ga=1.81211159.1400728072.1434051539&quot;&gt;here&lt;/a&gt;, and &lt;a href=&quot;http://www.burntorangenation.com/2014/9/9/6121005/postgame-statistical-summary-texas-vs-byu&quot;&gt;here&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/football/estimating-the-winning-team-in-a-college-football-game/&quot;&gt;Guessing the Winning Team in a College Football Game&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on August 06, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/football/estimating-the-winning-team-in-a-college-football-game/&quot;&gt;Guessing the Winning Team in a College Football Game&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on August 06, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -314,13 +363,13 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 
 <entry>
   <title type="html"><![CDATA[When Do I Write Code?]]></title>
-  <link rel="alternate" type="text/html" href="/programming/when-do-i-write-code/" />
-  <id>/programming/when-do-i-write-code</id>
+  <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/programming/when-do-i-write-code/" />
+  <id>http://www.sumedhjoshi.com/programming/when-do-i-write-code</id>
   <published>2015-07-21T12:12:22-05:00</published>
   <updated>2015-07-21T12:12:22-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri></uri>
+    <uri>http://www.sumedhjoshi.com</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -389,7 +438,7 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 &lt;p&gt;To conclude: today is Tuesday, it is July, and it is about 2:30pm.  By historical measures, I should be working diligently instead of writing this post, which is the only commit I’m making to any repository today.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/programming/when-do-i-write-code/&quot;&gt;When Do I Write Code?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 21, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/programming/when-do-i-write-code/&quot;&gt;When Do I Write Code?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 21, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -398,13 +447,13 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 
 <entry>
   <title type="html"><![CDATA[Google PageRank, NCAA Football, and Luck]]></title>
-  <link rel="alternate" type="text/html" href="/football/google-pagerank-and-ncaa-football/" />
-  <id>/football/google-pagerank-and-ncaa-football</id>
+  <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/football/google-pagerank-and-ncaa-football/" />
+  <id>http://www.sumedhjoshi.com/football/google-pagerank-and-ncaa-football</id>
   <published>2015-07-03T03:00:45-05:00</published>
   <updated>2015-07-03T03:00:45-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri></uri>
+    <uri>http://www.sumedhjoshi.com</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -605,7 +654,7 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 
 &lt;p&gt;I would be curious to see what would happen if I did a similar PageRank + noise experiment with other sports leagues, especially those, like the NBA, whose graphs are complete.  Would the PageRank then be more resilient to noise?&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/football/google-pagerank-and-ncaa-football/&quot;&gt;Google PageRank, NCAA Football, and Luck&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 03, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/football/google-pagerank-and-ncaa-football/&quot;&gt;Google PageRank, NCAA Football, and Luck&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 03, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -614,13 +663,13 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 
 <entry>
   <title type="html"><![CDATA[How Good Is the Average Golfer?]]></title>
-  <link rel="alternate" type="text/html" href="/golf/how-good-is-the-average-golfer/" />
-  <id>/golf/how-good-is-the-average-golfer</id>
+  <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/golf/how-good-is-the-average-golfer/" />
+  <id>http://www.sumedhjoshi.com/golf/how-good-is-the-average-golfer</id>
   <published>2015-07-02T23:47:09-05:00</published>
   <updated>2015-07-02T23:47:09-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri></uri>
+    <uri>http://www.sumedhjoshi.com</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -694,7 +743,7 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 &lt;p&gt;(possibly not in that order).  So, to beginning golfers everywhere: ignore the handicap rating entirely; we’re not even playing golf yet.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/golf/how-good-is-the-average-golfer/&quot;&gt;How Good Is the Average Golfer?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 02, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/golf/how-good-is-the-average-golfer/&quot;&gt;How Good Is the Average Golfer?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 02, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -703,13 +752,13 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 
 <entry>
   <title type="html"><![CDATA[Setting Up a Github Repository for Hosting on Github Pages]]></title>
-  <link rel="alternate" type="text/html" href="/meta/setting-up-a-github-repository-for-hosting-on-github-pages/" />
-  <id>/meta/setting-up-a-github-repository-for-hosting-on-github-pages</id>
+  <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/meta/setting-up-a-github-repository-for-hosting-on-github-pages/" />
+  <id>http://www.sumedhjoshi.com/meta/setting-up-a-github-repository-for-hosting-on-github-pages</id>
   <published>2015-07-02T20:21:01-05:00</published>
   <updated>2015-07-02T20:21:01-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri></uri>
+    <uri>http://www.sumedhjoshi.com</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -758,7 +807,7 @@ and that was enough).  Here are the steps I took.&lt;/p&gt;
 &lt;/ul&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/meta/setting-up-a-github-repository-for-hosting-on-github-pages/&quot;&gt;Setting Up a Github Repository for Hosting on Github Pages&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 02, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/meta/setting-up-a-github-repository-for-hosting-on-github-pages/&quot;&gt;Setting Up a Github Repository for Hosting on Github Pages&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 02, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -767,13 +816,13 @@ and that was enough).  Here are the steps I took.&lt;/p&gt;
 
 <entry>
   <title type="html"><![CDATA[Setting Up MathJax LaTeX Support]]></title>
-  <link rel="alternate" type="text/html" href="/meta/setup/setting-up-mathjax-latex-support/" />
-  <id>/meta/setup/setting-up-mathjax-latex-support</id>
+  <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/meta/setup/setting-up-mathjax-latex-support/" />
+  <id>http://www.sumedhjoshi.com/meta/setup/setting-up-mathjax-latex-support</id>
   <published>2015-06-27T17:31:33-05:00</published>
   <updated>2015-06-27T17:31:33-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri></uri>
+    <uri>http://www.sumedhjoshi.com</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -793,7 +842,7 @@ and that was enough).  Here are the steps I took.&lt;/p&gt;
 
 &lt;p&gt;If you also want MathJax support on website pages, add the same code snippet to _layout/page.html.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/meta/setup/setting-up-mathjax-latex-support/&quot;&gt;Setting Up MathJax LaTeX Support&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/meta/setup/setting-up-mathjax-latex-support/&quot;&gt;Setting Up MathJax LaTeX Support&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -802,13 +851,13 @@ and that was enough).  Here are the steps I took.&lt;/p&gt;
 
 <entry>
   <title type="html"><![CDATA[Setting Up Disqus]]></title>
-  <link rel="alternate" type="text/html" href="/meta/setup/setting-up-disqus/" />
-  <id>/meta/setup/setting-up-disqus</id>
+  <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/meta/setup/setting-up-disqus/" />
+  <id>http://www.sumedhjoshi.com/meta/setup/setting-up-disqus</id>
   <published>2015-06-27T14:45:07-05:00</published>
   <updated>2015-06-27T14:45:07-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri></uri>
+    <uri>http://www.sumedhjoshi.com</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -832,7 +881,7 @@ There are instructions there for setting up a GitHub hosting account (which is f
   &lt;/li&gt;
 &lt;/ol&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/meta/setup/setting-up-disqus/&quot;&gt;Setting Up Disqus&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/meta/setup/setting-up-disqus/&quot;&gt;Setting Up Disqus&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -841,13 +890,13 @@ There are instructions there for setting up a GitHub hosting account (which is f
 
 <entry>
   <title type="html"><![CDATA[How I Set Up This Site]]></title>
-  <link rel="alternate" type="text/html" href="/programming/meta/notes/how-i-set-up-this-site/" />
-  <id>/programming/meta/notes/how-i-set-up-this-site</id>
+  <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/programming/meta/notes/how-i-set-up-this-site/" />
+  <id>http://www.sumedhjoshi.com/programming/meta/notes/how-i-set-up-this-site</id>
   <published>2015-06-27T01:47:07-05:00</published>
   <updated>2015-06-27T01:47:07-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri></uri>
+    <uri>http://www.sumedhjoshi.com</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -881,7 +930,7 @@ There are instructions there for setting up a GitHub hosting account (which is f
   &lt;/li&gt;
 &lt;/ol&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/programming/meta/notes/how-i-set-up-this-site/&quot;&gt;How I Set Up This Site&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/programming/meta/notes/how-i-set-up-this-site/&quot;&gt;How I Set Up This Site&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
   </content>
 </entry>
 

@@ -1,63 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/</loc>
+    <loc>http://www.sumedhjoshi.com/books/carl-sagans-contact-and-prime-numbers/</loc>
+    <lastmod>2015-12-08T13:17:16-06:00</lastmod>
+  </url>
+  <url>
+    <loc>http://www.sumedhjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/</loc>
     <lastmod>2015-10-09T11:24:52-05:00</lastmod>
   </url>
   <url>
-    <loc>/numerical/computing-the-cfl-number-for-deformed-grids/</loc>
+    <loc>http://www.sumedhjoshi.com/numerical/computing-the-cfl-number-for-deformed-grids/</loc>
     <lastmod>2015-08-10T15:58:40-05:00</lastmod>
   </url>
   <url>
-    <loc>/football/estimating-the-winning-team-in-a-college-football-game/</loc>
+    <loc>http://www.sumedhjoshi.com/football/estimating-the-winning-team-in-a-college-football-game/</loc>
     <lastmod>2015-08-06T13:51:11-05:00</lastmod>
   </url>
   <url>
-    <loc>/programming/when-do-i-write-code/</loc>
+    <loc>http://www.sumedhjoshi.com/programming/when-do-i-write-code/</loc>
     <lastmod>2015-07-21T12:12:22-05:00</lastmod>
   </url>
   <url>
-    <loc>/football/google-pagerank-and-ncaa-football/</loc>
+    <loc>http://www.sumedhjoshi.com/football/google-pagerank-and-ncaa-football/</loc>
     <lastmod>2015-07-03T03:00:45-05:00</lastmod>
   </url>
   <url>
-    <loc>/golf/how-good-is-the-average-golfer/</loc>
+    <loc>http://www.sumedhjoshi.com/golf/how-good-is-the-average-golfer/</loc>
     <lastmod>2015-07-02T23:47:09-05:00</lastmod>
   </url>
   <url>
-    <loc>/meta/setting-up-a-github-repository-for-hosting-on-github-pages/</loc>
+    <loc>http://www.sumedhjoshi.com/meta/setting-up-a-github-repository-for-hosting-on-github-pages/</loc>
     <lastmod>2015-07-02T20:21:01-05:00</lastmod>
   </url>
   <url>
-    <loc>/meta/setup/setting-up-mathjax-latex-support/</loc>
+    <loc>http://www.sumedhjoshi.com/meta/setup/setting-up-mathjax-latex-support/</loc>
     <lastmod>2015-06-27T17:31:33-05:00</lastmod>
   </url>
   <url>
-    <loc>/meta/setup/setting-up-disqus/</loc>
+    <loc>http://www.sumedhjoshi.com/meta/setup/setting-up-disqus/</loc>
     <lastmod>2015-06-27T14:45:07-05:00</lastmod>
   </url>
   <url>
-    <loc>/programming/meta/notes/how-i-set-up-this-site/</loc>
+    <loc>http://www.sumedhjoshi.com/programming/meta/notes/how-i-set-up-this-site/</loc>
     <lastmod>2015-06-27T01:47:07-05:00</lastmod>
   </url>
   <url>
-    <loc>/projects/</loc>
-    <lastmod>2015-10-09T12:15:25-05:00</lastmod>
+    <loc>http://www.sumedhjoshi.com/projects/</loc>
+    <lastmod>2015-12-08T13:45:24-06:00</lastmod>
   </url>
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2015-10-09T12:15:25-05:00</lastmod>
+    <loc>http://www.sumedhjoshi.com/posts/</loc>
+    <lastmod>2015-12-08T13:45:24-06:00</lastmod>
   </url>
   <url>
-    <loc>/about/</loc>
-    <lastmod>2015-10-09T12:15:25-05:00</lastmod>
+    <loc>http://www.sumedhjoshi.com/about/</loc>
+    <lastmod>2015-12-08T13:45:24-06:00</lastmod>
   </url>
   <url>
-    <loc>/vita/</loc>
-    <lastmod>2015-10-09T12:15:25-05:00</lastmod>
+    <loc>http://www.sumedhjoshi.com/vita/</loc>
+    <lastmod>2015-12-08T13:45:24-06:00</lastmod>
   </url>
   <url>
-    <loc>/</loc>
-    <lastmod>2015-10-09T12:15:25-05:00</lastmod>
+    <loc>http://www.sumedhjoshi.com/</loc>
+    <lastmod>2015-12-08T13:45:24-06:00</lastmod>
   </url>
 </urlset>
