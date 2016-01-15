@@ -37,7 +37,7 @@ These two routes are
    1. Austin (AUS) -- Newark (EWR) -- Mumbai (BOM)
    2. Austin (AUS) -- London Heathrow (LHR) -- Mumbai (BOM)
 
-Obviously either of these is better than the route my wife and I took, but knowing this the airlines priced both of these several hundred dollars more expensive than the AUS-JFK-CDG-BOM route we took ($2500 vs. just under $1800 per ticket).  Frankly I was surprised that there were only two options for flying to Mumbai from Austin with a single stop.  From bigger, nearby, cities like Houston (11 ways) or Dallas (8 ways) have many more options, but Austin's surprising lack of direct connection to many of the bigger European/Asian hubs (like Frankfurt, Amsterdam, Munich, Dubai, Tokyo, etc.) means that there aren't many ways to get to India with just a single stop.
+Obviously either of these is better than the route my wife and I took, but knowing this the airlines priced both of these several hundred dollars more expensive than the AUS-JFK-CDG-BOM route we took ($2500 vs. just under $1800 per ticket).  Frankly I was surprised that there were only two options for flying to Mumbai from Austin with a single stop.  Bigger, nearby, cities like Houston (11 ways) or Dallas (8 ways) have many more options, but Austin's surprising lack of direct connection to many of the bigger European/Asian hubs (like Frankfurt, Amsterdam, Munich, Dubai, Tokyo, etc.) means that there aren't many ways to get to India with just a single stop.
 
 ## Austin to Mumbai with two stops
 
