@@ -4,13 +4,114 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://www.sumedhjoshi.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com" />
-<updated>2015-12-08T13:59:55-06:00</updated>
+<updated>2016-01-15T10:57:44-06:00</updated>
 <id>http://www.sumedhjoshi.com/</id>
 <author>
   <name>Sumedh Joshi</name>
   <uri>http://www.sumedhjoshi.com/</uri>
   <email>sumedh.m.joshi@gmail.com</email>
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[How many routes are there to fly from Austin to Mumbai?]]></title>
+  <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/how-manys-are-there-to-get-from-austin-to-mumbai/" />
+  <id>http://www.sumedhjoshi.com/how-manys-are-there-to-get-from-austin-to-mumbai</id>
+  <updated>And why did I pick the one that took me through JFK and CDG?T00:00:00-00:00</updated>
+  <published>2015-12-17T16:17:46-06:00</published>
+  
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri>http://www.sumedhjoshi.com</uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/jfk_security.jpg&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/jfk_security.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+   &lt;figcaption&gt; I have measured out my life in security lines. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;never-fly-through-jfkcdg&quot;&gt;Never fly through JFK/CDG&lt;/h2&gt;
+
+&lt;p&gt;This winter break, I flew with my wife and family to India, and made the colossal mistake of splitting up my flights into three segments.  First, from Ausin to New York JFK, JFK to Paris, and finally from Paris to Mumbai.  Each stop inexplicably required that I go through security again (even when our departure gate was in the &lt;em&gt;same terminal&lt;/em&gt;!), and for this reason JFK and Charles de Gaulle may be the worst airports for international travel I’ve ever been through.&lt;/p&gt;
+
+&lt;p&gt;In general, splitting up the 30 or so hour trip into three segments is a bad idea, but we were left with basically no choice.  Scanning the excellent database of flights/airlines/airports at &lt;a href=&quot;http://openflights.org/&quot;&gt;Openflights&lt;/a&gt;, it turns out there are not so many ways to fly from Austin to Mumbai with only one stop.  In fact, there are just two:&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/austin_to_bombay_two_legs.gif&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/austin_to_bombay_two_legs.gif&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+   &lt;figcaption&gt; All the ways to get from Austin to Mumbai with only one stop along the way.  Graphic courtesy http://www.gcmap.com/. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;These two routes are&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Austin (AUS) – Newark (EWR) – Mumbai (BOM)&lt;/li&gt;
+  &lt;li&gt;Austin (AUS) – London Heathrow (LHR) – Mumbai (BOM)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Obviously either of these is better than the route my wife and I took, but knowing this the airlines priced both of these several hundred dollars more expensive than the AUS-JFK-CDG-BOM route we took ($2500 vs. just under $1800 per ticket).  Frankly I was surprised that there were only two options for flying to Mumbai from Austin with a single stop.  From bigger, nearby, cities like Houston (11 ways) or Dallas (8 ways) have many more options, but Austin’s surprising lack of direct connection to many of the bigger European/Asian hubs (like Frankfurt, Amsterdam, Munich, Dubai, Tokyo, etc.) means that there aren’t many ways to get to India with just a single stop.&lt;/p&gt;
+
+&lt;h2 id=&quot;austin-to-mumbai-with-two-stops&quot;&gt;Austin to Mumbai with two stops&lt;/h2&gt;
+
+&lt;p&gt;If you’re willing to stop twice along the way, there are plenty more options that are shown on the map below:&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/austin_to_bombay_three_legs.gif&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/austin_to_bombay_three_legs.gif&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+   &lt;figcaption&gt; All the ways to get from Austin to Mumbai with two stops along the way.  My favorites are the ones connecting through Cancun.  Graphic courtesy http://www.gcmap.com/. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;There are some crazy itineraries here.  For example, since you can fly directly from Newark/London to Mumbai, there are flights that take you through various American cities before heading to Newark/London.  Austin-Seattle-Paris-Mumbai is a particularly ludicrous one.  Some of my favorites are the four or five that fly through Cancun on their way to Frankfurt/Paris/London/Munich, or the several that connect through Johannesburg.  I think it’s safe to say that of all of the available three-segment routes to get to Mumbai, Austin-JFK-Paris-Mumbai is one of the better ones.&lt;/p&gt;
+
+&lt;h2 id=&quot;inter-city-connectivity-graph&quot;&gt;Inter-city connectivity graph&lt;/h2&gt;
+
+&lt;p&gt;This led me to wonder how connected the graph of cities around the world linked by flights is.  So, I populated an adjacency matrix, &lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt;, whose entries are defined as&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{equation}
+G_{ij} = \begin{cases}
+             1 &amp; \textrm{ if cities $i$ and $j$ are connected by a direct flight} \\
+             0 &amp; \textrm{ otherwise }
+          \end{cases}
+\end{equation} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;The vertices in this graph are cities, and the edges are flights between them.  There are a total of 2,327 airports on this list (there are a few more in the OpenFlights database that are air force bases and so are not connected to anything).  The average city is connected to 14.1 other cities, with the most connected city is Amsterdam with 246 cities one direct flight away.&lt;/p&gt;
+
+&lt;p&gt;A natural question to ask is how many cities the average city is 2, 3, or 4-flights connected to.  This is easy to compute using powers of the adjacency matrix.  The degree of a vertex &lt;script type=&quot;math/tex&quot;&gt;v_i&lt;/script&gt; in the graph is the row sum of &lt;script type=&quot;math/tex&quot;&gt;\sum_{j} G_{ij}&lt;/script&gt;, and tells you the number of cities &lt;script type=&quot;math/tex&quot;&gt;v_i&lt;/script&gt; is directly connected to.  To get the number of cities &lt;script type=&quot;math/tex&quot;&gt;v_i&lt;/script&gt; is connected to with 2 flights, just take the square of the adjacency matrix, and sum up the number of non-zeros in the &lt;script type=&quot;math/tex&quot;&gt;v_i&lt;/script&gt; row.  In general, to get the number of cities that are connected by &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt; flights to &lt;script type=&quot;math/tex&quot;&gt;v_i&lt;/script&gt;,&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{equation}
+\textrm{Number of cities $k$-connected to $v_i$ } = \textrm{ Number of non-zeros in $\{G_{ij}\}_{j=1}^{n}$ }
+\end{equation}&lt;/script&gt;
+
+&lt;p&gt;As you might imagine, the graphs &lt;script type=&quot;math/tex&quot;&gt;G^k&lt;/script&gt; get more and more dense as &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt; increases, and this is shown in the four pictures below.  Going from left to right, these pictures depiect the sparisty patterns &lt;script type=&quot;math/tex&quot;&gt;G^1,G^2,G^3,G^4&lt;/script&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;quarter&quot;&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/openflights_adjacency_1.png&quot;&gt;&lt;img width=&quot;24%&quot; src=&quot;/images/openflights_adjacency_1.png&quot; /&gt;&lt;/a&gt;
+   &lt;a href=&quot;/images/openflights_adjacency_2.png&quot;&gt;&lt;img width=&quot;24%&quot; src=&quot;/images/openflights_adjacency_2.png&quot; /&gt;&lt;/a&gt;
+   &lt;a href=&quot;/images/openflights_adjacency_3.png&quot;&gt;&lt;img width=&quot;24%&quot; src=&quot;/images/openflights_adjacency_3.png&quot; /&gt;&lt;/a&gt;
+   &lt;a href=&quot;/images/openflights_adjacency_4.png&quot;&gt;&lt;img width=&quot;24%&quot; src=&quot;/images/openflights_adjacency_4.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+   &lt;figcaption&gt; The sparsity patterns of the first four powers of G, the adjacency matrix of world air travel graph.  From left-to-right are the first, second, third, and fourth powers of this matrix, and a non-zero value in the ij entry indicates that airport i and airport j are connected by 1, 2, 3, or 4 flights.  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;With a direct flight, the average city is only connected to about 14 other cities, or about 0.6% of the world.  From this perspective, this is a pretty disconnected world.  But, if you allow one stop along the way, the average city is connected to 228 other world cities.  Allow two stops, and this number jumps to 1,077.  Three (1,950) and four stops (2,229), and you’re just about connected to the entire network of 2,327 cities.&lt;/p&gt;
+
+&lt;p&gt;What sort of cities are connected by a minimum of five flights, you might ask?  It’s usually obscure places on one continent and obscure places on another.  For example, it takes a minimum of five flights to get from Port Moresby, Papuaa New Guinea to Lakselv, Norway.  These are itineraries you likely cannot even purchase on Expedia or Kayak (I couldn’t).  I have yet to get their routing algorithm to return any itinerary that has more than 3 stops.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, it is interesting to me how disconnected, on average, the world still seems to be.  The hub-and-spoke routing model’s prevalence means that there are relatively few direct flights between cities, but almost all regional cities are within 2 flights of one another (source -&amp;gt; hub -&amp;gt; destination), almost all domestic cities are within 3 flights of one another (source -&amp;gt; hub -&amp;gt; hub -&amp;gt; destination), and finally almost all international cities are within 4 flights of one another (source -&amp;gt; domestic hub -&amp;gt; international hub -&amp;gt; domestic hub -&amp;gt; destination).  It would be really interesting if OpenFlights had historical routing data to watch the time-evolution of the graph, as its topology undoubtedly changes to react to economic booms/busts, population migration, and growth in developing countries.  In any case, the clear takeaway is that if you’re going to fly three segments to Mumbai from Austin, definitely plan to fly through Cancun instead of New York Kennedy.  Lesson learned.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/how-manys-are-there-to-get-from-austin-to-mumbai/&quot;&gt;How many routes are there to fly from Austin to Mumbai?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on December 17, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
   

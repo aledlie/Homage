@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.sumedhjoshi.com/how-manys-are-there-to-get-from-austin-to-mumbai/</loc>
+    <lastmod>2015-12-17T16:17:46-06:00</lastmod>
+  </url>
+  <url>
     <loc>http://www.sumedhjoshi.com/books/carl-sagans-contact-and-prime-numbers/</loc>
     <lastmod>2015-12-08T13:17:16-06:00</lastmod>
   </url>
@@ -46,22 +50,34 @@
   </url>
   <url>
     <loc>http://www.sumedhjoshi.com/projects/</loc>
-    <lastmod>2015-12-08T13:59:55-06:00</lastmod>
+    <lastmod>2016-01-15T10:57:44-06:00</lastmod>
   </url>
   <url>
     <loc>http://www.sumedhjoshi.com/posts/</loc>
-    <lastmod>2015-12-08T13:59:55-06:00</lastmod>
+    <lastmod>2016-01-15T10:57:44-06:00</lastmod>
   </url>
   <url>
     <loc>http://www.sumedhjoshi.com/about/</loc>
-    <lastmod>2015-12-08T13:59:55-06:00</lastmod>
+    <lastmod>2016-01-15T10:57:44-06:00</lastmod>
   </url>
   <url>
     <loc>http://www.sumedhjoshi.com/vita/</loc>
-    <lastmod>2015-12-08T13:59:55-06:00</lastmod>
+    <lastmod>2016-01-15T10:57:44-06:00</lastmod>
   </url>
   <url>
     <loc>http://www.sumedhjoshi.com/</loc>
-    <lastmod>2015-12-08T13:59:55-06:00</lastmod>
+    <lastmod>2016-01-15T10:57:44-06:00</lastmod>
+  </url>
+  <url>
+    <loc>http://www.sumedhjoshi.com/assets/d3/circle.html</loc>
+    <lastmod>2015-12-17T16:52:00-06:00</lastmod>
+  </url>
+  <url>
+    <loc>http://www.sumedhjoshi.com/assets/d3/helloworld.html</loc>
+    <lastmod>2015-12-17T16:42:13-06:00</lastmod>
+  </url>
+  <url>
+    <loc>http://www.sumedhjoshi.com/assets/d3/textandactions.html</loc>
+    <lastmod>2015-12-18T04:40:49-06:00</lastmod>
   </url>
 </urlset>
