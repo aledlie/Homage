@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "How many routes are there to fly from Austin to Mumbai?"
-modified: And why did I pick the one that took me through JFK and CDG?
-categories: 
-excerpt:
+modified:
+categories: misc
+excerpt: And why did I pick the one that took me through JFK and CDG?
 tags: []
+comments: true
 image:
   feature:
 date: 2015-12-18T03:47:46+05:30
