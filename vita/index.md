@@ -36,7 +36,7 @@ image:
 
 ## Conference Papers
 
-+ A deflated Schur complement method for the iterative solution of a high-order discontinuous element discretization of the Poisson equation, S. M. Joshi and P. J. Diamessis, Submitted to the 14th Copper Mountain Conference on Iterative Methods, [arxiv](http://arxiv.org/abs/1601.03432)
++ A deflated Schur complement method for the iterative solution of a high-order discontinuous element discretization of the Poisson equation, S. M. Joshi and P. J. Diamessis, Submitted to the 14th Copper Mountain Conference on Iterative Methods, Copper Mountain CO,[arxiv](http://arxiv.org/abs/1601.03432)
 
 + Applicability of two-dimensional boundary scattering models as a proxy for three-dimensional models, B. Tran, S. M. Joshi, M. J. Isakson, Proceedings of Meetings on Acoustics 19 (1), 070079, 2013
 

@@ -76,7 +76,7 @@ A natural question to ask is how many cities the average city is 2, 3, or 4-flig
 
 $$
 \begin{equation}
-\textrm{Number of cities $k$-connected to $v_i$ } = \textrm{ Number of non-zeros in $\{G_{ij}\}_{j=1}^{n}$ }
+\textrm{Number of cities $k$-connected to $v_i$ } = \textrm{ Number of non-zeros in $\{G^k_{ij}\}_{j=1}^{n}$ }
 \end{equation}
 $$
 
