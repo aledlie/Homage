@@ -26,7 +26,7 @@ image:
 
 + A post-processing technique for stabilizing the discontinuous pressure projection operator in marginally- resolved incompressible inviscid flow, S. M. Joshi, P. J. Diamessis, D. T. Steinmoeller, M. Stastna, G. N. Thomsen, Computers and Fluids (submitted, [arXiv](http://arxiv.org/abs/1512.01755))
 
-+ Deflation-augmented preconditioning of the Poisson-Neumann Schur problem using a high-order discontinuous discretization on long domains, S. M. Joshi, G. N. Thomsen, P.J. Diamessis, Journal of Computational Physics (submitted, [arXiv](http://arxiv.org/abs/1512.01756))
++ Deflation-augmented preconditioning of the Poisson-Neumann Schur problem using a high-order discontinuous discretization on long domains, S. M. Joshi, G. N. Thomsen, P.J. Diamessis, Journal of Computational Physics, vol. 313 pp. 209-232 ([arXiv](http://arxiv.org/abs/1512.01756))
 
 + Geoacoustic inversions of horizontal and vertical line array acoustic data from a surface ship source of opportunity, S. A. Stotts, R. A. Koch, S. M. Joshi, V. T. Nguyen and D. P. Knobles, IEEE J. Ocean Engineering, vol. 35 No. 1 p. 79-102 (2010)
 
