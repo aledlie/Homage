@@ -11,7 +11,7 @@ image:
 
 I'm a graduate student in applied mathematics at the [Center of Applied Mathematics](http://www.cam.cornell.edu) at Cornell University, and will be graduating, ostensibly, sometime early next year.  I drink lots of coffee, used to run a pub trivia night, and enjoy being self-deprecating but don't do it very well.
 
-things I do in my spare time (listed in the order in which I thought of them):
+Things I do in my spare time (listed in the order in which I thought of them):
 
    1. Run
    2. Golf
