@@ -3,7 +3,7 @@ layout: post
 title: "Carl Sagan's Contact and Prime Numbers"
 modified:
 categories: books
-excerpt: Are all prime numbers even?
+excerpt: Are any prime numbers even?
 tags: [books]
 image:
   feature:
