@@ -10,22 +10,25 @@ image:
 comments: true
 date: 2016-04-04T19:11:56-05:00
 ---
-_Just FYI, these tips are adapted from a talk I gave to the acoustics graduate program at The University of Texas._   
+_Just FYI, these tips are adapted from a talk I gave to the acoustics graduate program at The University of Texas, so some of the advice may be Texas-centric._   
 
 <br><br>
 
-In 2012 I won the National Defense Science and Engineering Graduate (NDSEG) Fellowship to study the interaction between shoaling nonlinear internal waves and ocean acoustics.  To be perfectly honest, I had never considered myself a student that was worthy of such awards, and didn't expect to win for several reasons.
+In 2012 I won the [National Defense Science and Engineering Graduate (NDSEG) Fellowship](https://ndseg.asee.org/) to study the interaction between shoaling nonlinear internal waves and ocean acoustics.  To be perfectly honest, I had never considered myself a student that was worthy of such awards, and didn't expect to win for several reasons.
 
 <br>
 
-First, my grades were okay, but not great (something like a 3.5 out of 4.0).  Second, the NDSEG requires that an applicant be in the first or second year of graduate study.  I was in my third year, but had some extenuating circumstances.  Namely, I had just changed institutions and majors.  Finally, and perhaps most critically, I was going to apply for the fellowship without a letter of recommendation from my research advisor, who (at the time) I had just started working with and didn't know very well.  Basically, I applied for the fellowship because I had an idea of what I wanted to work on, and it was not that much work.  I didn't apply because I thought I had a good shot of winning.  However, having successfully won the fellowship under these circumstances, I think I have some useful advice to offer.
+First, my grades were okay, but not great (something like a 3.5 out of 4.0).  Second, the NDSEG requires that an applicant be in the first or second year of graduate study.  I was in my third year, but had some extenuating circumstances.  Namely, I had just changed institutions and majors.  Finally, and perhaps most critically, I was going to apply for the fellowship without a letter of recommendation from my research advisor, who (at the time) I had just started working with and didn't know very well.
 
+<br>
+
+Basically, I applied for the fellowship because I had an idea of what I wanted to work on, and it was not that much work.  I didn't apply because I thought I had a good shot of winning.  However, having successfully won the fellowship under these circumstances, I think I have some useful advice to offer.
 
 ## NDSEG information
 
 * The NDSEG has about a 5-10% acceptance rate, which is strongly dependent on the area you apply for.  They used to release statistics on the acceptance rate by application area, but I don't think they do anymore.
 
-* It pays $30k, $30.5k, and $31k in three consecutive years.  It, unlike the NSF fellowship, cannot be deferred.  Also, depending on where you go to graduate school, it may pay less than a graduate research assistantship.  At Cornell, I took a paycut to take the NDSEG.
+* It pays $30k, $30.5k, and $31k in three consecutive years.  It, unlike the NSF fellowship, cannot be deferred.  Also, depending on where you go to graduate school, it may pay less than a graduate research assistantship.  At Cornell, I took a paycut to take the NDSEG.  The NDSEG will also pay all of your tuition and up to $1000 per year towards health insurance.
 
 * It is sponsored by the Army Research Office, Office of Naval Research, Air Force Office of Scientific Research, and the High-Performance Computing Modernization Office (my sponsor).  As such, you should be thinking of one of these institutions when you write you application letter.
 
@@ -33,7 +36,7 @@ First, my grades were okay, but not great (something like a 3.5 out of 4.0).  Se
 
 ## Application tips
 
-* Everyone should apply.  Technically it's supposed to be in your first year of graduate study barring extenuating circumstances.  I applied in my third year of study but had enough extenuating circumstances (new school, field, advisor, and project) that I was awarded the fellowship.
+* Everyone should apply.  Technically it's supposed to be in your first or second year of graduate study barring extenuating circumstances.  I applied in my third year of study but had enough extenuating circumstances (new school, field, advisor, and project) that I was awarded the fellowship.
 
 * Brainstorm a project; this is on you to come up with something interesting and fun.  Don't worry too much about having to adhere strictly to it, but make sure it is something you are actually interested in doing so that that sincerity comes across in the application.  If you do not have such a project in mind, seek out mentors in your research group to help you brainstorm (which is good advice for an academic in general!).
 
@@ -49,9 +52,7 @@ First, my grades were okay, but not great (something like a 3.5 out of 4.0).  Se
 
 * Read [Philip Guo's page for general advice on fellowship applications]( http://www.pgbovine.net/fellowship-tips.htm).
 
-* Grades and scores are not critically important, my grades and scores were both below average for graduate students.  However, make sure you demonstrate that you have a good idea that you are sincerely interested in.
-
 ## Departing thoughts
 
-In general, you should apply for a fellowship when you feel ready to formulate a problem that you are interested in working on.  In my opinion, it is unfortunate that most of the big fellowships are only awarded in years one and two of a doctoral degree; it was a little bit later that I was more certain of what I wanted to do.  But, you should use these applications as good opportunities to solidify for yourself what it is you want to do.  If you can describe cogently and clearly what your plan for graduate school is, you're probably a good candidate for the NDSEG, and, other fellowships.
+In general, you should apply for a fellowship when you feel ready to formulate a problem that you are interested in working on.  In my opinion, it is unfortunate that most of the big fellowships are only awarded in years one and two of a doctoral degree; it was a little bit later that I was more certain of what I wanted to do with my Ph.D.  But, you should use these applications as good opportunities to solidify for yourself what it is you want to do.  If you can describe cogently and clearly what your plan for graduate school is, you're probably a good candidate for the NDSEG, and, other fellowships.
 
