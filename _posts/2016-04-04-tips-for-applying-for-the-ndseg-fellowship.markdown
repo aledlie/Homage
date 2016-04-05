@@ -12,7 +12,7 @@ date: 2016-04-04T19:11:56-05:00
 ---
 _Just FYI, these tips are adapted from a talk I gave to the acoustics graduate program at The University of Texas._   
 
-    
+<br><br>
 
 In 2012 I won the National Defense Science and Engineering Graduate (NDSEG) Fellowship to study the interaction between shoaling nonlinear internal waves and ocean acoustics.  To be perfectly honest, I had never considered myself a student that was worthy of such awards, and didn't expect to win for several reasons.
 
