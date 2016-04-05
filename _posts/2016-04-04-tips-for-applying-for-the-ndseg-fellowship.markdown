@@ -10,10 +10,14 @@ image:
 comments: true
 date: 2016-04-04T19:11:56-05:00
 ---
+_Just FYI, these tips are adapted from a talk I gave to the acoustics graduate program at The University of Texas_   
 
-In 2012 I won the National Defense Science and Engineering Graduate (NDSEG) Fellowship to study the interaction between shoaling nonlinear internal waves and ocean acoustics.  To be perfectly honest, I had never considered myself a student that was worthy of such awards, and didn't expect to win for several reasons.  First, my grades were okay, but not great (something like a 3.5 out of 4.0).  Second, the NDSEG requires that an applicant be in the first or second year of graduate study.  I was in my third year, but had some extenuating circumstances.  Namely, I had just changed institutions and majors.  Finally, and perhaps most critically, I was going to apply for the fellowship without a letter of recommendation from my research advisor, who (at the time) I had just started working with and didn't know very well.  Basically, I applied for the fellowship because I had an idea of what I wanted to work on, and it was not that much work.  I didn't apply because I thought I had a good shot of winning.  However, having successfully won the fellowship under these circumstances, I think I have some useful advice to offer.
 
-_Just FYI, these tips are adapted from a talk I gave to the acoustics graduate program at The University of Texas_
+
+In 2012 I won the National Defense Science and Engineering Graduate (NDSEG) Fellowship to study the interaction between shoaling nonlinear internal waves and ocean acoustics.  To be perfectly honest, I had never considered myself a student that was worthy of such awards, and didn't expect to win for several reasons.
+
+First, my grades were okay, but not great (something like a 3.5 out of 4.0).  Second, the NDSEG requires that an applicant be in the first or second year of graduate study.  I was in my third year, but had some extenuating circumstances.  Namely, I had just changed institutions and majors.  Finally, and perhaps most critically, I was going to apply for the fellowship without a letter of recommendation from my research advisor, who (at the time) I had just started working with and didn't know very well.  Basically, I applied for the fellowship because I had an idea of what I wanted to work on, and it was not that much work.  I didn't apply because I thought I had a good shot of winning.  However, having successfully won the fellowship under these circumstances, I think I have some useful advice to offer.
+
 
 ## NDSEG information
 
@@ -41,7 +45,7 @@ _Just FYI, these tips are adapted from a talk I gave to the acoustics graduate p
 
 * Get letters of rec from people who are either well-known in the field, know you really well, or are likely to write really well.  Ideally they're academics or research scientists, and ideally they satisfy more than one of those tenants.
 
-* Read this page: http://www.pgbovine.net/fellowship-tips.htm
+* Read [Philip Guo's page for general advice on fellowship applications]( http://www.pgbovine.net/fellowship-tips.htm).
 
 * Grades and scores are not critically important, my grades and scores were both below average for graduate students.  However, make sure you demonstrate that you have a good idea that you are sincerely interested in.
 
