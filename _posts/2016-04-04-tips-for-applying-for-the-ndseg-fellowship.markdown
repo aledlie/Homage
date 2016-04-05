@@ -16,6 +16,8 @@ _Just FYI, these tips are adapted from a talk I gave to the acoustics graduate p
 
 In 2012 I won the National Defense Science and Engineering Graduate (NDSEG) Fellowship to study the interaction between shoaling nonlinear internal waves and ocean acoustics.  To be perfectly honest, I had never considered myself a student that was worthy of such awards, and didn't expect to win for several reasons.
 
+<br>
+
 First, my grades were okay, but not great (something like a 3.5 out of 4.0).  Second, the NDSEG requires that an applicant be in the first or second year of graduate study.  I was in my third year, but had some extenuating circumstances.  Namely, I had just changed institutions and majors.  Finally, and perhaps most critically, I was going to apply for the fellowship without a letter of recommendation from my research advisor, who (at the time) I had just started working with and didn't know very well.  Basically, I applied for the fellowship because I had an idea of what I wanted to work on, and it was not that much work.  I didn't apply because I thought I had a good shot of winning.  However, having successfully won the fellowship under these circumstances, I think I have some useful advice to offer.
 
 
