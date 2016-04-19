@@ -24,7 +24,7 @@ image:
 
 ## Publications
 
-+ A post-processing technique for stabilizing the discontinuous pressure projection operator in marginally- resolved incompressible inviscid flow, S. M. Joshi, P. J. Diamessis, D. T. Steinmoeller, M. Stastna, G. N. Thomsen, Computers and Fluids (submitted, [arXiv](http://arxiv.org/abs/1512.01755))
++ A post-processing technique for stabilizing the discontinuous pressure projection operator in marginally- resolved incompressible inviscid flow, S. M. Joshi, P. J. Diamessis, D. T. Steinmoeller, M. Stastna, G. N. Thomsen, Computers and Fluids (currently in press, [arXiv](http://arxiv.org/abs/1512.01755))
 
 + Deflation-augmented preconditioning of the Poisson-Neumann Schur problem using a high-order discontinuous discretization on long domains, S. M. Joshi, G. N. Thomsen, P.J. Diamessis, Journal of Computational Physics, vol. 313 pp. 209-232 ([arXiv](http://arxiv.org/abs/1512.01756))
 
@@ -36,7 +36,9 @@ image:
 
 ## Conference Papers
 
-+ A deflated Schur complement method for the iterative solution of a high-order discontinuous element discretization of the Poisson equation, S. M. Joshi and P. J. Diamessis, Submitted to the 14th Copper Mountain Conference on Iterative Methods, Copper Mountain CO,[arxiv](http://arxiv.org/abs/1601.03432)
++ High-order 3D numerical modeling of incompressible stratified flows in deformed domains using a mixed spectral element/Fourier discretization, S. M. Joshi, P. J. Diamessis, and G. N. Thomsen, 8th International Symposium on Stratified Flows, San Diego, CA, August 2016
+
++ A deflated Schur complement method for the iterative solution of a high-order discontinuous element discretization of the Poisson equation, S. M. Joshi and P. J. Diamessis, 14th Copper Mountain Conference on Iterative Methods, Copper Mountain CO,[arxiv](http://arxiv.org/abs/1601.03432)
 
 + Applicability of two-dimensional boundary scattering models as a proxy for three-dimensional models, B. Tran, S. M. Joshi, M. J. Isakson, Proceedings of Meetings on Acoustics 19 (1), 070079, 2013
 
