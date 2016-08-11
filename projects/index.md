@@ -9,6 +9,18 @@ image:
   creditlink: 
 ---
 
+## Data Science for Social Good: Early intervention systems for adverse police interactions.
+
+<figure>
+<center>
+   <a href="https://dssg.uchicago.edu/project/expanding-our-early-intervention-system-for-adverse-police-interactions/"><img width="85%" src="/images/project-dssg.jpg"></a>
+</center>
+</figure>
+
+   * Working in a team of four graduate students/post-docs to expand a machine-learning based model to predict adverse police-citizen incidents.
+   * Part of the Eric and Wendy Schmidt Data Science for Social Good Summer Fellowship in Chicago, IL.
+
+
 ## SMPM: Incompressible Navier-Stokes Solver
 
 <figure>
