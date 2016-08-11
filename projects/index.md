@@ -9,7 +9,7 @@ image:
   creditlink: 
 ---
 
-## Data Science for Social Good: Early intervention systems for adverse police interactions.
+## Early intervention systems for adverse police interactions.
 
 <figure>
 <center>
