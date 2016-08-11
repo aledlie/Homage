@@ -13,7 +13,7 @@ image:
 
 <figure>
 <center>
-   <a href="https://dssg.uchicago.edu/project/expanding-our-early-intervention-system-for-adverse-police-interactions/"><img width="85%" src="/images/project-dssg.jpg"></a>
+   <a href="https://dssg.uchicago.edu/project/expanding-our-early-intervention-system-for-adverse-police-interactions/"><img width="55%" src="/images/project-dssg.jpg"></a>
 </center>
 </figure>
 
