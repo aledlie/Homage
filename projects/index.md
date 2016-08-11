@@ -4,9 +4,9 @@ title: Projects
 tags: [projects]
 modified: 2014-08-08T20:53:07.573882-04:00
 image:
-  feature: sample-image-1.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: cover-projects.png
+  credit: 
+  creditlink: 
 ---
 
 ## SMPM: Incompressible Navier-Stokes Solver
