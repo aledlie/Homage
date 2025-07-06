@@ -1,0 +1,332 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>How Many of Me Would It Take to Shoot Par in a Scramble? &#8211; Sumedh Joshi</title>
+<meta name="description" content="Simulating a golf scramble.">
+<meta name="keywords" content="">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="How Many of Me Would It Take to Shoot Par in a Scramble?">
+<meta name="twitter:description" content="Simulating a golf scramble.">
+<meta name="twitter:site" content="@SumedhJoshiUT">
+<meta name="twitter:creator" content="@SumedhJoshiUT">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://www.sumedhjoshi.com/images/default-thumb.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How Many of Me Would It Take to Shoot Par in a Scramble?">
+<meta property="og:description" content="Simulating a golf scramble.">
+<meta property="og:url" content="http://www.sumedhjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/">
+<meta property="og:site_name" content="Sumedh Joshi">
+
+<meta property="og:image" content="http://www.sumedhjoshi.com/images/default-thumb.png">
+
+
+
+
+
+
+<link rel="canonical" href="http://www.sumedhjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/">
+<link href="http://www.sumedhjoshi.com/feed.xml" type="application/atom+xml" rel="alternate" title="Sumedh Joshi Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://www.sumedhjoshi.com/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://www.sumedhjoshi.com/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://www.sumedhjoshi.com/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://www.sumedhjoshi.com/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/assets/css/vendor/magnific-popup/magnific-popup.css">
+
+<!-- Icons -->
+<!-- 16x16 -->
+<!-- <link rel="shortcut icon" href="http://www.sumedhjoshi.com/favicon.ico"> -->
+<!-- 32x32 -->
+<!-- <link rel="shortcut icon" href="http://www.sumedhjoshi.com/favicon.png"> -->
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<!-- <link rel="apple-touch-icon-precomposed" href="http://www.sumedhjoshi.com/images/apple-touch-icon-precomposed.png"> -->
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<!--<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.sumedhjoshi.com/images/apple-touch-icon-72x72-precomposed.png"> -->
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<!--<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.sumedhjoshi.com/images/apple-touch-icon-114x114-precomposed.png"> -->
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.sumedhjoshi.com/images/apple-touch-icon-144x144-precomposed.png"> -->
+
+</head>
+
+
+
+<body class="post">
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://www.sumedhjoshi.com/">Sumedh Joshi</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+				    
+				    <li><a href="http://www.sumedhjoshi.com/about/" >About</a></li>
+				
+				    
+				    <li><a href="http://www.sumedhjoshi.com/projects/" >Projects</a></li>
+				
+				    
+				    <li><a href="http://www.sumedhjoshi.com/posts/" >Blog</a></li>
+				
+				    
+				    <li><a href="http://www.sumedhjoshi.com/vita/" >Vita</a></li>
+				
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-21252595-2', 'auto');
+      ga('send', 'pageview');
+
+</script>
+
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+<div itemscope itemtype="http://schema.org/Person">
+
+
+	<img src="http://www.sumedhjoshi.com/images/bio-photo.jpg" class="bio-photo" alt="Sumedh Joshi bio photo">
+
+
+  <h3 itemprop="name">Sumedh Joshi</h3>
+  <p>Applied Mathematician</p>
+  <a href="mailto:sumedh.m.joshi@gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
+  <a href="http://twitter.com/SumedhJoshiUT" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
+  <a href="http://facebook.com/sumedh.joshi.12" class="author-social" target="_blank"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>
+  
+  <a href="http://linkedin.com/in/sumedhjoshi" class="author-social" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a>
+  
+  <a href="http://instagram.com/phdmyselfandi" class="author-social" target="_blank"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
+  
+  <a href="http://github.com/sumedhjoshi" class="author-social" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+  </div>
+  <article class="post">
+    <div class="headline-wrap">
+      
+        <h1><a href="http://www.sumedhjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/" rel="bookmark" title="How Many of Me Would It Take to Shoot Par in a Scramble?">How Many of Me Would It Take to Shoot Par in a Scramble?</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      <p>I played in a golf scramble with three friends of mine recently, and together we shot about a 65.  A scramble is a format in which a team of players, usually either 2 or 4, play their collective best shot.  So for example in a 4-person scramble, all four players would hit a tee shot.  The team would agree upon the best of the four tee shots, the four players would advance to that position and each play their second shot from where the best tee shot landed.  They would proceed until the hole was complete.</p>
+
+<p>So a question I had was, “how many of me would it take to shoot par in a scramble?”.</p>
+
+<h2 id="model">Model</h2>
+
+<p>To model a round of golf, I need a model for an average golf shot.  This is totally an incorrect assumption, but I assumed that the distance a golfer could hit a golf shot was a normal distribution with some mean \(\mu\) and a standard deviation \(\alpha \mu\).  I also assumed that there was a maxiumum mean shot distance that a golfer could aim for which I called \(\mu_d\). So, a golfer’s skill is parameterized by two numbers:</p>
+
+\[\begin{align}
+   \mu_d &amp;:= \textrm{Average driver distance} \\
+   \alpha &amp;:= \textrm{Skill, or uncertainty in a shot distance}.
+\end{align}\]
+
+<p>So, if a golfer was attempting a shot of some distance \(d &lt; \mu_d\), the probability distribution of thier shot would be</p>
+
+\[\begin{align}
+   \textrm{distance} \sim N( d, \alpha d )
+\end{align}\]
+
+<p>where \(N(\mu,\sigma)\) is a normal distribution vith mean \(\mu\) and standard deviation \(\sigma\).  On the other hand, if that same golfer were attempting a shot at a hole that was a distance \(d &gt; \mu_d\) away, then the distribution of that shot would be</p>
+
+\[\begin{align}
+   \textrm{distance} \sim N( \mu_d, \alpha \mu_d).
+\end{align}\]
+
+<p>The point is that the variability in a golf shot scales linearly with the shot distance \(\mu\) and with slope \(\alpha\).  Using this model I can simulate a hole, a round, a bunch of rounds, and eventually the average number of strokes a golfer takes to finish a round.</p>
+
+<p>This is a bad model for a lot of reasons:</p>
+
+<ol>
+  <li>
+    <p><strong>It is one-dimensional</strong>: I assume that the only factor in play is distance to the hole; my model keeps taking strokes until this distance is reduced to the diameter of the cup.</p>
+  </li>
+  <li>
+    <p><strong>It disregards penalty strokes</strong>: In golf, if you hit a ball out of bounds not only do you replay the stroke, you also incur a penalty (this is because golf is an evil game and hates you).  Since I don’t have any out-of-bounds in my model, I also don’t have any penalties.</p>
+  </li>
+  <li>
+    <p><strong>It assumes a symmetric PDF</strong>: The probability distribution I assume is Gaussian.  This means that you have just as much a chance to overshoot your desired distance as undershoot it (in this model).  Clearly this is not physical; a golfer has a much better chance of undershooting a long shot simply because it is harder to hit the ball farther.</p>
+  </li>
+  <li>
+    <p><strong>It assumes the distribution is the same for all mean values</strong>: There is no reason to assume that the PDF of a golf shot is the same distribution for a short vs. a long shot vs. a putt.  They’re just very different situations that probably don’t behave the same probabilistically.</p>
+  </li>
+</ol>
+
+<h2 id="single-golfer-results">Single golfer results</h2>
+
+<p>Despite all these shortcomings, I still wanted to see if this model produced at all reasonable results.  I wrote a short MATLAB script to simulate a bunch of rounds for a bunch of different values of the mean drive distance and skill (again by skill I mean \(\alpha\)).  The golf course I simulated had four par-3’s, 4 par 5’s, and the rest were par-4’s.  All par-3’s were 150 yards, par-4’s were 350 yards, and par-5’s were 500 yards.  The average scores (the color) over a bunch of different drive distances (\([100,350]\) yards) and skill ratings (\([0.0, 0.5]\)) are shown in the figure below.</p>
+
+<figure>
+<center>
+   <a href="/images/golf_surface.png"><img width="80%" src="/images/golf_surface.png" /></a>
+</center>
+    <figcaption> The average score as a function of driver distance (in yards) vs. skill (alpha). </figcaption>
+</figure>
+
+<p>Remember that a golfer with a skill rating of \(\alpha = 0\) hits a golf shot exactly the distance she wants it to go every single time.  She is obnoxiously good and likely resents playing with me.  Because of her skill rating of 0, even if she drove the ball only 100 yards, she should still shoot just about par (e.g. the bottom left corner of the above image).  A golfer that could drive the ball 250 yards with a skill rating of 0 would shoot about 50, because he would eagle all par 4’s, ace all par 3’s, and double-eagle about half of the par 5’s.  Screw that guy.</p>
+
+<p>Based on my average round score of about 115, and my average longest drive distance of about 250 yards (this is <em>not</em> the same as my average drive), my skill rating is about \(\alpha = 0.42\).  This means, roughly, that I’m liable to hit a golf shot anywhere +/-40% of my intended distance.  If you’ve played golf with me, you’ll know this is about correct.</p>
+
+<p>Finally notice that distance matters a lot less than \(\alpha\); if you want to move down the surface above (and you do), the best way to do it is to reduce \(\alpha\).  To put it another way, the gradient of score is far steeper in the \(\alpha\) direction everywhere except at very, very small drive distances (bottom left).</p>
+
+<h2 id="scramble">Scramble</h2>
+
+<p>The point of this was to see how much better I would get playing a scramble.  This is effectively like taking the same model above but for every stroke taking multiple realizations of the random variable that represents the stroke and taking the minimum resulting distance from the pin.  Pretty straightforward to program.  I wanted to consider 1, 2, 3, and 4 person scrambles over all the different values of drive distance and \(\alpha\).  Like the simulation above, I ran many simulations to obtain an average score, and I used the same golf course as before.  All the caveats in the model continue to apply here, of course.</p>
+
+<p>The results are shown in the four figures below, one each for each of the 4 types of scrambles.  In my fictitious scramble, it is one, two, three, or four of the same golfer playing together; identically you can think of yourself playing golf but playing multiple shots each time and taking the best one.</p>
+
+<figure>
+<center>
+   <a href="/images/golf_scramble_surface.png"><img width="80%" src="/images/golf_scramble_surface.png" /></a>
+</center>
+    <figcaption> The average score as a function of driver distance (in yards) vs. skill (alpha) for 1, 2, 3, and 4 person scrambles. </figcaption>
+</figure>
+
+<p>The top left plot is a single golfer, and so is identical to the first picture.  The top right is a two-person scramble, bottom-left a three-person scramble, and bottom-right a four-person scramble.  In all of the plots the magenta line is par (72 strokes).  Anything above the magenta line is below par (\(&lt; 72\) strokes), and anything below it is above par (\(&gt;72\) strokes).  As more and more golfers are added to the scramble, the magenta line moves downward (shorter drive distance required) and to the right (less skill required) – this makes sense, as you get more oppurtunities to hit the ball, the less long and less accurate you have to be.  The drop is most dramatic from 3 to 4 players.  I’d have to dig into the data to be certain, but I’m pretty sure this is due to the inaccuracies in my model (summarized above), but it may also be real… I’m not sure.</p>
+
+<p>What does the above chart say about me, a \((250.0, 0.42)\) golfer?  Well I would certainly not shoot par as a two-person scramble, and only just graze par as a three-person scramble.   But, as a four-person scramble, I would be shooting in the high-60’s!  That’s great, right? Well.. not quite, since I have a data point that says that me playing with three other, better, golfers, could only muster a 65, I doubt that four of me playing together would shoot just a few strokes over that.  Something’s wrong.  In this case, I’m going to say that my model is incorrect, and likely because it has me occasionally driving the ball 350.0 yards (which it does, I checked).  I can say with great certainty that this has never happened before.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>I think the thing to fix here is that my probability distribution of a golf shot is incorrect; I should model it as a non-symmetric distribution skewed towards short vs. long.  Secondly, while I don’t know of a good way to do this, I should incorporate penalty strokes into my model; these would disproportionally hurt bad golfers like me and correctly inflate my score.  Finally, I should probably have different distributions for putts, iron shots, and driver/woods, as most people (especially bad golfers) play these differently.</p>
+
+
+      <hr />
+      <footer role="contentinfo">
+        <div class="social-share">
+  <h4>Share on</h4>
+  <ul>
+    <li>
+      <a href="https://twitter.com/intent/tweet?text=http://www.sumedhjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.sumedhjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+    </li>
+    <li>
+      <a href="https://plus.google.com/share?url=http://www.sumedhjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+    </li>
+  </ul>
+</div><!-- /.social-share -->
+        <p class="byline"><strong>How Many of Me Would It Take to Shoot Par in a Scramble?</strong> was published on <time datetime="2015-10-09T11:24:52-05:00">October 09, 2015</time>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+  
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  
+  <div class="related-articles">
+  <h4>You might also enjoy <small class="pull-right">(<a href="http://www.sumedhjoshi.com/posts/">View all posts</a>)</small></h4>
+    <ul>
+    
+      <li><a href="http://www.sumedhjoshi.com/academia/tracking-the-growth-of-my-dissertation-over-time/" title="Tracking the Growth of My Dissertation Over Time">Tracking the Growth of My Dissertation Over Time</a></li>
+    
+      <li><a href="http://www.sumedhjoshi.com/academia/tips-for-applying-for-the-ndseg-fellowship/" title="Tips for Applying for the NDSEG Fellowship">Tips for Applying for the NDSEG Fellowship</a></li>
+    
+      <li><a href="http://www.sumedhjoshi.com/misc/how-manys-are-there-to-get-from-austin-to-mumbai/" title="How many routes are there to fly from Austin to Mumbai?">How many routes are there to fly from Austin to Mumbai?</a></li>
+    
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  
+  <footer>
+    
+
+<span>&copy; 2025 Sumedh Joshi. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a> theme.</span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://www.sumedhjoshi.com/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://www.sumedhjoshi.com/assets/js/scripts.min.js"></script>
+
+
+  
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'sumedhjoshi'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	        
+
+</body>
+</html>

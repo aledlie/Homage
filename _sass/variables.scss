@@ -1,3 +1,4 @@
+@use "sass:color";
 /* ==========================================================================
    Sass variables
    ========================================================================== */
@@ -52,11 +53,11 @@ $vimeo-color        : #1ab7ea;
 $youtube-color      : #ff3333;
 
 /* links */
-$linkcolor 		    : #343434;
-$link-color       : $linkcolor;
-$linkcolorhover 	: darken($linkcolor, 10);
-$linkcolorvisited : lighten($linkcolorhover, 20);
-$linkcolorfocus 	: darken($linkcolorvisited, 10);
+$linkcolor 		: #343434;
+$link-color       	: $linkcolor;
+$linkcolorhover 	: color.adjust($linkcolor, $lightness: -10%);
+$linkcolorvisited 	: color.adjust($linkcolorhover, $lightness: 20%);
+$linkcolorfocus 	: color.adjust($linkcolorvisited, $lightness: -10%);
 
 /* 
    Breakpoints

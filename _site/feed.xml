@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://www.sumedhjoshi.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com" />
-<updated>2016-04-05T04:32:07-04:00</updated>
+<updated>2025-07-06T02:13:58-05:00</updated>
 <id>http://www.sumedhjoshi.com/</id>
 <author>
   <name>Sumedh Joshi</name>
@@ -13,14 +13,40 @@
 </author>
 
 
-  
+<entry>
+  <title type="html"><![CDATA[Tracking the Growth of My Dissertation Over Time]]></title>
+  <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/academia/tracking-the-growth-of-my-dissertation-over-time/" />
+  <id>http://www.sumedhjoshi.com/academia/tracking-the-growth-of-my-dissertation-over-time</id>
+  <published>2016-04-25T06:27:08-05:00</published>
+  <updated>2016-04-25T06:27:08-05:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri>http://www.sumedhjoshi.com</uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;I’ve just (as in, like, five minutes ago) finished a draft of my dissertation.  I thought it would be interesting to look at the history of dissertation.tex, the LaTeX file that represents my last five years of work.  Using mercurial, a horribly cobbled together bash script, and the neat linux command line word counting tool “wc”, I made the following plot of how the number of words in dissertation.tex changed over time.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/how_i_dissertate.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/how_i_dissertate.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; I&apos;m a procrastinator. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The first couple of days I was just copy and pasting in old papers, so those days look productive but don’t let that fool you.  Then for about two weeks I did basically nothing.  And then in the last week or so, and mostly in the last two days, I wrote another 10,000 words (well, 10,000 words of LaTeX code).  Tl;dr I really should have started working on this sooner.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/academia/tracking-the-growth-of-my-dissertation-over-time/&quot;&gt;Tracking the Growth of My Dissertation Over Time&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on April 25, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
 
 <entry>
   <title type="html"><![CDATA[Tips for Applying for the NDSEG Fellowship]]></title>
   <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/academia/tips-for-applying-for-the-ndseg-fellowship/" />
   <id>http://www.sumedhjoshi.com/academia/tips-for-applying-for-the-ndseg-fellowship</id>
-  <published>2016-04-04T20:11:56-04:00</published>
-  <updated>2016-04-04T20:11:56-04:00</updated>
+  <published>2016-04-04T19:11:56-05:00</published>
+  <updated>2016-04-04T19:11:56-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri>http://www.sumedhjoshi.com</uri>
@@ -96,14 +122,12 @@
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[How many routes are there to fly from Austin to Mumbai?]]></title>
   <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/misc/how-manys-are-there-to-get-from-austin-to-mumbai/" />
   <id>http://www.sumedhjoshi.com/misc/how-manys-are-there-to-get-from-austin-to-mumbai</id>
-  <published>2015-12-17T17:17:46-05:00</published>
-  <updated>2015-12-17T17:17:46-05:00</updated>
+  <published>2015-12-17T16:17:46-06:00</published>
+  <updated>2015-12-17T16:17:46-06:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri>http://www.sumedhjoshi.com</uri>
@@ -154,25 +178,24 @@
 
 &lt;h2 id=&quot;inter-city-connectivity-graph&quot;&gt;Inter-city connectivity graph&lt;/h2&gt;
 
-&lt;p&gt;This led me to wonder how connected the graph of cities around the world linked by flights is.  So, I populated an adjacency matrix, &lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt;, whose entries are defined as&lt;/p&gt;
+&lt;p&gt;This led me to wonder how connected the graph of cities around the world linked by flights is.  So, I populated an adjacency matrix, \(G\), whose entries are defined as&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{equation}
+\[\begin{equation}
 G_{ij} = \begin{cases}
-             1 &amp; \textrm{ if cities $i$ and $j$ are connected by a direct flight} \\
-             0 &amp; \textrm{ otherwise }
+             1 &amp;amp; \textrm{ if cities $i$ and $j$ are connected by a direct flight} \\
+             0 &amp;amp; \textrm{ otherwise }
           \end{cases}
-\end{equation} %]]&gt;&lt;/script&gt;
+\end{equation}\]
 
 &lt;p&gt;The vertices in this graph are cities, and the edges are flights between them.  There are a total of 2,327 airports on this list (there are a few more in the OpenFlights database that are air force bases and so are not connected to anything).  The average city is connected to 14.1 other cities, with the most connected city is Amsterdam with 246 cities one direct flight away.&lt;/p&gt;
 
-&lt;p&gt;A natural question to ask is how many cities the average city is 2, 3, or 4-flights connected to.  This is easy to compute using powers of the adjacency matrix.  The degree of a vertex &lt;script type=&quot;math/tex&quot;&gt;v_i&lt;/script&gt; in the graph is the row sum of &lt;script type=&quot;math/tex&quot;&gt;\sum_{j} G_{ij}&lt;/script&gt;, and tells you the number of cities &lt;script type=&quot;math/tex&quot;&gt;v_i&lt;/script&gt; is directly connected to.  To get the number of cities &lt;script type=&quot;math/tex&quot;&gt;v_i&lt;/script&gt; is connected to with 2 flights, just take the square of the adjacency matrix, and sum up the number of non-zeros in the &lt;script type=&quot;math/tex&quot;&gt;v_i&lt;/script&gt; row.  In general, to get the number of cities that are connected by &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt; flights to &lt;script type=&quot;math/tex&quot;&gt;v_i&lt;/script&gt;,&lt;/p&gt;
+&lt;p&gt;A natural question to ask is how many cities the average city is 2, 3, or 4-flights connected to.  This is easy to compute using powers of the adjacency matrix.  The degree of a vertex \(v_i\) in the graph is the row sum of \(\sum_{j} G_{ij}\), and tells you the number of cities \(v_i\) is directly connected to.  To get the number of cities \(v_i\) is connected to with 2 flights, just take the square of the adjacency matrix, and sum up the number of non-zeros in the \(v_i\) row.  In general, to get the number of cities that are connected by \(k\) flights to \(v_i\),&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{equation}
+\[\begin{equation}
 \textrm{Number of cities $k$-connected to $v_i$ } = \textrm{ Number of non-zeros in $\{G^k_{ij}\}_{j=1}^{n}$ }
-\end{equation}&lt;/script&gt;
+\end{equation}\]
 
-&lt;p&gt;As you might imagine, the graphs &lt;script type=&quot;math/tex&quot;&gt;G^k&lt;/script&gt; get more and more dense as &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt; increases, and this is shown in the four pictures below.  Going from left to right, these pictures depiect the sparisty patterns &lt;script type=&quot;math/tex&quot;&gt;G^1,G^2,G^3,G^4&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;As you might imagine, the graphs \(G^k\) get more and more dense as \(k\) increases, and this is shown in the four pictures below.  Going from left to right, these pictures depiect the sparisty patterns \(G^1,G^2,G^3,G^4\).&lt;/p&gt;
 
 &lt;figure class=&quot;quarter&quot;&gt;
 &lt;center&gt;
@@ -196,14 +219,12 @@ G_{ij} = \begin{cases}
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[Carl Sagan's Contact and Prime Numbers]]></title>
   <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/books/carl-sagans-contact-and-prime-numbers/" />
   <id>http://www.sumedhjoshi.com/books/carl-sagans-contact-and-prime-numbers</id>
-  <published>2015-12-08T14:17:16-05:00</published>
-  <updated>2015-12-08T14:17:16-05:00</updated>
+  <published>2015-12-08T13:17:16-06:00</published>
+  <updated>2015-12-08T13:17:16-06:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri>http://www.sumedhjoshi.com</uri>
@@ -240,19 +261,17 @@ is twenty-six light-years away, then the message had to be sent twenty-six years
 &lt;p&gt;Interestingly, I don’t think this mistake remains in the movie version, which came out much later.  &lt;em&gt;Contact&lt;/em&gt; was actually always intended to be a movie way back in 1979, but because of the development hell that it found itself in, Sagan eventually just wrote a book; the movie came out in 1997, tragically just after his death in 1996.  The movie is very good, but the book is better.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/books/carl-sagans-contact-and-prime-numbers/&quot;&gt;Carl Sagan&#39;s Contact and Prime Numbers&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on December 08, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/books/carl-sagans-contact-and-prime-numbers/&quot;&gt;Carl Sagan&apos;s Contact and Prime Numbers&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on December 08, 2015.&lt;/p&gt;
   </content>
 </entry>
 
-
-  
 
 <entry>
   <title type="html"><![CDATA[How Many of Me Would It Take to Shoot Par in a Scramble?]]></title>
   <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/" />
   <id>http://www.sumedhjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble</id>
-  <published>2015-10-09T12:24:52-04:00</published>
-  <updated>2015-10-09T12:24:52-04:00</updated>
+  <published>2015-10-09T11:24:52-05:00</published>
+  <updated>2015-10-09T11:24:52-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri>http://www.sumedhjoshi.com</uri>
@@ -265,28 +284,26 @@ is twenty-six light-years away, then the message had to be sent twenty-six years
 
 &lt;h2 id=&quot;model&quot;&gt;Model&lt;/h2&gt;
 
-&lt;p&gt;To model a round of golf, I need a model for an average golf shot.  This is totally an incorrect assumption, but I assumed that the distance a golfer could hit a golf shot was a normal distribution with some mean &lt;script type=&quot;math/tex&quot;&gt;\mu&lt;/script&gt; and a standard deviation &lt;script type=&quot;math/tex&quot;&gt;\alpha \mu&lt;/script&gt;.  I also assumed that there was a maxiumum mean shot distance that a golfer could aim for which I called &lt;script type=&quot;math/tex&quot;&gt;\mu_d&lt;/script&gt;. So, a golfer’s skill is parameterized by two numbers:&lt;/p&gt;
+&lt;p&gt;To model a round of golf, I need a model for an average golf shot.  This is totally an incorrect assumption, but I assumed that the distance a golfer could hit a golf shot was a normal distribution with some mean \(\mu\) and a standard deviation \(\alpha \mu\).  I also assumed that there was a maxiumum mean shot distance that a golfer could aim for which I called \(\mu_d\). So, a golfer’s skill is parameterized by two numbers:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{align}
-   \mu_d &amp;:= \textrm{Average driver distance} \\
-   \alpha &amp;:= \textrm{Skill, or uncertainty in a shot distance}.
-\end{align} %]]&gt;&lt;/script&gt;
+\[\begin{align}
+   \mu_d &amp;amp;:= \textrm{Average driver distance} \\
+   \alpha &amp;amp;:= \textrm{Skill, or uncertainty in a shot distance}.
+\end{align}\]
 
-&lt;p&gt;So, if a golfer was attempting a shot of some distance &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot would be&lt;/p&gt;
+&lt;p&gt;So, if a golfer was attempting a shot of some distance \(d &amp;lt; \mu_d\), the probability distribution of thier shot would be&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{align}
+\[\begin{align}
    \textrm{distance} \sim N( d, \alpha d )
-\end{align}&lt;/script&gt;
+\end{align}\]
 
-&lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;N(\mu,\sigma)&lt;/script&gt; is a normal distribution vith mean &lt;script type=&quot;math/tex&quot;&gt;\mu&lt;/script&gt; and standard deviation &lt;script type=&quot;math/tex&quot;&gt;\sigma&lt;/script&gt;.  On the other hand, if that same golfer were attempting a shot at a hole that was a distance &lt;script type=&quot;math/tex&quot;&gt;d &gt; \mu_d&lt;/script&gt; away, then the distribution of that shot would be&lt;/p&gt;
+&lt;p&gt;where \(N(\mu,\sigma)\) is a normal distribution vith mean \(\mu\) and standard deviation \(\sigma\).  On the other hand, if that same golfer were attempting a shot at a hole that was a distance \(d &amp;gt; \mu_d\) away, then the distribution of that shot would be&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{align}
+\[\begin{align}
    \textrm{distance} \sim N( \mu_d, \alpha \mu_d).
-\end{align}&lt;/script&gt;
+\end{align}\]
 
-&lt;p&gt;The point is that the variability in a golf shot scales linearly with the shot distance &lt;script type=&quot;math/tex&quot;&gt;\mu&lt;/script&gt; and with slope &lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;.  Using this model I can simulate a hole, a round, a bunch of rounds, and eventually the average number of strokes a golfer takes to finish a round.&lt;/p&gt;
+&lt;p&gt;The point is that the variability in a golf shot scales linearly with the shot distance \(\mu\) and with slope \(\alpha\).  Using this model I can simulate a hole, a round, a bunch of rounds, and eventually the average number of strokes a golfer takes to finish a round.&lt;/p&gt;
 
 &lt;p&gt;This is a bad model for a lot of reasons:&lt;/p&gt;
 
@@ -307,7 +324,7 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 
 &lt;h2 id=&quot;single-golfer-results&quot;&gt;Single golfer results&lt;/h2&gt;
 
-&lt;p&gt;Despite all these shortcomings, I still wanted to see if this model produced at all reasonable results.  I wrote a short MATLAB script to simulate a bunch of rounds for a bunch of different values of the mean drive distance and skill (again by skill I mean &lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;).  The golf course I simulated had four par-3’s, 4 par 5’s, and the rest were par-4’s.  All par-3’s were 150 yards, par-4’s were 350 yards, and par-5’s were 500 yards.  The average scores (the color) over a bunch of different drive distances (&lt;script type=&quot;math/tex&quot;&gt;[100,350]&lt;/script&gt; yards) and skill ratings (&lt;script type=&quot;math/tex&quot;&gt;[0.0, 0.5]&lt;/script&gt;) are shown in the figure below.&lt;/p&gt;
+&lt;p&gt;Despite all these shortcomings, I still wanted to see if this model produced at all reasonable results.  I wrote a short MATLAB script to simulate a bunch of rounds for a bunch of different values of the mean drive distance and skill (again by skill I mean \(\alpha\)).  The golf course I simulated had four par-3’s, 4 par 5’s, and the rest were par-4’s.  All par-3’s were 150 yards, par-4’s were 350 yards, and par-5’s were 500 yards.  The average scores (the color) over a bunch of different drive distances (\([100,350]\) yards) and skill ratings (\([0.0, 0.5]\)) are shown in the figure below.&lt;/p&gt;
 
 &lt;figure&gt;
 &lt;center&gt;
@@ -316,15 +333,15 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
     &lt;figcaption&gt; The average score as a function of driver distance (in yards) vs. skill (alpha). &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Remember that a golfer with a skill rating of &lt;script type=&quot;math/tex&quot;&gt;\alpha = 0&lt;/script&gt; hits a golf shot exactly the distance she wants it to go every single time.  She is obnoxiously good and likely resents playing with me.  Because of her skill rating of 0, even if she drove the ball only 100 yards, she should still shoot just about par (e.g. the bottom left corner of the above image).  A golfer that could drive the ball 250 yards with a skill rating of 0 would shoot about 50, because he would eagle all par 4’s, ace all par 3’s, and double-eagle about half of the par 5’s.  Screw that guy.&lt;/p&gt;
+&lt;p&gt;Remember that a golfer with a skill rating of \(\alpha = 0\) hits a golf shot exactly the distance she wants it to go every single time.  She is obnoxiously good and likely resents playing with me.  Because of her skill rating of 0, even if she drove the ball only 100 yards, she should still shoot just about par (e.g. the bottom left corner of the above image).  A golfer that could drive the ball 250 yards with a skill rating of 0 would shoot about 50, because he would eagle all par 4’s, ace all par 3’s, and double-eagle about half of the par 5’s.  Screw that guy.&lt;/p&gt;
 
-&lt;p&gt;Based on my average round score of about 115, and my average longest drive distance of about 250 yards (this is &lt;em&gt;not&lt;/em&gt; the same as my average drive), my skill rating is about &lt;script type=&quot;math/tex&quot;&gt;\alpha = 0.42&lt;/script&gt;.  This means, roughly, that I’m liable to hit a golf shot anywhere +/-40% of my intended distance.  If you’ve played golf with me, you’ll know this is about correct.&lt;/p&gt;
+&lt;p&gt;Based on my average round score of about 115, and my average longest drive distance of about 250 yards (this is &lt;em&gt;not&lt;/em&gt; the same as my average drive), my skill rating is about \(\alpha = 0.42\).  This means, roughly, that I’m liable to hit a golf shot anywhere +/-40% of my intended distance.  If you’ve played golf with me, you’ll know this is about correct.&lt;/p&gt;
 
-&lt;p&gt;Finally notice that distance matters a lot less than &lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;; if you want to move down the surface above (and you do), the best way to do it is to reduce &lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;.  To put it another way, the gradient of score is far steeper in the &lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt; direction everywhere except at very, very small drive distances (bottom left).&lt;/p&gt;
+&lt;p&gt;Finally notice that distance matters a lot less than \(\alpha\); if you want to move down the surface above (and you do), the best way to do it is to reduce \(\alpha\).  To put it another way, the gradient of score is far steeper in the \(\alpha\) direction everywhere except at very, very small drive distances (bottom left).&lt;/p&gt;
 
 &lt;h2 id=&quot;scramble&quot;&gt;Scramble&lt;/h2&gt;
 
-&lt;p&gt;The point of this was to see how much better I would get playing a scramble.  This is effectively like taking the same model above but for every stroke taking multiple realizations of the random variable that represents the stroke and taking the minimum resulting distance from the pin.  Pretty straightforward to program.  I wanted to consider 1, 2, 3, and 4 person scrambles over all the different values of drive distance and &lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;.  Like the simulation above, I ran many simulations to obtain an average score, and I used the same golf course as before.  All the caveats in the model continue to apply here, of course.&lt;/p&gt;
+&lt;p&gt;The point of this was to see how much better I would get playing a scramble.  This is effectively like taking the same model above but for every stroke taking multiple realizations of the random variable that represents the stroke and taking the minimum resulting distance from the pin.  Pretty straightforward to program.  I wanted to consider 1, 2, 3, and 4 person scrambles over all the different values of drive distance and \(\alpha\).  Like the simulation above, I ran many simulations to obtain an average score, and I used the same golf course as before.  All the caveats in the model continue to apply here, of course.&lt;/p&gt;
 
 &lt;p&gt;The results are shown in the four figures below, one each for each of the 4 types of scrambles.  In my fictitious scramble, it is one, two, three, or four of the same golfer playing together; identically you can think of yourself playing golf but playing multiple shots each time and taking the best one.&lt;/p&gt;
 
@@ -335,10 +352,9 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
     &lt;figcaption&gt; The average score as a function of driver distance (in yards) vs. skill (alpha) for 1, 2, 3, and 4 person scrambles. &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;The top left plot is a single golfer, and so is identical to the first picture.  The top right is a two-person scramble, bottom-left a three-person scramble, and bottom-right a four-person scramble.  In all of the plots the magenta line is par (72 strokes).  Anything above the magenta line is below par (&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-&lt; 72 %]]&gt;&lt;/script&gt; strokes), and anything below it is above par (&lt;script type=&quot;math/tex&quot;&gt;&gt;72&lt;/script&gt; strokes).  As more and more golfers are added to the scramble, the magenta line moves downward (shorter drive distance required) and to the right (less skill required) – this makes sense, as you get more oppurtunities to hit the ball, the less long and less accurate you have to be.  The drop is most dramatic from 3 to 4 players.  I’d have to dig into the data to be certain, but I’m pretty sure this is due to the inaccuracies in my model (summarized above), but it may also be real… I’m not sure.&lt;/p&gt;
+&lt;p&gt;The top left plot is a single golfer, and so is identical to the first picture.  The top right is a two-person scramble, bottom-left a three-person scramble, and bottom-right a four-person scramble.  In all of the plots the magenta line is par (72 strokes).  Anything above the magenta line is below par (\(&amp;lt; 72\) strokes), and anything below it is above par (\(&amp;gt;72\) strokes).  As more and more golfers are added to the scramble, the magenta line moves downward (shorter drive distance required) and to the right (less skill required) – this makes sense, as you get more oppurtunities to hit the ball, the less long and less accurate you have to be.  The drop is most dramatic from 3 to 4 players.  I’d have to dig into the data to be certain, but I’m pretty sure this is due to the inaccuracies in my model (summarized above), but it may also be real… I’m not sure.&lt;/p&gt;
 
-&lt;p&gt;What does the above chart say about me, a &lt;script type=&quot;math/tex&quot;&gt;(250.0, 0.42)&lt;/script&gt; golfer?  Well I would certainly not shoot par as a two-person scramble, and only just graze par as a three-person scramble.   But, as a four-person scramble, I would be shooting in the high-60’s!  That’s great, right? Well.. not quite, since I have a data point that says that me playing with three other, better, golfers, could only muster a 65, I doubt that four of me playing together would shoot just a few strokes over that.  Something’s wrong.  In this case, I’m going to say that my model is incorrect, and likely because it has me occasionally driving the ball 350.0 yards (which it does, I checked).  I can say with great certainty that this has never happened before.&lt;/p&gt;
+&lt;p&gt;What does the above chart say about me, a \((250.0, 0.42)\) golfer?  Well I would certainly not shoot par as a two-person scramble, and only just graze par as a three-person scramble.   But, as a four-person scramble, I would be shooting in the high-60’s!  That’s great, right? Well.. not quite, since I have a data point that says that me playing with three other, better, golfers, could only muster a 65, I doubt that four of me playing together would shoot just a few strokes over that.  Something’s wrong.  In this case, I’m going to say that my model is incorrect, and likely because it has me occasionally driving the ball 350.0 yards (which it does, I checked).  I can say with great certainty that this has never happened before.&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
@@ -350,14 +366,12 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[Computing the CFL Number for Deformed Grids]]></title>
   <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/numerical/computing-the-cfl-number-for-deformed-grids/" />
   <id>http://www.sumedhjoshi.com/numerical/computing-the-cfl-number-for-deformed-grids</id>
-  <published>2015-08-10T16:58:40-04:00</published>
-  <updated>2015-08-10T16:58:40-04:00</updated>
+  <published>2015-08-10T15:58:40-05:00</published>
+  <updated>2015-08-10T15:58:40-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri>http://www.sumedhjoshi.com</uri>
@@ -366,11 +380,11 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
   <content type="html">
     &lt;p&gt;A necessary (but not sufficient) condition for numerical stability is the &lt;a href=&quot;https://en.wikipedia.org/wiki/Courant%E2%80%93Friedrichs%E2%80%93Lewy_condition&quot;&gt;Courant-Freidrich-Lewy&lt;/a&gt; condition which restricts the maximum timestep:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{align}
+\[\begin{align}
       \Delta t \leq \frac{ \Delta x }{ c }
-   \end{align}&lt;/script&gt;
+   \end{align}\]
 
-&lt;p&gt;where &lt;script type=&quot;math/tex&quot;&gt;\Delta x&lt;/script&gt; is the grid spacing and &lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt; the characteristic velocity of the flow.  This is easy to calculate if the grid is regular, but what if your grid is a discretized slice of the ocean, and consequently looks something like this:&lt;/p&gt;
+&lt;p&gt;where \(\Delta x\) is the grid spacing and \(c\) the characteristic velocity of the flow.  This is easy to calculate if the grid is regular, but what if your grid is a discretized slice of the ocean, and consequently looks something like this:&lt;/p&gt;
 
 &lt;figure&gt;
 &lt;center&gt;
@@ -379,32 +393,30 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
     &lt;figcaption&gt; A 540,000 node grid with 15 GLL points per direction in each of the 200 x 12 elements (the boxes drawn represent each element). &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;in which each of the tiny boxes themselves represent a 15 x 15 mesh of Gauss-Lobatto-Legendre quadrature points.  This is the case in a high-order element-based code like the spectral multi-domain penalty method, and the computation of the CFL condition (and namely the local deformation &lt;script type=&quot;math/tex&quot;&gt;\Delta x&lt;/script&gt;) is not quite so straightforward.&lt;/p&gt;
+&lt;p&gt;in which each of the tiny boxes themselves represent a 15 x 15 mesh of Gauss-Lobatto-Legendre quadrature points.  This is the case in a high-order element-based code like the spectral multi-domain penalty method, and the computation of the CFL condition (and namely the local deformation \(\Delta x\)) is not quite so straightforward.&lt;/p&gt;
 
 &lt;h2 id=&quot;computing-the-grid-spacing-in-the-master-element&quot;&gt;Computing the grid spacing in the master element&lt;/h2&gt;
 
-&lt;p&gt;Call the coordinates on the master element &lt;script type=&quot;math/tex&quot;&gt;(\eta,\xi)&lt;/script&gt;, and noting that there are &lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt; GLL points in each direction, these coordinates are vectors &lt;script type=&quot;math/tex&quot;&gt;\eta,\xi \in \mathbb{R}^{n^2}&lt;/script&gt;.  The mapping functions that define the physical grid are defined on each element as &lt;script type=&quot;math/tex&quot;&gt;x_k = x_k(\eta,\xi)&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;z_k = z_k(\eta,\xi)&lt;/script&gt;.  Call the collection of all of these maps &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;z&lt;/script&gt; (drop the subscripts.  What we want, for computing the CFL condition, is some measure of &lt;script type=&quot;math/tex&quot;&gt;\Delta x&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\Delta z&lt;/script&gt;, the spacing between grid points in a deformed domain like the one shown above.&lt;/p&gt;
+&lt;p&gt;Call the coordinates on the master element \((\eta,\xi)\), and noting that there are \(n\) GLL points in each direction, these coordinates are vectors \(\eta,\xi \in \mathbb{R}^{n^2}\).  The mapping functions that define the physical grid are defined on each element as \(x_k = x_k(\eta,\xi)\) and \(z_k = z_k(\eta,\xi)\).  Call the collection of all of these maps \(x\) and \(z\) (drop the subscripts.  What we want, for computing the CFL condition, is some measure of \(\Delta x\) and \(\Delta z\), the spacing between grid points in a deformed domain like the one shown above.&lt;/p&gt;
 
-&lt;p&gt;Probably there are many ways to do this, but the one I chose was to make use of the fact that it is easy to get a measure of &lt;script type=&quot;math/tex&quot;&gt;\Delta \eta&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\Delta \xi&lt;/script&gt; on the master element.  For example for the one-dimensional case, compute &lt;script type=&quot;math/tex&quot;&gt;\Delta \eta \in \mathbb{R}^n&lt;/script&gt; using a centered finite difference approximation:&lt;/p&gt;
+&lt;p&gt;Probably there are many ways to do this, but the one I chose was to make use of the fact that it is easy to get a measure of \(\Delta \eta\) and \(\Delta \xi\) on the master element.  For example for the one-dimensional case, compute \(\Delta \eta \in \mathbb{R}^n\) using a centered finite difference approximation:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{align}
-   (\Delta \eta )_j &amp;= \eta_{j+1} - \eta_{j-1}
-\end{align} %]]&gt;&lt;/script&gt;
+\[\begin{align}
+   (\Delta \eta )_j &amp;amp;= \eta_{j+1} - \eta_{j-1}
+\end{align}\]
 
-&lt;p&gt;for &lt;script type=&quot;math/tex&quot;&gt;j = 2, 3, \cdots, n - 1&lt;/script&gt;, with &lt;script type=&quot;math/tex&quot;&gt;(\Delta \eta)_1 = \eta_2 - \eta_1&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;(\Delta \eta)_n = \eta_n - \eta_{n-1}&lt;/script&gt;.  The same idea extends to two-dimensions and computing &lt;script type=&quot;math/tex&quot;&gt;\Delta\xi&lt;/script&gt; along with &lt;script type=&quot;math/tex&quot;&gt;\Delta\eta&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;for \(j = 2, 3, \cdots, n - 1\), with \((\Delta \eta)_1 = \eta_2 - \eta_1\) and \((\Delta \eta)_n = \eta_n - \eta_{n-1}\).  The same idea extends to two-dimensions and computing \(\Delta\xi\) along with \(\Delta\eta\).&lt;/p&gt;
 
 &lt;h2 id=&quot;computing-the-spacing-everywhere-in-grid&quot;&gt;Computing the spacing everywhere in grid&lt;/h2&gt;
 
-&lt;p&gt;Remember that we can easily compute derivatives in &lt;script type=&quot;math/tex&quot;&gt;\eta&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\xi&lt;/script&gt;; that is the whole point of defining these coordinates, to be able to use them in constructing spectral differentiation matrices and computing numerical derivatives.  Using the mapping functions &lt;script type=&quot;math/tex&quot;&gt;x_k&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;z_k&lt;/script&gt; we can then use the chain rule to write the grid spacing on each element as (again dropping the &lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt; in the subscript) as functions of derivatives in &lt;script type=&quot;math/tex&quot;&gt;(\eta,\xi)&lt;/script&gt; coordinates:&lt;/p&gt;
+&lt;p&gt;Remember that we can easily compute derivatives in \(\eta\) and \(\xi\); that is the whole point of defining these coordinates, to be able to use them in constructing spectral differentiation matrices and computing numerical derivatives.  Using the mapping functions \(x_k\) and \(z_k\) we can then use the chain rule to write the grid spacing on each element as (again dropping the \(k\) in the subscript) as functions of derivatives in \((\eta,\xi)\) coordinates:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{align}
-   \Delta x &amp;= \frac{\partial x}{\partial \eta } \Delta \eta + \frac{\partial x}{\partial \xi} \Delta \xi \\
-   \Delta z &amp;= \frac{\partial z}{\partial \eta } \Delta \eta + \frac{\partial z}{\partial \xi} \Delta \xi.
-\end{align} %]]&gt;&lt;/script&gt;
+\[\begin{align}
+   \Delta x &amp;amp;= \frac{\partial x}{\partial \eta } \Delta \eta + \frac{\partial x}{\partial \xi} \Delta \xi \\
+   \Delta z &amp;amp;= \frac{\partial z}{\partial \eta } \Delta \eta + \frac{\partial z}{\partial \xi} \Delta \xi.
+\end{align}\]
 
-&lt;p&gt;These quantities are shown in the figures below; the &lt;script type=&quot;math/tex&quot;&gt;\Delta x&lt;/script&gt; function is basically constant and so is kind of boring (the grid is uniformly spaced in the horizontal), but the &lt;script type=&quot;math/tex&quot;&gt;\Delta z&lt;/script&gt; function has some interesting character as the bathymetry slopes and shallows.&lt;/p&gt;
+&lt;p&gt;These quantities are shown in the figures below; the \(\Delta x\) function is basically constant and so is kind of boring (the grid is uniformly spaced in the horizontal), but the \(\Delta z\) function has some interesting character as the bathymetry slopes and shallows.&lt;/p&gt;
 
 &lt;figure&gt;
 &lt;center&gt;
@@ -418,13 +430,13 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 
 &lt;h2 id=&quot;computing-a-maximum-time-step&quot;&gt;Computing a maximum time-step&lt;/h2&gt;
 
-&lt;p&gt;Using these two quantities, &lt;script type=&quot;math/tex&quot;&gt;\Delta x&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\Delta z&lt;/script&gt;, we can define the maximum time-step allowed in the simulation as&lt;/p&gt;
+&lt;p&gt;Using these two quantities, \(\Delta x\) and \(\Delta z\), we can define the maximum time-step allowed in the simulation as&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{align}
+\[\begin{align}
       \Delta t _{max} = \min_{(x,z)\in \Omega} \min \left\{ \frac{\Delta x(x,z)}{u_x(x,z)}, \frac{\Delta z(x,z)}{u_z(x,z)} \right\}
-   \end{align}&lt;/script&gt;
+   \end{align}\]
 
-&lt;p&gt;which ensures that we are satisfying &lt;script type=&quot;math/tex&quot;&gt;\Delta t \leq \Delta x / u_x&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;\Delta t \leq \Delta z / u_z&lt;/script&gt; everywhere in the domain &lt;script type=&quot;math/tex&quot;&gt;\Omega&lt;/script&gt;.  All of the quantities on the right hand side of the above are computable, and are defined above.&lt;/p&gt;
+&lt;p&gt;which ensures that we are satisfying \(\Delta t \leq \Delta x / u_x\) and \(\Delta t \leq \Delta z / u_z\) everywhere in the domain \(\Omega\).  All of the quantities on the right hand side of the above are computable, and are defined above.&lt;/p&gt;
 
 &lt;h2 id=&quot;example-shoaling-internal-wave&quot;&gt;Example: shoaling internal wave&lt;/h2&gt;
 
@@ -442,13 +454,13 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
     &lt;figcaption&gt; Same plot as above but zoomed into where the velocity is non-zero. &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Setting an initial velocity field that represents a propagating internal wave (as shown in the two pictures above), we can compute the quantity  &lt;script type=&quot;math/tex&quot;&gt;\Delta t(x,z)&lt;/script&gt;:&lt;/p&gt;
+&lt;p&gt;Setting an initial velocity field that represents a propagating internal wave (as shown in the two pictures above), we can compute the quantity  \(\Delta t(x,z)\):&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{align}
+\[\begin{align}
       \Delta t(x,z) = \min \left\{ \frac{\Delta x(x,z)}{u_x(x,z)}, \frac{\Delta z(x,z)}{u_z(x,z)} \right\}.
-   \end{align}&lt;/script&gt;
+   \end{align}\]
 
-&lt;p&gt;The minimum value of this function is the maximum allowable time-step as determined by the CFL condition.  Of course, this function is not constant, and so parts of the grid will have too fine a time-step (i.e. if there is nothing going on in the velocity field there).  But this inefficiency is inescapable since the grid has to advance in time together, and so we have to take the minimum value over the whole grid.  Corresponding to the the internal wave field shown above, &lt;script type=&quot;math/tex&quot;&gt;\Delta t(x,z)&lt;/script&gt; is shown in the two figures below.&lt;/p&gt;
+&lt;p&gt;The minimum value of this function is the maximum allowable time-step as determined by the CFL condition.  Of course, this function is not constant, and so parts of the grid will have too fine a time-step (i.e. if there is nothing going on in the velocity field there).  But this inefficiency is inescapable since the grid has to advance in time together, and so we have to take the minimum value over the whole grid.  Corresponding to the the internal wave field shown above, \(\Delta t(x,z)\) is shown in the two figures below.&lt;/p&gt;
 
 &lt;figure&gt;
 &lt;center&gt;
@@ -464,9 +476,9 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
     &lt;figcaption&gt; The time-step restriction all over the grid (zoomed in to just where the velocity is non-zero).  Of course we have to take the minimum of these since the time-step has to be the same over the whole grid. &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;For this particular field, the maximum time-step allowed, as computed by this method, turns out to be &lt;script type=&quot;math/tex&quot;&gt;\Delta t_{max} \approx 1.6&lt;/script&gt; seconds, and is governed by a tiny region in the middle of wave field near an element boundary.  This makes sense, near the center of the wave the velocity is the highest, and near an element boundary the grid spacing is the most fine.&lt;/p&gt;
+&lt;p&gt;For this particular field, the maximum time-step allowed, as computed by this method, turns out to be \(\Delta t_{max} \approx 1.6\) seconds, and is governed by a tiny region in the middle of wave field near an element boundary.  This makes sense, near the center of the wave the velocity is the highest, and near an element boundary the grid spacing is the most fine.&lt;/p&gt;
 
-&lt;p&gt;Finally, what if we skipped this computation and instead used a heuristic to estimate the time-step?  If instead of doing the above computation, we were to establish a minimum time-step by guessing an average grid spacing and the using the maximum velocity, we would get a very different (and too large) answer of &lt;script type=&quot;math/tex&quot;&gt;\Delta t_{max} \approx 6.3&lt;/script&gt; seconds.  If we attempted to be more conservative and calculated the difference between closest two grid points and divided by the maximum velocity in the grid, we’d get a far too conservative answer of &lt;script type=&quot;math/tex&quot;&gt;\Delta t_{max} \approx 3 \times 10^{-4}&lt;/script&gt; seconds.  The point being: don’t skip this computation.&lt;/p&gt;
+&lt;p&gt;Finally, what if we skipped this computation and instead used a heuristic to estimate the time-step?  If instead of doing the above computation, we were to establish a minimum time-step by guessing an average grid spacing and the using the maximum velocity, we would get a very different (and too large) answer of \(\Delta t_{max} \approx 6.3\) seconds.  If we attempted to be more conservative and calculated the difference between closest two grid points and divided by the maximum velocity in the grid, we’d get a far too conservative answer of \(\Delta t_{max} \approx 3 \times 10^{-4}\) seconds.  The point being: don’t skip this computation.&lt;/p&gt;
 
 
     &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/numerical/computing-the-cfl-number-for-deformed-grids/&quot;&gt;Computing the CFL Number for Deformed Grids&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on August 10, 2015.&lt;/p&gt;
@@ -474,14 +486,12 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[Guessing the Winning Team in a College Football Game]]></title>
   <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/football/estimating-the-winning-team-in-a-college-football-game/" />
   <id>http://www.sumedhjoshi.com/football/estimating-the-winning-team-in-a-college-football-game</id>
-  <published>2015-08-06T14:51:11-04:00</published>
-  <updated>2015-08-06T14:51:11-04:00</updated>
+  <published>2015-08-06T13:51:11-05:00</published>
+  <updated>2015-08-06T13:51:11-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri>http://www.sumedhjoshi.com</uri>
@@ -504,21 +514,21 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 &lt;p&gt;The historical data I had gathered by doing a bunch of tedious data scraping that amounts to almost a million college football plays over the last 5-ish seasons.  The second one took some thought, but I settled on the following 4 variables that I thought mattered in determining the likelihood of the team with the ball winning the game:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;x_1&lt;/script&gt;: yards from the endzone&lt;/li&gt;
-  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;x_2&lt;/script&gt;: offensive team’s score - defensive team’s score&lt;/li&gt;
-  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;x_3&lt;/script&gt;: ( distance left for a first down ) / ( number of downs remaining )&lt;/li&gt;
-  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;x_4&lt;/script&gt;: ( offensive team’s score - defensive team’s score ) / ( time left in the game )&lt;/li&gt;
+  &lt;li&gt;\(x_1\): yards from the endzone&lt;/li&gt;
+  &lt;li&gt;\(x_2\): offensive team’s score - defensive team’s score&lt;/li&gt;
+  &lt;li&gt;\(x_3\): ( distance left for a first down ) / ( number of downs remaining )&lt;/li&gt;
+  &lt;li&gt;\(x_4\): ( offensive team’s score - defensive team’s score ) / ( time left in the game )&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Using these four variables (which we can determine for every play in a game), I denote as &lt;script type=&quot;math/tex&quot;&gt;P&lt;/script&gt; the probability of the offense winning given the current game state ( &lt;script type=&quot;math/tex&quot;&gt;x_1, x_2, x_3, x_4&lt;/script&gt; ), and calculate it with the form&lt;/p&gt;
+&lt;p&gt;Using these four variables (which we can determine for every play in a game), I denote as \(P\) the probability of the offense winning given the current game state ( \(x_1, x_2, x_3, x_4\) ), and calculate it with the form&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\begin{align}
+\[\begin{align}
          P(x_1, x_2, x_3, x_4) = \frac{1}{e^{-(\beta_0 + \beta_1x_1 + \beta_2x_2 + \beta_3 x_3 + \beta_4 x_4)}}.
-      \end{align}&lt;/script&gt;
+      \end{align}\]
 
-&lt;p&gt;Using the historical data set I’ve compiled, I used the python package &lt;a href=&quot;http://pandas.pydata.org/&quot;&gt;Pandas&lt;/a&gt; to find the set of weights &lt;script type=&quot;math/tex&quot;&gt;\beta_0, \beta_1, \beta_2, \beta_3, \beta_4&lt;/script&gt; that best fit the data; these weights are then used to calculate &lt;script type=&quot;math/tex&quot;&gt;P(x_1,x_2,x_3,x_4)&lt;/script&gt; for any given game state as described by the four predictive variables_.&lt;/p&gt;
+&lt;p&gt;Using the historical data set I’ve compiled, I used the python package &lt;a href=&quot;http://pandas.pydata.org/&quot;&gt;Pandas&lt;/a&gt; to find the set of weights \(\beta_0, \beta_1, \beta_2, \beta_3, \beta_4\) that best fit the data; these weights are then used to calculate \(P(x_1,x_2,x_3,x_4)\) for any given game state as described by the four predictive variables_.&lt;/p&gt;
 
-&lt;p&gt;Let’s examine the meaning of the four predictor variables &lt;script type=&quot;math/tex&quot;&gt;x_1, x_2, x_3, x_4&lt;/script&gt;.  The first two are relatively straightforward.  The first measures how far the team with the ball has to go to score, and the second measures how the team with the ball is doing (e.g. are they winning or losing, and if so by how much?).  The third is a measure of how many yards per play the offense has to average to get another first down.  This is important because football is a discrete game in a sense, resetting itself every first down.  Finally, the last predictor variable measures the difficulty of overcoming a defecit or sustaining a lead based on the amount of time left in the game.  If there is very little time left, any defecit/lead is amplified by dividing by the time left in the game.   Admittedly, choosing these four involves a lot of guesswork.&lt;/p&gt;
+&lt;p&gt;Let’s examine the meaning of the four predictor variables \(x_1, x_2, x_3, x_4\).  The first two are relatively straightforward.  The first measures how far the team with the ball has to go to score, and the second measures how the team with the ball is doing (e.g. are they winning or losing, and if so by how much?).  The third is a measure of how many yards per play the offense has to average to get another first down.  This is important because football is a discrete game in a sense, resetting itself every first down.  Finally, the last predictor variable measures the difficulty of overcoming a defecit or sustaining a lead based on the amount of time left in the game.  If there is very little time left, any defecit/lead is amplified by dividing by the time left in the game.   Admittedly, choosing these four involves a lot of guesswork.&lt;/p&gt;
 
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
 
@@ -542,14 +552,12 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[When Do I Write Code?]]></title>
   <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/programming/when-do-i-write-code/" />
   <id>http://www.sumedhjoshi.com/programming/when-do-i-write-code</id>
-  <published>2015-07-21T13:12:22-04:00</published>
-  <updated>2015-07-21T13:12:22-04:00</updated>
+  <published>2015-07-21T12:12:22-05:00</published>
+  <updated>2015-07-21T12:12:22-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri>http://www.sumedhjoshi.com</uri>
@@ -558,11 +566,11 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
   <content type="html">
     &lt;p&gt;I use &lt;a href=&quot;https://mercurial.selenic.com/&quot;&gt;Mercurial&lt;/a&gt; as a version control system for part of my dissertation work, the development of a finite element code.  Besides being easy to use, &lt;a href=&quot;http://www.bitbucket.org&quot;&gt;hosted online&lt;/a&gt;, and useful, it also lets me evaluate how/when I make changes to my code.  By looking at the number of changes I make per day/month/whatever, I can get a rough estimate of when I’m working, when I’m not, and what my work habits are in general.  In Mercurial, this is really easy to do since all change logs can be accessed via command line with&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;$ hg log -v &amp;gt; logs.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;$ hg log -v &amp;gt; logs.txt&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Then just use your favorite text parser to sort the straightforward logs.txt file which contains records of each change in a standardized format, e.g.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;  changeset:   59:783a1a00679c0i
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  changeset:   59:783a1a00679c0i
   user:        Sumedh Joshi &amp;lt;smj96@cornell.edu&amp;gt;
   date:        Tue Jan 07 08:35:49 2014 -0500
   files:       apply_laplacian.f90
@@ -570,7 +578,7 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
   Topic: Fixed minor error in Laplacian.
   Description:
   * Factor of two error incorrect in the Laplacian.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;I’ve made about 600 changes to my repository over the last 1.5 years, and they tell me something about how I work.&lt;/p&gt;
 
@@ -626,14 +634,12 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[Google PageRank, NCAA Football, and Luck]]></title>
   <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/football/google-pagerank-and-ncaa-football/" />
   <id>http://www.sumedhjoshi.com/football/google-pagerank-and-ncaa-football</id>
-  <published>2015-07-03T04:00:45-04:00</published>
-  <updated>2015-07-03T04:00:45-04:00</updated>
+  <published>2015-07-03T03:00:45-05:00</published>
+  <updated>2015-07-03T03:00:45-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri>http://www.sumedhjoshi.com</uri>
@@ -696,13 +702,13 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 
 &lt;p&gt;Because there no large, complete sub-graphs in the college football network, ranking college football teams is a non-trivial task.  Until recently, there was a selection procedure that used computer models to determine rankings.&lt;/p&gt;
 
-&lt;p&gt;Google’s PageRank is an algorithm developed by Google co-founder Larry Page for ranking webpages for importance.  In Page’s original formulation, the internet was modeled as a directed graph with pages as nodes and edges being links from one page to another.  This graph was represented with an adjacency matrix &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;, whose entries &lt;script type=&quot;math/tex&quot;&gt;a_{ij}&lt;/script&gt; are givn by&lt;/p&gt;
+&lt;p&gt;Google’s PageRank is an algorithm developed by Google co-founder Larry Page for ranking webpages for importance.  In Page’s original formulation, the internet was modeled as a directed graph with pages as nodes and edges being links from one page to another.  This graph was represented with an adjacency matrix \(A\), whose entries \(a_{ij}\) are givn by&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a_{ij} = \textrm{edge weight from node } i \textrm{ to node } j&lt;/script&gt;
+\[a_{ij} = \textrm{edge weight from node } i \textrm{ to node } j\]
 
-&lt;p&gt;The PageRank algorithm works (roughly) by using power iteration to obtain the dominant eigenvector &lt;script type=&quot;math/tex&quot;&gt;v&lt;/script&gt; of &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;.  The value of entry &lt;script type=&quot;math/tex&quot;&gt;v_i&lt;/script&gt; in the eigenvector represents the PageRank of node &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt;.  PageRank includes some extra steps to treat edge cases in which the graph is disconnected or there are closed loops, but this is the basic idea.&lt;/p&gt;
+&lt;p&gt;The PageRank algorithm works (roughly) by using power iteration to obtain the dominant eigenvector \(v\) of \(A\).  The value of entry \(v_i\) in the eigenvector represents the PageRank of node \(i\).  PageRank includes some extra steps to treat edge cases in which the graph is disconnected or there are closed loops, but this is the basic idea.&lt;/p&gt;
 
-&lt;p&gt;We can apply PageRank to rank college football teams too.  Again, the teams are the nodes &lt;script type=&quot;math/tex&quot;&gt;v_i&lt;/script&gt;, the edges are the games between them, and the edge weights are the score differential; the edges point from the winning team to the losing team.  Like anything else reasonably famous, these is a Python package to compute pageranks of directed, weighted graphs called networkx.  I used Python/networkx along with data from the 2014 college football season.&lt;/p&gt;
+&lt;p&gt;We can apply PageRank to rank college football teams too.  Again, the teams are the nodes \(v_i\), the edges are the games between them, and the edge weights are the score differential; the edges point from the winning team to the losing team.  Like anything else reasonably famous, these is a Python package to compute pageranks of directed, weighted graphs called networkx.  I used Python/networkx along with data from the 2014 college football season.&lt;/p&gt;
 
 &lt;p&gt;First, let’s just see how PageRank does with the 2015 season.  Here is the ranking of the top-10 teams of the 2015 college football season according to PageRank.&lt;/p&gt;
 
@@ -745,36 +751,36 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 
 &lt;h2 id=&quot;adding-noise-to-the-network&quot;&gt;Adding noise to the network&lt;/h2&gt;
 
-&lt;p&gt;The question I want to ask is, &lt;em&gt;How sensitive is PageRank to noise&lt;/em&gt;?  In this context, noise can be interpreted as luck, and can be modeled as adding to the score differential a zero-mean Gaussian random variable with some variance.  In math, this means that I’ll modify the non-zero entries of the adjacency matrix &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; and create a new matrix &lt;script type=&quot;math/tex&quot;&gt;\tilde{A}&lt;/script&gt; whose entries are defined as&lt;/p&gt;
+&lt;p&gt;The question I want to ask is, &lt;em&gt;How sensitive is PageRank to noise&lt;/em&gt;?  In this context, noise can be interpreted as luck, and can be modeled as adding to the score differential a zero-mean Gaussian random variable with some variance.  In math, this means that I’ll modify the non-zero entries of the adjacency matrix \(A\) and create a new matrix \(\tilde{A}\) whose entries are defined as&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\tilde{a}_{ij} =a_{ij} + N(0,\sigma)&lt;/script&gt;
+\[\tilde{a}_{ij} =a_{ij} + N(0,\sigma)\]
 
-&lt;p&gt;where-ever &lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt; is non-zero.  &lt;script type=&quot;math/tex&quot;&gt;N(0,\sigma)&lt;/script&gt; is a zero-mean Gaussian random variable with standard deviation &lt;script type=&quot;math/tex&quot;&gt;\sigma&lt;/script&gt;.  In my interpretation, &lt;script type=&quot;math/tex&quot;&gt;\sigma&lt;/script&gt; represents how much we think luck matters.  Some possible choices of &lt;script type=&quot;math/tex&quot;&gt;\sigma&lt;/script&gt; are:&lt;/p&gt;
+&lt;p&gt;where-ever \(A\) is non-zero.  \(N(0,\sigma)\) is a zero-mean Gaussian random variable with standard deviation \(\sigma\).  In my interpretation, \(\sigma\) represents how much we think luck matters.  Some possible choices of \(\sigma\) are:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 0&lt;/script&gt;: this means we think the scores represent perfectly who the better team was and by how much.&lt;/p&gt;
+    &lt;p&gt;\(\sigma = 0\): this means we think the scores represent perfectly who the better team was and by how much.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 3&lt;/script&gt;: this means we think that luck matters about a field goal’s worth of points.&lt;/p&gt;
+    &lt;p&gt;\(\sigma = 3\): this means we think that luck matters about a field goal’s worth of points.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 6&lt;/script&gt;: this means we think that luck matters about a touchdown’s worth of points.&lt;/p&gt;
+    &lt;p&gt;\(\sigma = 6\): this means we think that luck matters about a touchdown’s worth of points.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Naturally many other choices are possible, but I wanted to try these three since they have clear interpretations in the context of college football.&lt;/p&gt;
 
-&lt;p&gt;Lastly, and most importantly, I wanted to  make sure I wasn’t monkeying around too much with the data by adding noise everywhere in the college football network.  So, I only added the &lt;script type=&quot;math/tex&quot;&gt;N(0,\sigma)&lt;/script&gt; noise term to games between bad teams.  Any games that included teams ranked roughly in the top-25 of PageRank scores were not modified at all.  My goal was to see if adding noise to &lt;em&gt;unimportant&lt;/em&gt; games (those between bad teams) would affect the rankings of good teams.  Basically what I’m saying is that no one really cares about the outcome of Idaho St. vs. Bowling Green (sorry Vandals and Falcons), and so adding noise to those games should, in principle, not affect the top-10 teams at all.  This turns out to not be true.&lt;/p&gt;
+&lt;p&gt;Lastly, and most importantly, I wanted to  make sure I wasn’t monkeying around too much with the data by adding noise everywhere in the college football network.  So, I only added the \(N(0,\sigma)\) noise term to games between bad teams.  Any games that included teams ranked roughly in the top-25 of PageRank scores were not modified at all.  My goal was to see if adding noise to &lt;em&gt;unimportant&lt;/em&gt; games (those between bad teams) would affect the rankings of good teams.  Basically what I’m saying is that no one really cares about the outcome of Idaho St. vs. Bowling Green (sorry Vandals and Falcons), and so adding noise to those games should, in principle, not affect the top-10 teams at all.  This turns out to not be true.&lt;/p&gt;
 
-&lt;p&gt;Most of the time, as you would expect, when you add noise to teams outside of the top 25, you see no difference in the top-10 rankings; they’re the same ones I posted above.  But every once in a while, the top-10 will change, and even less frequenctly, the &lt;em&gt;number&lt;/em&gt; &lt;em&gt;one&lt;/em&gt; ranked team will change!  In the following table I’ve summarized the results of simulating 1000 trials of random noise with &lt;script type=&quot;math/tex&quot;&gt;\sigma = 0,3&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;6&lt;/script&gt;.  I picked out the resulting subset of trials in which Oregon was ranked higher than Ohio St., and have listed the the results for the top-10 teams.&lt;/p&gt;
+&lt;p&gt;Most of the time, as you would expect, when you add noise to teams outside of the top 25, you see no difference in the top-10 rankings; they’re the same ones I posted above.  But every once in a while, the top-10 will change, and even less frequenctly, the &lt;em&gt;number&lt;/em&gt; &lt;em&gt;one&lt;/em&gt; ranked team will change!  In the following table I’ve summarized the results of simulating 1000 trials of random noise with \(\sigma = 0,3\) and \(6\).  I picked out the resulting subset of trials in which Oregon was ranked higher than Ohio St., and have listed the the results for the top-10 teams.&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 0&lt;/script&gt; (1000/1000 times)&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 3&lt;/script&gt; (1/1000 times)&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;\sigma = 6&lt;/script&gt; (12/1000 times)&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;\(\sigma = 0\) (1000/1000 times)&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;\(\sigma = 3\) (1/1000 times)&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;\(\sigma = 6\) (12/1000 times)&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -842,14 +848,12 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[How Good Is the Average Golfer?]]></title>
   <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/golf/how-good-is-the-average-golfer/" />
   <id>http://www.sumedhjoshi.com/golf/how-good-is-the-average-golfer</id>
-  <published>2015-07-03T00:47:09-04:00</published>
-  <updated>2015-07-03T00:47:09-04:00</updated>
+  <published>2015-07-02T23:47:09-05:00</published>
+  <updated>2015-07-02T23:47:09-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri>http://www.sumedhjoshi.com</uri>
@@ -926,19 +930,17 @@ d &lt; \mu_d %]]&gt;&lt;/script&gt;, the probability distribution of thier shot 
 &lt;p&gt;(possibly not in that order).  So, to beginning golfers everywhere: ignore the handicap rating entirely; we’re not even playing golf yet.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/golf/how-good-is-the-average-golfer/&quot;&gt;How Good Is the Average Golfer?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 03, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.sumedhjoshi.com/golf/how-good-is-the-average-golfer/&quot;&gt;How Good Is the Average Golfer?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://www.sumedhjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 02, 2015.&lt;/p&gt;
   </content>
 </entry>
 
-
-  
 
 <entry>
   <title type="html"><![CDATA[Setting Up a Github Repository for Hosting on Github Pages]]></title>
   <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/meta/setting-up-a-github-repository-for-hosting-on-github-pages/" />
   <id>http://www.sumedhjoshi.com/meta/setting-up-a-github-repository-for-hosting-on-github-pages</id>
-  <published>2015-07-02T21:21:01-04:00</published>
-  <updated>2015-07-02T21:21:01-04:00</updated>
+  <published>2015-07-02T20:21:01-05:00</published>
+  <updated>2015-07-02T20:21:01-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri>http://www.sumedhjoshi.com</uri>
@@ -963,22 +965,22 @@ and that was enough).  Here are the steps I took.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;$ git clone sumedhjoshi.github.io&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;$ git clone sumedhjoshi.github.io&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Copy the Jekyll directory tree that contains your Jekyll webpage into this folder.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;$ cd sumedhjoshi.github.io
-$ cp -R /path/to/jekyll/folder .&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;$ cd sumedhjoshi.github.io
+$ cp -R /path/to/jekyll/folder .&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Add all the Jekyll files to your repository, and commit and push the changes.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;$ git add --all
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;$ git add --all
 $ git commit
-$ git push&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+$ git push&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -995,14 +997,12 @@ $ git push&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[Setting Up MathJax LaTeX Support]]></title>
   <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/meta/setup/setting-up-mathjax-latex-support/" />
   <id>http://www.sumedhjoshi.com/meta/setup/setting-up-mathjax-latex-support</id>
-  <published>2015-06-27T18:31:33-04:00</published>
-  <updated>2015-06-27T18:31:33-04:00</updated>
+  <published>2015-06-27T17:31:33-05:00</published>
+  <updated>2015-06-27T17:31:33-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri>http://www.sumedhjoshi.com</uri>
@@ -1011,17 +1011,17 @@ $ git push&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
   <content type="html">
     &lt;p&gt;This is easy, just add the following snippet into the body of the _layout/post.html:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot;
   src=&amp;quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;quot;&amp;gt;
-&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;This will add MathJax support to all posts. To typset LaTeX, just surround any LaTeX syntax with two dollar signs, like this:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-latex&quot; data-lang=&quot;latex&quot;&gt;$$ (u,v) = \int_\Omega u(x) v^*(x) d\Omega $$&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-latex&quot; data-lang=&quot;latex&quot;&gt;$$ (u,v) = \int_\Omega u(x) v^*(x) d\Omega $$&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;to produce&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(u,v) = \int_\Omega u(x) v^*(x) d\Omega&lt;/script&gt;
+\[(u,v) = \int_\Omega u(x) v^*(x) d\Omega\]
 
 &lt;p&gt;If you also want MathJax support on website pages, add the same code snippet to _layout/page.html.&lt;/p&gt;
 
@@ -1030,14 +1030,12 @@ $ git push&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[Setting Up Disqus]]></title>
   <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/meta/setup/setting-up-disqus/" />
   <id>http://www.sumedhjoshi.com/meta/setup/setting-up-disqus</id>
-  <published>2015-06-27T15:45:07-04:00</published>
-  <updated>2015-06-27T15:45:07-04:00</updated>
+  <published>2015-06-27T14:45:07-05:00</published>
+  <updated>2015-06-27T14:45:07-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri>http://www.sumedhjoshi.com</uri>
@@ -1069,14 +1067,12 @@ There are instructions there for setting up a GitHub hosting account (which is f
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[How I Set Up This Site]]></title>
   <link rel="alternate" type="text/html" href="http://www.sumedhjoshi.com/programming/meta/notes/how-i-set-up-this-site/" />
   <id>http://www.sumedhjoshi.com/programming/meta/notes/how-i-set-up-this-site</id>
-  <published>2015-06-27T02:47:07-04:00</published>
-  <updated>2015-06-27T02:47:07-04:00</updated>
+  <published>2015-06-27T01:47:07-05:00</published>
+  <updated>2015-06-27T01:47:07-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
     <uri>http://www.sumedhjoshi.com</uri>
@@ -1096,20 +1092,20 @@ There are instructions there for setting up a GitHub hosting account (which is f
   &lt;li&gt;
     &lt;p&gt;Modified the images in the /images folder to be smaller in height to save vertical real estate (first installed imagemagick):&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; $ mogrify -crop 100%x40%+0+0 sample-image-?.jpg
-&lt;/code&gt;&lt;/pre&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; $ mogrify -crop 100%x40%+0+0 sample-image-?.jpg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Installed the octopress gem:&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; $ gem install octopress
-&lt;/code&gt;&lt;/pre&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; $ gem install octopress
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Made this post with octopress:&lt;/p&gt;
 
-    &lt;pre&gt;&lt;code&gt; $ octopress new post &quot;How I Set Up This Site&quot;
-&lt;/code&gt;&lt;/pre&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; $ octopress new post &quot;How I Set Up This Site&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
