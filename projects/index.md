@@ -67,4 +67,4 @@ image:
    * Scraping college football play-by-play data into a SQL database for analysis.
    * Data analysis with Pandas/Matlab, visualization with d3.js and dimple.js.
 
-<a markdown="0" href="http://www.sbnation.com/users/Sumedh%20Joshi%20(pleaseplaykindle)/blog" class="btn">Burnt Orange Nation Blog Posts</a>
+<a markdown="0" href="https://www.burntorangenation.com/authors/sumedh-joshi" class="btn">Burnt Orange Nation Blog Posts</a>
