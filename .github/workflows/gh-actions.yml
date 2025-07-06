@@ -62,7 +62,7 @@ deploy:
         run: |
           git config user.name "aledlie"
           git config user.email "aledlie@users.noreply.github.com"
-          git pull origin deploy
+          git pull target deploy
           git add _site
           git commit -m "Auto generated from ${GITHUB_SHA::7}"
           git push
