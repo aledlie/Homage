@@ -68,6 +68,6 @@ deploy:
           git push
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: actions/deploy-pages@v4
 	branch: deploy
 	folder: _site
