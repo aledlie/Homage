@@ -1,0 +1,53 @@
+name: Deploy Jekyll
+on:
+  # The workflow runs only on pushes to the <main> branch
+  push:
+    branches: ["main"]
+    workflow_dispatch:
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4.4'
+      - name: Set up Jekyll
+        run: gem install bundler && bundle install
+      - name: Build site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: compiled-site
+          path: _site
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+# Commit and push the artifacts to the <deploy> branch
+      - uses: actions/checkout@v4
+        with:
+          ref: deploy
+      - name: Download artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: compiled-site
+          path: _site
+      - name: Commit and push
+      # Replace "<username>" with your GH org or user name
+        run: |
+          git config user.name "aledlie"
+          git config user.email "aledlie@users.noreply.github.com"
+          git pull origin deploy
+          git add _site
+          git commit -m "Auto generated from ${GITHUB_SHA::7}"
+          git push
