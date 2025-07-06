@@ -1,6 +1,6 @@
+# Adding comments here to re-trigger the action now that i've set a default remote in the using gh 
 name: Deploy Jekyll
 on:
-  # The workflow runs only on pushes to the <main> branch
   push:
     branches: ["main"]
     workflow_dispatch:
