@@ -4,6 +4,16 @@ on:
   push:
     branches: ["main"]
     workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build:
     name: Build
@@ -15,6 +25,11 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.4.4'
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
       - name: Set up Jekyll
         run: gem install bundler && bundle install
       - name: Build site
@@ -26,14 +41,15 @@ jobs:
         with:
           name: compiled-site
           path: _site
-  deploy:
+  
+deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-# Commit and push the artifacts to the <deploy> branch
       - uses: actions/checkout@v4
         with:
           ref: deploy
@@ -50,3 +66,8 @@ jobs:
           git add _site
           git commit -m "Auto generated from ${GITHUB_SHA::7}"
           git push
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: JamesIves/github-pages-deploy-action@v4
+	branch: deploy
+	folder: _site
