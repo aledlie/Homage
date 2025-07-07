@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="https://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Sumedh Joshi</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="https://www.sumedhmjoshi.com/feed.xml" />
+<link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com" />
+<updated>2025-07-07T22:42:01+00:00</updated>
+<id>https://www.sumedhmjoshi.com/</id>
+<author>
+  <name>Sumedh Joshi</name>
+  <uri>https://www.sumedhmjoshi.com/</uri>
+  <email>sumedh.m.joshi@gmail.com</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[Tracking the Growth of My Dissertation Over Time]]></title>
+  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/academia/tracking-the-growth-of-my-dissertation-over-time/" />
+  <id>https://www.sumedhmjoshi.com/academia/tracking-the-growth-of-my-dissertation-over-time</id>
+  <published>2016-04-25T11:27:08+00:00</published>
+  <updated>2016-04-25T11:27:08+00:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri>https://www.sumedhmjoshi.com</uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;I’ve just (as in, like, five minutes ago) finished a draft of my dissertation.  I thought it would be interesting to look at the history of dissertation.tex, the LaTeX file that represents my last five years of work.  Using mercurial, a horribly cobbled together bash script, and the neat linux command line word counting tool “wc”, I made the following plot of how the number of words in dissertation.tex changed over time.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/how_i_dissertate.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/how_i_dissertate.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; I&apos;m a procrastinator. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The first couple of days I was just copy and pasting in old papers, so those days look productive but don’t let that fool you.  Then for about two weeks I did basically nothing.  And then in the last week or so, and mostly in the last two days, I wrote another 10,000 words (well, 10,000 words of LaTeX code).  Tl;dr I really should have started working on this sooner.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/academia/tracking-the-growth-of-my-dissertation-over-time/&quot;&gt;Tracking the Growth of My Dissertation Over Time&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on April 25, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Tips for Applying for the NDSEG Fellowship]]></title>
+  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/academia/tips-for-applying-for-the-ndseg-fellowship/" />
+  <id>https://www.sumedhmjoshi.com/academia/tips-for-applying-for-the-ndseg-fellowship</id>
+  <published>2016-04-05T00:11:56+00:00</published>
+  <updated>2016-04-05T00:11:56+00:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri>https://www.sumedhmjoshi.com</uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;em&gt;Just FYI, these tips are adapted from a talk I gave to the acoustics graduate program at The University of Texas.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In 2012 I won the National Defense Science and Engineering Graduate (NDSEG) Fellowship to study the interaction between shoaling nonlinear internal waves and ocean acoustics.  To be perfectly honest, I had never considered myself a student that was worthy of such awards, and didn’t expect to win for several reasons.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;First, my grades were okay, but not great (something like a 3.5 out of 4.0).  Second, the NDSEG requires that an applicant be in the first or second year of graduate study.  I was in my third year, but had some extenuating circumstances.  Namely, I had just changed institutions and majors.  Finally, and perhaps most critically, I was going to apply for the fellowship without a letter of recommendation from my research advisor, who (at the time) I had just started working with and didn’t know very well.  Basically, I applied for the fellowship because I had an idea of what I wanted to work on, and it was not that much work.  I didn’t apply because I thought I had a good shot of winning.  However, having successfully won the fellowship under these circumstances, I think I have some useful advice to offer.&lt;/p&gt;
+
+&lt;h2 id=&quot;ndseg-information&quot;&gt;NDSEG information&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The NDSEG has about a 5-10% acceptance rate, which is strongly dependent on the area you apply for.  They used to release statistics on the acceptance rate by application area, but I don’t think they do anymore.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It pays $30k, $30.5k, and $31k in three consecutive years.  It, unlike the NSF fellowship, cannot be deferred.  Also, depending on where you go to graduate school, it may pay less than a graduate research assistantship.  At Cornell, I took a paycut to take the NDSEG.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It is sponsored by the Army Research Office, Office of Naval Research, Air Force Office of Scientific Research, and the High-Performance Computing Modernization Office (my sponsor).  As such, you should be thinking of one of these institutions when you write you application letter.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It has a ridiculously easy application process when compared to the Hertz or the NSF-GRFP.  The NSF requires several pages of essays, and the Hertz requires an in-person interview if you make it that far.  The NDSEG only requires a 3000-word essay.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;application-tips&quot;&gt;Application tips&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Everyone should apply.  Technically it’s supposed to be in your first year of graduate study barring extenuating circumstances.  I applied in my third year of study but had enough extenuating circumstances (new school, field, advisor, and project) that I was awarded the fellowship.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Brainstorm a project; this is on you to come up with something interesting and fun.  Don’t worry too much about having to adhere strictly to it, but make sure it is something you are actually interested in doing so that that sincerity comes across in the application.  If you do not have such a project in mind, seek out mentors in your research group to help you brainstorm (which is good advice for an academic in general!).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Write your essay early, have someone who has written grants to the funding agency you are applying to read it.  Have other NDSEG winners read it.  Have lots of people read it and give feedback.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reference the literature in your essay, at least by names of people who might be good collaborators.  They don’t have to be at Texas.  These are also great people to have read your essay to judge whether your research plan is feasible and a good idea.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use the jargon of your field to make sure your essay gets read by people who know your project.  If there are recognizable institutions you are affiliated with (ARL) reference those to make sure that its clear that you’re a contributing member of the research community.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Write your essay like a mini-grant proposal: that is what it is.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Get letters of rec from people who are either well-known in the field, know you really well, or are likely to write really well.  Ideally they’re academics or research scientists, and ideally they satisfy more than one of those tenants.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Read &lt;a href=&quot;https://www.pgbovine.net/fellowship-tips.htm&quot;&gt;Philip Guo’s page for general advice on fellowship applications&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Grades and scores are not critically important, my grades and scores were both below average for graduate students.  However, make sure you demonstrate that you have a good idea that you are sincerely interested in.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;departing-thoughts&quot;&gt;Departing thoughts&lt;/h2&gt;
+
+&lt;p&gt;In general, you should apply for a fellowship when you feel ready to formulate a problem that you are interested in working on.  In my opinion, it is unfortunate that most of the big fellowships are only awarded in years one and two of a doctoral degree; it was a little bit later that I was more certain of what I wanted to do.  But, you should use these applications as good opportunities to solidify for yourself what it is you want to do.  If you can describe cogently and clearly what your plan for graduate school is, you’re probably a good candidate for the NDSEG, and, other fellowships.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/academia/tips-for-applying-for-the-ndseg-fellowship/&quot;&gt;Tips for Applying for the NDSEG Fellowship&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on April 05, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[How many routes are there to fly from Austin to Mumbai?]]></title>
+  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/misc/how-manys-are-there-to-get-from-austin-to-mumbai/" />
+  <id>https://www.sumedhmjoshi.com/misc/how-manys-are-there-to-get-from-austin-to-mumbai</id>
+  <published>2015-12-17T22:17:46+00:00</published>
+  <updated>2015-12-17T22:17:46+00:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri>https://www.sumedhmjoshi.com</uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/jfk_security.jpg&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/jfk_security.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+   &lt;figcaption&gt; I have measured out my life in security lines. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;never-fly-through-jfkcdg&quot;&gt;Never fly through JFK/CDG&lt;/h2&gt;
+
+&lt;p&gt;This winter break, I flew with my wife and family to India, and made the colossal mistake of splitting up my flights into three segments.  First, from Ausin to New York JFK, JFK to Paris, and finally from Paris to Mumbai.  Each stop inexplicably required that I go through security again (even when our departure gate was in the &lt;em&gt;same terminal&lt;/em&gt;!), and for this reason JFK and Charles de Gaulle may be the worst airports for international travel I’ve ever been through.&lt;/p&gt;
+
+&lt;p&gt;In general, splitting up the 30 or so hour trip into three segments is a bad idea, but we were left with basically no choice.  Scanning the excellent database of flights/airlines/airports at &lt;a href=&quot;https://openflights.org/&quot;&gt;Openflights&lt;/a&gt;, it turns out there are not so many ways to fly from Austin to Mumbai with only one stop.  In fact, there are just two:&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/austin_to_bombay_two_legs.gif&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/austin_to_bombay_two_legs.gif&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+   &lt;figcaption&gt; All the ways to get from Austin to Mumbai with only one stop along the way.  Graphic courtesy https://www.gcmap.com/. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;These two routes are&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Austin (AUS) – Newark (EWR) – Mumbai (BOM)&lt;/li&gt;
+  &lt;li&gt;Austin (AUS) – London Heathrow (LHR) – Mumbai (BOM)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Obviously either of these is better than the route my wife and I took, but knowing this the airlines priced both of these several hundred dollars more expensive than the AUS-JFK-CDG-BOM route we took ($2500 vs. just under $1800 per ticket).  Frankly I was surprised that there were only two options for flying to Mumbai from Austin with a single stop.  Bigger, nearby, cities like Houston (11 ways) or Dallas (8 ways) have many more options, but Austin’s surprising lack of direct connection to many of the bigger European/Asian hubs (like Frankfurt, Amsterdam, Munich, Dubai, Tokyo, etc.) means that there aren’t many ways to get to India with just a single stop.&lt;/p&gt;
+
+&lt;h2 id=&quot;austin-to-mumbai-with-two-stops&quot;&gt;Austin to Mumbai with two stops&lt;/h2&gt;
+
+&lt;p&gt;If you’re willing to stop twice along the way, there are plenty more options that are shown on the map below:&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/austin_to_bombay_three_legs.gif&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/austin_to_bombay_three_legs.gif&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+   &lt;figcaption&gt; All the ways to get from Austin to Mumbai with two stops along the way.  My favorites are the ones connecting through Cancun.  Graphic courtesy https://www.gcmap.com/. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;There are some crazy itineraries here.  For example, since you can fly directly from Newark/London to Mumbai, there are flights that take you through various American cities before heading to Newark/London.  Austin-Seattle-Paris-Mumbai is a particularly ludicrous one.  Some of my favorites are the four or five that fly through Cancun on their way to Frankfurt/Paris/London/Munich, or the several that connect through Johannesburg.  I think it’s safe to say that of all of the available three-segment routes to get to Mumbai, Austin-JFK-Paris-Mumbai is one of the better ones.&lt;/p&gt;
+
+&lt;h2 id=&quot;inter-city-connectivity-graph&quot;&gt;Inter-city connectivity graph&lt;/h2&gt;
+
+&lt;p&gt;This led me to wonder how connected the graph of cities around the world linked by flights is.  So, I populated an adjacency matrix, \(G\), whose entries are defined as&lt;/p&gt;
+
+\[\begin{equation}
+G_{ij} = \begin{cases}
+             1 &amp;amp; \textrm{ if cities $i$ and $j$ are connected by a direct flight} \\
+             0 &amp;amp; \textrm{ otherwise }
+          \end{cases}
+\end{equation}\]
+
+&lt;p&gt;The vertices in this graph are cities, and the edges are flights between them.  There are a total of 2,327 airports on this list (there are a few more in the OpenFlights database that are air force bases and so are not connected to anything).  The average city is connected to 14.1 other cities, with the most connected city is Amsterdam with 246 cities one direct flight away.&lt;/p&gt;
+
+&lt;p&gt;A natural question to ask is how many cities the average city is 2, 3, or 4-flights connected to.  This is easy to compute using powers of the adjacency matrix.  The degree of a vertex \(v_i\) in the graph is the row sum of \(\sum_{j} G_{ij}\), and tells you the number of cities \(v_i\) is directly connected to.  To get the number of cities \(v_i\) is connected to with 2 flights, just take the square of the adjacency matrix, and sum up the number of non-zeros in the \(v_i\) row.  In general, to get the number of cities that are connected by \(k\) flights to \(v_i\),&lt;/p&gt;
+
+\[\begin{equation}
+\textrm{Number of cities $k$-connected to $v_i$ } = \textrm{ Number of non-zeros in $\{G^k_{ij}\}_{j=1}^{n}$ }
+\end{equation}\]
+
+&lt;p&gt;As you might imagine, the graphs \(G^k\) get more and more dense as \(k\) increases, and this is shown in the four pictures below.  Going from left to right, these pictures depiect the sparisty patterns \(G^1,G^2,G^3,G^4\).&lt;/p&gt;
+
+&lt;figure class=&quot;quarter&quot;&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/openflights_adjacency_1.png&quot;&gt;&lt;img width=&quot;24%&quot; src=&quot;/images/openflights_adjacency_1.png&quot; /&gt;&lt;/a&gt;
+   &lt;a href=&quot;/images/openflights_adjacency_2.png&quot;&gt;&lt;img width=&quot;24%&quot; src=&quot;/images/openflights_adjacency_2.png&quot; /&gt;&lt;/a&gt;
+   &lt;a href=&quot;/images/openflights_adjacency_3.png&quot;&gt;&lt;img width=&quot;24%&quot; src=&quot;/images/openflights_adjacency_3.png&quot; /&gt;&lt;/a&gt;
+   &lt;a href=&quot;/images/openflights_adjacency_4.png&quot;&gt;&lt;img width=&quot;24%&quot; src=&quot;/images/openflights_adjacency_4.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+   &lt;figcaption&gt; The sparsity patterns of the first four powers of G, the adjacency matrix of world air travel graph.  From left-to-right are the first, second, third, and fourth powers of this matrix, and a non-zero value in the ij entry indicates that airport i and airport j are connected by 1, 2, 3, or 4 flights.  &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;With a direct flight, the average city is only connected to about 14 other cities, or about 0.6% of the world.  From this perspective, this is a pretty disconnected world.  But, if you allow one stop along the way, the average city is connected to 228 other world cities.  Allow two stops, and this number jumps to 1,077.  Three (1,950) and four stops (2,229), and you’re just about connected to the entire network of 2,327 cities.&lt;/p&gt;
+
+&lt;p&gt;What sort of cities are connected by a minimum of five flights, you might ask?  It’s usually obscure places on one continent and obscure places on another.  For example, it takes a minimum of five flights to get from Port Moresby, Papuaa New Guinea to Lakselv, Norway.  These are itineraries you likely cannot even purchase on Expedia or Kayak (I couldn’t).  I have yet to get their routing algorithm to return any itinerary that has more than 3 stops.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, it is interesting to me how disconnected, on average, the world still seems to be.  The hub-and-spoke routing model’s prevalence means that there are relatively few direct flights between cities, but almost all regional cities are within 2 flights of one another (source -&amp;gt; hub -&amp;gt; destination), almost all domestic cities are within 3 flights of one another (source -&amp;gt; hub -&amp;gt; hub -&amp;gt; destination), and finally almost all international cities are within 4 flights of one another (source -&amp;gt; domestic hub -&amp;gt; international hub -&amp;gt; domestic hub -&amp;gt; destination).  It would be really interesting if OpenFlights had historical routing data to watch the time-evolution of the graph, as its topology undoubtedly changes to react to economic booms/busts, population migration, and growth in developing countries.  In any case, the clear takeaway is that if you’re going to fly three segments to Mumbai from Austin, definitely plan to fly through Cancun instead of New York Kennedy.  Lesson learned.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/misc/how-manys-are-there-to-get-from-austin-to-mumbai/&quot;&gt;How many routes are there to fly from Austin to Mumbai?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on December 17, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Carl Sagan's Contact and Prime Numbers]]></title>
+  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/books/carl-sagans-contact-and-prime-numbers/" />
+  <id>https://www.sumedhmjoshi.com/books/carl-sagans-contact-and-prime-numbers</id>
+  <published>2015-12-08T19:17:16+00:00</published>
+  <updated>2015-12-08T19:17:16+00:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri>https://www.sumedhmjoshi.com</uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;First, &lt;em&gt;Contact&lt;/em&gt; by Carl Sagan is one of my favorite science fiction books (slightly edged out by &lt;em&gt;The Martian Chronicles&lt;/em&gt;), and perhaps one
+of my favorite books ever written.  It tells  the story of alien first contact in a believable scientific way, but my favorite part is the authenticity
+with which Sagan expresses the motivation and sentiments of scientists.  They’re portrayed as reasonable people who sometimes disagree, and even the &lt;em&gt;bad guy program director&lt;/em&gt; isn’t written to be a trope – he has legitimate concerns that aren’t boorish or at the convenience of the plot.&lt;/p&gt;
+
+&lt;p&gt;Of course Sagan was uniquely positioned to write the science well, too, and although he took licenses (as he should have, it’s a work of fiction), by and large as a reader you can learn a lot about both the science and the scientific process.  Which is why I was suprised to come across this scene below, in which Eleanor Arroway (the protagonist), is explaining to Kenneth Her Deer (the President’s science advisor) for the first time how the aliens contacted Earth.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Her Deer&lt;/strong&gt;: I may be the President’s science advisor, but I’m only a biologist.  So please explain it to me slowly.  I understand that if a radio source
+is twenty-six light-years away, then the message had to be sent twenty-six years ago.  In the 1960’s, some funny-looking people with pointy ears thought we’d want to know that they like prime numbers.  But prime numbers aren’t difficult.  It’s not like they’re boasting.  It’s more like they’re sending us remedial arithmetic.  Maybe we should be insulted.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Arroway&lt;/strong&gt;: No, look at it this way.  This is a beacon.  It’s an announcement signal.  It’s designed to attract our attention.  We get strange patterns of pulses from quasars and pulsars and radio galaxies and God-knows-what.  But prime numbers are very specific.  Very artificial.  &lt;em&gt;No even number is prime&lt;/em&gt;, for example.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Of course, this is incorrect.  Two is an even number and is very much prime, since its only divisors are 1 and itself.  I recall reading that exchange several times, startled, that Sagan would have had his main character (who he portrays to be hyper-competant in all other scientific dialogue) make such an egregious mathematical error.  Perhaps a well-intentioned editor replaced Sagan’s original text which explains the usual mysticism of the primes as atoms for the integers, or perhaps Sagan just made a mistake.&lt;/p&gt;
+
+&lt;p&gt;In case you don’t believe me, Page 86 of the 1985 edition of the Simon and Schuster printing of &lt;em&gt;Contact&lt;/em&gt; is below, in which Arroway goes on to explain n more detail what prime numbers are.  In doing so, she even uses 2 as an example of a prime, contradicting the previous paragraph.   And let me state again that this doesn’t take away my enjoyment of the book; it is amazingly written and a great story.  This is just a diversion that is obviously an oversight.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/contact.jpg&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/contact.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; Page 86 of the 1985 edition of the Simon &amp;amp; Schuster printing of Contact by Carl Sagan. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Interestingly, I don’t think this mistake remains in the movie version, which came out much later.  &lt;em&gt;Contact&lt;/em&gt; was actually always intended to be a movie way back in 1979, but because of the development hell that it found itself in, Sagan eventually just wrote a book; the movie came out in 1997, tragically just after his death in 1996.  The movie is very good, but the book is better.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/books/carl-sagans-contact-and-prime-numbers/&quot;&gt;Carl Sagan&apos;s Contact and Prime Numbers&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on December 08, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[How Many of Me Would It Take to Shoot Par in a Scramble?]]></title>
+  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/" />
+  <id>https://www.sumedhmjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble</id>
+  <published>2015-10-09T16:24:52+00:00</published>
+  <updated>2015-10-09T16:24:52+00:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri>https://www.sumedhmjoshi.com</uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;I played in a golf scramble with three friends of mine recently, and together we shot about a 65.  A scramble is a format in which a team of players, usually either 2 or 4, play their collective best shot.  So for example in a 4-person scramble, all four players would hit a tee shot.  The team would agree upon the best of the four tee shots, the four players would advance to that position and each play their second shot from where the best tee shot landed.  They would proceed until the hole was complete.&lt;/p&gt;
+
+&lt;p&gt;So a question I had was, “how many of me would it take to shoot par in a scramble?”.&lt;/p&gt;
+
+&lt;h2 id=&quot;model&quot;&gt;Model&lt;/h2&gt;
+
+&lt;p&gt;To model a round of golf, I need a model for an average golf shot.  This is totally an incorrect assumption, but I assumed that the distance a golfer could hit a golf shot was a normal distribution with some mean \(\mu\) and a standard deviation \(\alpha \mu\).  I also assumed that there was a maxiumum mean shot distance that a golfer could aim for which I called \(\mu_d\). So, a golfer’s skill is parameterized by two numbers:&lt;/p&gt;
+
+\[\begin{align}
+   \mu_d &amp;amp;:= \textrm{Average driver distance} \\
+   \alpha &amp;amp;:= \textrm{Skill, or uncertainty in a shot distance}.
+\end{align}\]
+
+&lt;p&gt;So, if a golfer was attempting a shot of some distance \(d &amp;lt; \mu_d\), the probability distribution of thier shot would be&lt;/p&gt;
+
+\[\begin{align}
+   \textrm{distance} \sim N( d, \alpha d )
+\end{align}\]
+
+&lt;p&gt;where \(N(\mu,\sigma)\) is a normal distribution vith mean \(\mu\) and standard deviation \(\sigma\).  On the other hand, if that same golfer were attempting a shot at a hole that was a distance \(d &amp;gt; \mu_d\) away, then the distribution of that shot would be&lt;/p&gt;
+
+\[\begin{align}
+   \textrm{distance} \sim N( \mu_d, \alpha \mu_d).
+\end{align}\]
+
+&lt;p&gt;The point is that the variability in a golf shot scales linearly with the shot distance \(\mu\) and with slope \(\alpha\).  Using this model I can simulate a hole, a round, a bunch of rounds, and eventually the average number of strokes a golfer takes to finish a round.&lt;/p&gt;
+
+&lt;p&gt;This is a bad model for a lot of reasons:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;It is one-dimensional&lt;/strong&gt;: I assume that the only factor in play is distance to the hole; my model keeps taking strokes until this distance is reduced to the diameter of the cup.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;It disregards penalty strokes&lt;/strong&gt;: In golf, if you hit a ball out of bounds not only do you replay the stroke, you also incur a penalty (this is because golf is an evil game and hates you).  Since I don’t have any out-of-bounds in my model, I also don’t have any penalties.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;It assumes a symmetric PDF&lt;/strong&gt;: The probability distribution I assume is Gaussian.  This means that you have just as much a chance to overshoot your desired distance as undershoot it (in this model).  Clearly this is not physical; a golfer has a much better chance of undershooting a long shot simply because it is harder to hit the ball farther.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;It assumes the distribution is the same for all mean values&lt;/strong&gt;: There is no reason to assume that the PDF of a golf shot is the same distribution for a short vs. a long shot vs. a putt.  They’re just very different situations that probably don’t behave the same probabilistically.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;single-golfer-results&quot;&gt;Single golfer results&lt;/h2&gt;
+
+&lt;p&gt;Despite all these shortcomings, I still wanted to see if this model produced at all reasonable results.  I wrote a short MATLAB script to simulate a bunch of rounds for a bunch of different values of the mean drive distance and skill (again by skill I mean \(\alpha\)).  The golf course I simulated had four par-3’s, 4 par 5’s, and the rest were par-4’s.  All par-3’s were 150 yards, par-4’s were 350 yards, and par-5’s were 500 yards.  The average scores (the color) over a bunch of different drive distances (\([100,350]\) yards) and skill ratings (\([0.0, 0.5]\)) are shown in the figure below.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/golf_surface.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/golf_surface.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; The average score as a function of driver distance (in yards) vs. skill (alpha). &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Remember that a golfer with a skill rating of \(\alpha = 0\) hits a golf shot exactly the distance she wants it to go every single time.  She is obnoxiously good and likely resents playing with me.  Because of her skill rating of 0, even if she drove the ball only 100 yards, she should still shoot just about par (e.g. the bottom left corner of the above image).  A golfer that could drive the ball 250 yards with a skill rating of 0 would shoot about 50, because he would eagle all par 4’s, ace all par 3’s, and double-eagle about half of the par 5’s.  Screw that guy.&lt;/p&gt;
+
+&lt;p&gt;Based on my average round score of about 115, and my average longest drive distance of about 250 yards (this is &lt;em&gt;not&lt;/em&gt; the same as my average drive), my skill rating is about \(\alpha = 0.42\).  This means, roughly, that I’m liable to hit a golf shot anywhere +/-40% of my intended distance.  If you’ve played golf with me, you’ll know this is about correct.&lt;/p&gt;
+
+&lt;p&gt;Finally notice that distance matters a lot less than \(\alpha\); if you want to move down the surface above (and you do), the best way to do it is to reduce \(\alpha\).  To put it another way, the gradient of score is far steeper in the \(\alpha\) direction everywhere except at very, very small drive distances (bottom left).&lt;/p&gt;
+
+&lt;h2 id=&quot;scramble&quot;&gt;Scramble&lt;/h2&gt;
+
+&lt;p&gt;The point of this was to see how much better I would get playing a scramble.  This is effectively like taking the same model above but for every stroke taking multiple realizations of the random variable that represents the stroke and taking the minimum resulting distance from the pin.  Pretty straightforward to program.  I wanted to consider 1, 2, 3, and 4 person scrambles over all the different values of drive distance and \(\alpha\).  Like the simulation above, I ran many simulations to obtain an average score, and I used the same golf course as before.  All the caveats in the model continue to apply here, of course.&lt;/p&gt;
+
+&lt;p&gt;The results are shown in the four figures below, one each for each of the 4 types of scrambles.  In my fictitious scramble, it is one, two, three, or four of the same golfer playing together; identically you can think of yourself playing golf but playing multiple shots each time and taking the best one.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/golf_scramble_surface.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/golf_scramble_surface.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; The average score as a function of driver distance (in yards) vs. skill (alpha) for 1, 2, 3, and 4 person scrambles. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The top left plot is a single golfer, and so is identical to the first picture.  The top right is a two-person scramble, bottom-left a three-person scramble, and bottom-right a four-person scramble.  In all of the plots the magenta line is par (72 strokes).  Anything above the magenta line is below par (\(&amp;lt; 72\) strokes), and anything below it is above par (\(&amp;gt;72\) strokes).  As more and more golfers are added to the scramble, the magenta line moves downward (shorter drive distance required) and to the right (less skill required) – this makes sense, as you get more oppurtunities to hit the ball, the less long and less accurate you have to be.  The drop is most dramatic from 3 to 4 players.  I’d have to dig into the data to be certain, but I’m pretty sure this is due to the inaccuracies in my model (summarized above), but it may also be real… I’m not sure.&lt;/p&gt;
+
+&lt;p&gt;What does the above chart say about me, a \((250.0, 0.42)\) golfer?  Well I would certainly not shoot par as a two-person scramble, and only just graze par as a three-person scramble.   But, as a four-person scramble, I would be shooting in the high-60’s!  That’s great, right? Well.. not quite, since I have a data point that says that me playing with three other, better, golfers, could only muster a 65, I doubt that four of me playing together would shoot just a few strokes over that.  Something’s wrong.  In this case, I’m going to say that my model is incorrect, and likely because it has me occasionally driving the ball 350.0 yards (which it does, I checked).  I can say with great certainty that this has never happened before.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;I think the thing to fix here is that my probability distribution of a golf shot is incorrect; I should model it as a non-symmetric distribution skewed towards short vs. long.  Secondly, while I don’t know of a good way to do this, I should incorporate penalty strokes into my model; these would disproportionally hurt bad golfers like me and correctly inflate my score.  Finally, I should probably have different distributions for putts, iron shots, and driver/woods, as most people (especially bad golfers) play these differently.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/&quot;&gt;How Many of Me Would It Take to Shoot Par in a Scramble?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on October 09, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Computing the CFL Number for Deformed Grids]]></title>
+  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/numerical/computing-the-cfl-number-for-deformed-grids/" />
+  <id>https://www.sumedhmjoshi.com/numerical/computing-the-cfl-number-for-deformed-grids</id>
+  <published>2015-08-10T20:58:40+00:00</published>
+  <updated>2015-08-10T20:58:40+00:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri>https://www.sumedhmjoshi.com</uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;A necessary (but not sufficient) condition for numerical stability is the &lt;a href=&quot;https://en.wikipedia.org/wiki/Courant%E2%80%93Friedrichs%E2%80%93Lewy_condition&quot;&gt;Courant-Freidrich-Lewy&lt;/a&gt; condition which restricts the maximum timestep:&lt;/p&gt;
+
+\[\begin{align}
+      \Delta t \leq \frac{ \Delta x }{ c }
+   \end{align}\]
+
+&lt;p&gt;where \(\Delta x\) is the grid spacing and \(c\) the characteristic velocity of the flow.  This is easy to calculate if the grid is regular, but what if your grid is a discretized slice of the ocean, and consequently looks something like this:&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/cfl_mesh.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/cfl_mesh.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; A 540,000 node grid with 15 GLL points per direction in each of the 200 x 12 elements (the boxes drawn represent each element). &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;in which each of the tiny boxes themselves represent a 15 x 15 mesh of Gauss-Lobatto-Legendre quadrature points.  This is the case in a high-order element-based code like the spectral multi-domain penalty method, and the computation of the CFL condition (and namely the local deformation \(\Delta x\)) is not quite so straightforward.&lt;/p&gt;
+
+&lt;h2 id=&quot;computing-the-grid-spacing-in-the-master-element&quot;&gt;Computing the grid spacing in the master element&lt;/h2&gt;
+
+&lt;p&gt;Call the coordinates on the master element \((\eta,\xi)\), and noting that there are \(n\) GLL points in each direction, these coordinates are vectors \(\eta,\xi \in \mathbb{R}^{n^2}\).  The mapping functions that define the physical grid are defined on each element as \(x_k = x_k(\eta,\xi)\) and \(z_k = z_k(\eta,\xi)\).  Call the collection of all of these maps \(x\) and \(z\) (drop the subscripts.  What we want, for computing the CFL condition, is some measure of \(\Delta x\) and \(\Delta z\), the spacing between grid points in a deformed domain like the one shown above.&lt;/p&gt;
+
+&lt;p&gt;Probably there are many ways to do this, but the one I chose was to make use of the fact that it is easy to get a measure of \(\Delta \eta\) and \(\Delta \xi\) on the master element.  For example for the one-dimensional case, compute \(\Delta \eta \in \mathbb{R}^n\) using a centered finite difference approximation:&lt;/p&gt;
+
+\[\begin{align}
+   (\Delta \eta )_j &amp;amp;= \eta_{j+1} - \eta_{j-1}
+\end{align}\]
+
+&lt;p&gt;for \(j = 2, 3, \cdots, n - 1\), with \((\Delta \eta)_1 = \eta_2 - \eta_1\) and \((\Delta \eta)_n = \eta_n - \eta_{n-1}\).  The same idea extends to two-dimensions and computing \(\Delta\xi\) along with \(\Delta\eta\).&lt;/p&gt;
+
+&lt;h2 id=&quot;computing-the-spacing-everywhere-in-grid&quot;&gt;Computing the spacing everywhere in grid&lt;/h2&gt;
+
+&lt;p&gt;Remember that we can easily compute derivatives in \(\eta\) and \(\xi\); that is the whole point of defining these coordinates, to be able to use them in constructing spectral differentiation matrices and computing numerical derivatives.  Using the mapping functions \(x_k\) and \(z_k\) we can then use the chain rule to write the grid spacing on each element as (again dropping the \(k\) in the subscript) as functions of derivatives in \((\eta,\xi)\) coordinates:&lt;/p&gt;
+
+\[\begin{align}
+   \Delta x &amp;amp;= \frac{\partial x}{\partial \eta } \Delta \eta + \frac{\partial x}{\partial \xi} \Delta \xi \\
+   \Delta z &amp;amp;= \frac{\partial z}{\partial \eta } \Delta \eta + \frac{\partial z}{\partial \xi} \Delta \xi.
+\end{align}\]
+
+&lt;p&gt;These quantities are shown in the figures below; the \(\Delta x\) function is basically constant and so is kind of boring (the grid is uniformly spaced in the horizontal), but the \(\Delta z\) function has some interesting character as the bathymetry slopes and shallows.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/cfl_dx.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/cfl_dx.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/cfl_dz.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/cfl_dz.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; Top: the local grid spacing in x.  Bottom: the local grid spacing in z. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;computing-a-maximum-time-step&quot;&gt;Computing a maximum time-step&lt;/h2&gt;
+
+&lt;p&gt;Using these two quantities, \(\Delta x\) and \(\Delta z\), we can define the maximum time-step allowed in the simulation as&lt;/p&gt;
+
+\[\begin{align}
+      \Delta t _{max} = \min_{(x,z)\in \Omega} \min \left\{ \frac{\Delta x(x,z)}{u_x(x,z)}, \frac{\Delta z(x,z)}{u_z(x,z)} \right\}
+   \end{align}\]
+
+&lt;p&gt;which ensures that we are satisfying \(\Delta t \leq \Delta x / u_x\) and \(\Delta t \leq \Delta z / u_z\) everywhere in the domain \(\Omega\).  All of the quantities on the right hand side of the above are computable, and are defined above.&lt;/p&gt;
+
+&lt;h2 id=&quot;example-shoaling-internal-wave&quot;&gt;Example: shoaling internal wave&lt;/h2&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/cfl_velocity.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/cfl_velocity.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; An internal wave on the grid shown before; this initial velocity disturbance will propagate to the right and shoal (steepen and potentially break). The magnitude of the velocity vector is what is visualized. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/cfl_velocity_zoom.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/cfl_velocity_zoom.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; Same plot as above but zoomed into where the velocity is non-zero. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Setting an initial velocity field that represents a propagating internal wave (as shown in the two pictures above), we can compute the quantity  \(\Delta t(x,z)\):&lt;/p&gt;
+
+\[\begin{align}
+      \Delta t(x,z) = \min \left\{ \frac{\Delta x(x,z)}{u_x(x,z)}, \frac{\Delta z(x,z)}{u_z(x,z)} \right\}.
+   \end{align}\]
+
+&lt;p&gt;The minimum value of this function is the maximum allowable time-step as determined by the CFL condition.  Of course, this function is not constant, and so parts of the grid will have too fine a time-step (i.e. if there is nothing going on in the velocity field there).  But this inefficiency is inescapable since the grid has to advance in time together, and so we have to take the minimum value over the whole grid.  Corresponding to the the internal wave field shown above, \(\Delta t(x,z)\) is shown in the two figures below.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/cfl_timestep.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/cfl_timestep.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; The time-step restriction all over the grid.  Of course we have to take the minimum of these since the time-step has to be the same over the whole grid. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/cfl_timestep_zoom.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/cfl_timestep_zoom.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+    &lt;figcaption&gt; The time-step restriction all over the grid (zoomed in to just where the velocity is non-zero).  Of course we have to take the minimum of these since the time-step has to be the same over the whole grid. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For this particular field, the maximum time-step allowed, as computed by this method, turns out to be \(\Delta t_{max} \approx 1.6\) seconds, and is governed by a tiny region in the middle of wave field near an element boundary.  This makes sense, near the center of the wave the velocity is the highest, and near an element boundary the grid spacing is the most fine.&lt;/p&gt;
+
+&lt;p&gt;Finally, what if we skipped this computation and instead used a heuristic to estimate the time-step?  If instead of doing the above computation, we were to establish a minimum time-step by guessing an average grid spacing and the using the maximum velocity, we would get a very different (and too large) answer of \(\Delta t_{max} \approx 6.3\) seconds.  If we attempted to be more conservative and calculated the difference between closest two grid points and divided by the maximum velocity in the grid, we’d get a far too conservative answer of \(\Delta t_{max} \approx 3 \times 10^{-4}\) seconds.  The point being: don’t skip this computation.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/numerical/computing-the-cfl-number-for-deformed-grids/&quot;&gt;Computing the CFL Number for Deformed Grids&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on August 10, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Guessing the Winning Team in a College Football Game]]></title>
+  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/football/estimating-the-winning-team-in-a-college-football-game/" />
+  <id>https://www.sumedhmjoshi.com/football/estimating-the-winning-team-in-a-college-football-game</id>
+  <published>2015-08-06T18:51:11+00:00</published>
+  <updated>2015-08-06T18:51:11+00:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri>https://www.sumedhmjoshi.com</uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;If, during a college football game, you wanted to guess which team was going to win, how would you do it?  There are lots of ways, but one might be to look at historical data for situations similar to the current game situation and figure out how frequently each team was likely to win.  For example, if Texas were playing USC (hypothetically), and were down by 2 touchdowns with about 6 minutes left in the game, you could look at all similar situations and try to guess based on that data how often the team that was leading (USC) would beat the team that was down (Texas).&lt;/p&gt;
+
+&lt;p&gt;You’d run into problems, of course, if there weren’t &lt;em&gt;that&lt;/em&gt; many situations similar to current game situation you are interested in.  If there isn’t much data, you can’t be very confident in your estimation of the winner.  To help with this data sparsity (and it is definitely problem in a game as rich with possibilities as college football), you could do what I did when I was working on this problem for &lt;a href=&quot;https://www.burntorangenation.com&quot;&gt;Burnt Orange Nation&lt;/a&gt;, which is to employ a regression to a previous data set, effectively extending its reach by smoothly interpolating between otherwise sparse data points.&lt;/p&gt;
+
+&lt;h2 id=&quot;logistic-regression&quot;&gt;Logistic regression&lt;/h2&gt;
+
+&lt;p&gt;Since the outcome I wanted to estimate was a binary (win or lose), I used a &lt;a href=&quot;https://en.wikipedia.org/wiki/Logistic_regression&quot;&gt;logistic regression&lt;/a&gt;, which attempts to use a set of predictor variables to model the probability of an event occuring or not.  The scenario I was faced with was that we were at a certain point in time in a college football game between team A and team B, and I wanted to know likelihood that team A would win.  To do this, I needed:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A bunch of historical data of lots of in-game situations between lots of teams.&lt;/li&gt;
+  &lt;li&gt;A set a predictor variables that I thought would accurately encode information about how the teams were doing in the game until that point.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The historical data I had gathered by doing a bunch of tedious data scraping that amounts to almost a million college football plays over the last 5-ish seasons.  The second one took some thought, but I settled on the following 4 variables that I thought mattered in determining the likelihood of the team with the ball winning the game:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;\(x_1\): yards from the endzone&lt;/li&gt;
+  &lt;li&gt;\(x_2\): offensive team’s score - defensive team’s score&lt;/li&gt;
+  &lt;li&gt;\(x_3\): ( distance left for a first down ) / ( number of downs remaining )&lt;/li&gt;
+  &lt;li&gt;\(x_4\): ( offensive team’s score - defensive team’s score ) / ( time left in the game )&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Using these four variables (which we can determine for every play in a game), I denote as \(P\) the probability of the offense winning given the current game state ( \(x_1, x_2, x_3, x_4\) ), and calculate it with the form&lt;/p&gt;
+
+\[\begin{align}
+         P(x_1, x_2, x_3, x_4) = \frac{1}{e^{-(\beta_0 + \beta_1x_1 + \beta_2x_2 + \beta_3 x_3 + \beta_4 x_4)}}.
+      \end{align}\]
+
+&lt;p&gt;Using the historical data set I’ve compiled, I used the python package &lt;a href=&quot;https://pandas.pydata.org/&quot;&gt;Pandas&lt;/a&gt; to find the set of weights \(\beta_0, \beta_1, \beta_2, \beta_3, \beta_4\) that best fit the data; these weights are then used to calculate \(P(x_1,x_2,x_3,x_4)\) for any given game state as described by the four predictive variables_.&lt;/p&gt;
+
+&lt;p&gt;Let’s examine the meaning of the four predictor variables \(x_1, x_2, x_3, x_4\).  The first two are relatively straightforward.  The first measures how far the team with the ball has to go to score, and the second measures how the team with the ball is doing (e.g. are they winning or losing, and if so by how much?).  The third is a measure of how many yards per play the offense has to average to get another first down.  This is important because football is a discrete game in a sense, resetting itself every first down.  Finally, the last predictor variable measures the difficulty of overcoming a defecit or sustaining a lead based on the amount of time left in the game.  If there is very little time left, any defecit/lead is amplified by dividing by the time left in the game.   Admittedly, choosing these four involves a lot of guesswork.&lt;/p&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;As an exampl, below is the win probability graph of the LSU-Wisconsin game from the 2014 season that &lt;a href=&quot;https://scores.espn.go.com/ncf/recap?gameId=400548000&quot;&gt;ended with LSU overcoming a 24-7 deficit&lt;/a&gt; in the fouth quarter on their way to an improbable win.  The win probability graph reflects this result, showing Wisconsin’s odds of winning plunging from North of 90% to under 10% in about ten minutes of game play.  Over this period of time, Wisconsin surrendered an LSU passing TD, promptly turned the ball over, allowed another long LSU rushing TD, and then once again surrendered the ball on an interception.  What was a 24-13 lead quickly evaporated in a 28-24 loss.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/Wisconsin_LSU_Win_Probability.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/Wisconsin_LSU_Win_Probability.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+   &lt;figcaption&gt; The win probability graph of the tumultuous LSU-Wisconsin game from last season, in which LSU (yellow) stole a victory from Wisconsin (red) late in the game. Each dot represents a play, with an LSU posession in yellow and a Wisconsin posession in red. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;ramblings&quot;&gt;Ramblings&lt;/h2&gt;
+
+&lt;p&gt;Some things to note about this regression model.  First, it’s not very sophisticated.  It ignores things like in-game performance of both teams, historical team strengths/weaknesses, and is cobbled together based on my own intuition.  That said, the results are usually intuitive and the win probabilities even decently smooth (which is perhaps not so surprisingly since the predictor variables all are decently smooth in time themselves).  Second, while I don’t have the data in front me, I recall it correlating pretty well with Las Vegas-based in-game odds predictions last football season (e.g. &lt;a href=&quot;https://www.pivit.io/&quot;&gt;Pivit&lt;/a&gt;).  Finally, since this approach is so straightforward, I wonder how well this would work with other binary games (basketball, political elections, etc.).&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;For more examples, see some of my Burnt Orange Nation blog posts with more plots like these &lt;a href=&quot;https://www.burntorangenation.com/2014/9/2/6095989/postgame-statistical-summary-texas-vs-unt?_ga=1.81211159.1400728072.1434051539&quot;&gt;here&lt;/a&gt;, &lt;a href=&quot;https://www.burntorangenation.com/2014/10/14/6973381/postgame-statistical-summary-texas-vs-oklahoma?_ga=1.81211159.1400728072.1434051539&quot;&gt;here&lt;/a&gt;, and &lt;a href=&quot;https://www.burntorangenation.com/2014/9/9/6121005/postgame-statistical-summary-texas-vs-byu&quot;&gt;here&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/football/estimating-the-winning-team-in-a-college-football-game/&quot;&gt;Guessing the Winning Team in a College Football Game&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on August 06, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[When Do I Write Code?]]></title>
+  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/programming/when-do-i-write-code/" />
+  <id>https://www.sumedhmjoshi.com/programming/when-do-i-write-code</id>
+  <published>2015-07-21T17:12:22+00:00</published>
+  <updated>2015-07-21T17:12:22+00:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri>https://www.sumedhmjoshi.com</uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;I use &lt;a href=&quot;https://mercurial.selenic.com/&quot;&gt;Mercurial&lt;/a&gt; as a version control system for part of my dissertation work, the development of a finite element code.  Besides being easy to use, &lt;a href=&quot;https://www.bitbucket.org&quot;&gt;hosted online&lt;/a&gt;, and useful, it also lets me evaluate how/when I make changes to my code.  By looking at the number of changes I make per day/month/whatever, I can get a rough estimate of when I’m working, when I’m not, and what my work habits are in general.  In Mercurial, this is really easy to do since all change logs can be accessed via command line with&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;$ hg log -v &amp;gt; logs.txt&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Then just use your favorite text parser to sort the straightforward logs.txt file which contains records of each change in a standardized format, e.g.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  changeset:   59:783a1a00679c0i
+  user:        Sumedh Joshi &amp;lt;smj96@cornell.edu&amp;gt;
+  date:        Tue Jan 07 08:35:49 2014 -0500
+  files:       apply_laplacian.f90
+  description:
+  Topic: Fixed minor error in Laplacian.
+  Description:
+  * Factor of two error incorrect in the Laplacian.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I’ve made about 600 changes to my repository over the last 1.5 years, and they tell me something about how I work.&lt;/p&gt;
+
+&lt;h2 id=&quot;changes-by-day-and-month&quot;&gt;Changes by day and month.&lt;/h2&gt;
+
+&lt;p&gt;First, I just sorted all of my changes by month and day (shown in the two pie charts below).  I work, predictably, little on the weekends, and least of all on Saturdays, which are reserved for college football.  Tuesday is my most productive day, slightly edging out Mondays.  Wednesdays are my least productive weekday.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/sumedh_commits_by_day.png&quot;&gt;&lt;img width=&quot;50%&quot; src=&quot;/images/sumedh_commits_by_day.png&quot; /&gt;&lt;/a&gt;
+   &lt;a href=&quot;/images/sumedh_commits_by_month.png&quot;&gt;&lt;img width=&quot;50%&quot; src=&quot;/images/sumedh_commits_by_month.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+   &lt;figcaption&gt; Left: The number of changes per day over the last year.  Right: The number of changes per month over the last year. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Month-wise, I am at my most productive in the winter months: January, December, and February in that order.  Probably this is just because over the last 1.5 years these months have occured twice, but so have several other months which are not as productive.  My best explanation is that these months have bad weather so I probably spend more time inside, and also there isn’t any major team I am a fan of that is in season.&lt;/p&gt;
+
+&lt;p&gt;By far my least productive months are August (football), September (football), and May (NBA playoffs).&lt;/p&gt;
+
+&lt;h2 id=&quot;changes-by-hour-of-day&quot;&gt;Changes by hour of day.&lt;/h2&gt;
+
+&lt;p&gt;One of the perks of being a graduate student is that you don’t have to work in the middle of the day.  These are great times to run errands, work out at an empty gym, go play golf, whatever.  Looking at my changes logs over a 24-hour day (below bar graph) it’s clear that 1. I am not a morning person and 2. I take full advantage of my schedule’s flexibility by working evenings.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/sumedh_commits_by_hour.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/sumedh_commits_by_hour.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+   &lt;figcaption&gt; The number of changes per hour of the day. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Most of my changes (like, the vast majority of them), occur between noon and midnight, with a slight peak at 7pm.  I’ve only had a handful of changes between 7-9am, and if I was working before then, it’s probably just because I was up from the night before.  My schedule has gotten more regular since my fiancee started working so I expect this to change over the next year.  It’ll be fun to look back on this.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-many-changes-on-an-average-day-of-work&quot;&gt;How many changes on an average day of work?&lt;/h2&gt;
+
+&lt;p&gt;Over the 450 or so days I’ve had this repository I’ve made 600 or so changes, which averages to a little over 1 per day.  But, if I had to guess, the vast majority of days I make no changes at all, and on days that I &lt;em&gt;do&lt;/em&gt; make changes I make way more than 1.  To see if my guess was correct, I made a histogram of number of changes I make on days that I actually worked (shown below).&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/sumedh_commits_per_day_of_work.png&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/sumedh_commits_per_day_of_work.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+   &lt;figcaption&gt; The number of changes I make on a day in which I actually work.  April 2nd, 2014: 28 changes.  Never forget.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;So, I’m only sort of right.  On the average day I worked, I made about 5 code changes.  The distribution is very non-symmetric (naturally since you can’t have &lt;em&gt;negative&lt;/em&gt; changes) and looks basically like a &lt;a href=&quot;https://en.wikipedia.org/wiki/Rayleigh_distribution&quot;&gt;Rayleigh distribution&lt;/a&gt;.  There is still a large chunk of days in which I made just 1 or 2 changes which is surprising since I don’t remember those days, but perhaps also unsurprising since… why would I?&lt;/p&gt;
+
+&lt;p&gt;Lastly, I don’t know what got into me on April 2nd of last year, but I checked in 28 changes in a single 24-hour period.  This is over 30 times my daily average over the last year.  Probably some combination of my impending dissertation proposal and the lack of any sort of football motivated me to work.&lt;/p&gt;
+
+&lt;p&gt;To conclude: today is Tuesday, it is July, and it is about 2:30pm.  By historical measures, I should be working diligently instead of writing this post, which is the only commit I’m making to any repository today.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/programming/when-do-i-write-code/&quot;&gt;When Do I Write Code?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 21, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Google PageRank, NCAA Football, and Luck]]></title>
+  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/football/google-pagerank-and-ncaa-football/" />
+  <id>https://www.sumedhmjoshi.com/football/google-pagerank-and-ncaa-football</id>
+  <published>2015-07-03T08:00:45+00:00</published>
+  <updated>2015-07-03T08:00:45+00:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri>https://www.sumedhmjoshi.com</uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h2 id=&quot;graph-of-sports-leagues&quot;&gt;Graph of sports leagues&lt;/h2&gt;
+
+&lt;p&gt;If you think of sports teams as nodes (vertices) and games between teams as edges between the nodes, professional sports leagues have very different characters as graphs.  Most leagues are divided into divisions, or conferences, and so the graphs tend to have clusters within a division, and fewer edges between divisions.  All the graphs are connected, and some, like the one of the NBA, are even complete.  Usually, the sports leagues are divided into subgraphs that are themselves complete; for example Major League Baseball is divided into the American League and National League.  Within each League, all teams play each other, and teams have a limited set of games against teams in the other league (so-called interleague play).&lt;/p&gt;
+
+&lt;p&gt;The graphs of the major American sports leagues are characterized in the table below.  &lt;em&gt;Nodes&lt;/em&gt; means teams, &lt;em&gt;degree&lt;/em&gt; means games, and &lt;em&gt;complete sub-graphs&lt;/em&gt; means the number of divisions/conferences/etc.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;League&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;# of Nodes&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Degree of each node&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;# of Complete Sub-Graphs&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;NBA&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;30&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;82&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;MLB&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;32&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;162&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;NFL&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;32&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;16&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;(&lt;em&gt;Complete sub-graph&lt;/em&gt; is a term I’m using sort of heuristically here; every graph has lots of complete subgraphs of small size; I mean complete sub-graph of conference/division size.)&lt;/p&gt;
+
+&lt;h2 id=&quot;the-graph-of-college-football&quot;&gt;The graph of college football&lt;/h2&gt;
+
+&lt;p&gt;The graph of college football is very different from the ones described above.  This is because a college football team will only play about 12 games in a season, and there is something like 130 college football teams.  There is little hope of there being just 1 or 2 of complete graphs.  This is a characteristic in the NFL too, in which teams play only 16 games per season, but unlike college football, there are only 32 NFL teams.  Take a look at the graph of college football from the 2012 season:&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;center&gt;
+   &lt;a href=&quot;/images/cfb_network_cluster.png&quot;&gt;&lt;img width=&quot;60%&quot; src=&quot;/images/cfb_network_cluster.png&quot; /&gt;&lt;/a&gt;
+&lt;/center&gt;
+   &lt;figcaption&gt; The network of college football.  Teams are nodes, and edges are games between teams.  The six power conferences are clustered together, and the gray circle of teams in the middle are the non-power conference teams. &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;There are six so-called &lt;em&gt;power&lt;/em&gt; conferences which are well-connected within themselves, and are represented by the six clustered groups of teams around the perimeter of the above picture.  Outside of these six conferences, there are the remaining 50% of college football teams that are either independent or in lesser conferences; these teams are represented in gray in the inner circle.  There are few games between power conferences, but lots of games between power and non-power conference teams (these are the edges connecting vertices in the inner circle to one of the outer circle teams).&lt;/p&gt;
+
+&lt;h2 id=&quot;ranking-teams-with-pagerank&quot;&gt;Ranking teams with PageRank&lt;/h2&gt;
+
+&lt;p&gt;Because there no large, complete sub-graphs in the college football network, ranking college football teams is a non-trivial task.  Until recently, there was a selection procedure that used computer models to determine rankings.&lt;/p&gt;
+
+&lt;p&gt;Google’s PageRank is an algorithm developed by Google co-founder Larry Page for ranking webpages for importance.  In Page’s original formulation, the internet was modeled as a directed graph with pages as nodes and edges being links from one page to another.  This graph was represented with an adjacency matrix \(A\), whose entries \(a_{ij}\) are givn by&lt;/p&gt;
+
+\[a_{ij} = \textrm{edge weight from node } i \textrm{ to node } j\]
+
+&lt;p&gt;The PageRank algorithm works (roughly) by using power iteration to obtain the dominant eigenvector \(v\) of \(A\).  The value of entry \(v_i\) in the eigenvector represents the PageRank of node \(i\).  PageRank includes some extra steps to treat edge cases in which the graph is disconnected or there are closed loops, but this is the basic idea.&lt;/p&gt;
+
+&lt;p&gt;We can apply PageRank to rank college football teams too.  Again, the teams are the nodes \(v_i\), the edges are the games between them, and the edge weights are the score differential; the edges point from the winning team to the losing team.  Like anything else reasonably famous, these is a Python package to compute pageranks of directed, weighted graphs called networkx.  I used Python/networkx along with data from the 2014 college football season.&lt;/p&gt;
+
+&lt;p&gt;First, let’s just see how PageRank does with the 2015 season.  Here is the ranking of the top-10 teams of the 2015 college football season according to PageRank.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1. Ohio St.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2. Oregon&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3. Baylor&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4. Mississippi&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5. Georgia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6. Georgia Tech&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7. Virginia Tech&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8. Alabama&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;9. Texas Christian&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;10. Missouri&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;These are somewhat reasonable results; the national champion and runner-up are correctly ranked at #1 and #2.  The rest of the teams are at least all pretty good.  Florida St. is not ranked in the top ten even though they were ranked as the #3 team before the playoffs, but that was a questionable ranking and Florida St. was beaten soundly in their first playoff game.  All-in-all, this seems to produce reasonable results.&lt;/p&gt;
+
+&lt;h2 id=&quot;adding-noise-to-the-network&quot;&gt;Adding noise to the network&lt;/h2&gt;
+
+&lt;p&gt;The question I want to ask is, &lt;em&gt;How sensitive is PageRank to noise&lt;/em&gt;?  In this context, noise can be interpreted as luck, and can be modeled as adding to the score differential a zero-mean Gaussian random variable with some variance.  In math, this means that I’ll modify the non-zero entries of the adjacency matrix \(A\) and create a new matrix \(\tilde{A}\) whose entries are defined as&lt;/p&gt;
+
+\[\tilde{a}_{ij} =a_{ij} + N(0,\sigma)\]
+
+&lt;p&gt;where-ever \(A\) is non-zero.  \(N(0,\sigma)\) is a zero-mean Gaussian random variable with standard deviation \(\sigma\).  In my interpretation, \(\sigma\) represents how much we think luck matters.  Some possible choices of \(\sigma\) are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;\(\sigma = 0\): this means we think the scores represent perfectly who the better team was and by how much.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;\(\sigma = 3\): this means we think that luck matters about a field goal’s worth of points.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;\(\sigma = 6\): this means we think that luck matters about a touchdown’s worth of points.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Naturally many other choices are possible, but I wanted to try these three since they have clear interpretations in the context of college football.&lt;/p&gt;
+
+&lt;p&gt;Lastly, and most importantly, I wanted to  make sure I wasn’t monkeying around too much with the data by adding noise everywhere in the college football network.  So, I only added the \(N(0,\sigma)\) noise term to games between bad teams.  Any games that included teams ranked roughly in the top-25 of PageRank scores were not modified at all.  My goal was to see if adding noise to &lt;em&gt;unimportant&lt;/em&gt; games (those between bad teams) would affect the rankings of good teams.  Basically what I’m saying is that no one really cares about the outcome of Idaho St. vs. Bowling Green (sorry Vandals and Falcons), and so adding noise to those games should, in principle, not affect the top-10 teams at all.  This turns out to not be true.&lt;/p&gt;
+
+&lt;p&gt;Most of the time, as you would expect, when you add noise to teams outside of the top 25, you see no difference in the top-10 rankings; they’re the same ones I posted above.  But every once in a while, the top-10 will change, and even less frequenctly, the &lt;em&gt;number&lt;/em&gt; &lt;em&gt;one&lt;/em&gt; ranked team will change!  In the following table I’ve summarized the results of simulating 1000 trials of random noise with \(\sigma = 0,3\) and \(6\).  I picked out the resulting subset of trials in which Oregon was ranked higher than Ohio St., and have listed the the results for the top-10 teams.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;\(\sigma = 0\) (1000/1000 times)&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;\(\sigma = 3\) (1/1000 times)&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;\(\sigma = 6\) (12/1000 times)&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1. Ohio St.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1. Oregon&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1. Oregon&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2. Oregon&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2. Ohio St.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2. Ohio St.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;3. Baylor&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;3. Baylor&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;3. Baylor&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;4. Mississippi&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;4. Mississippi&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;4. Georgia&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;5. Georgia&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;5. Georgia&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;5. Mississippi&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;6. Georgia Tech&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;6. Georgia Tech&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;6. Georgia Tech&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;7. Virginia Tech&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;7. Virginia Tech&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;7. Virginia Tech&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;8. Alabama&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;8. Alabama&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;8. Alabama&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;9. Texas Christian&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;9. Texas Christian&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;9. Texas Christian&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;10. Missouri&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;10. Missouri&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;10. Missouri&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;This is a weird thing that is happening, and sort of shows the limitation of PageRank as it pertains to the college football network.  First, we (as college football fans) care a &lt;em&gt;lot&lt;/em&gt; about who is #1 and who is #2.  PageRank doesn’t care about this as much; it just wants to make sure that good teams are given good scores.&lt;/p&gt;
+
+&lt;p&gt;Second, the college football network has a very peculiar characteristic in that most paths from high-ranked nodes to other high-ranked nodes travel through the set of low-ranked nodes.  This means that information flows from good teams to good teams through bad teams and the unimportant games between them.  When I add noise to those unimportant games, it can alter the way the paths connect good teams to good teams.  This manifests as changing the PageRank of teams whose games I did not touch.&lt;/p&gt;
+
+&lt;p&gt;I would be curious to see what would happen if I did a similar PageRank + noise experiment with other sports leagues, especially those, like the NBA, whose graphs are complete.  Would the PageRank then be more resilient to noise?&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/football/google-pagerank-and-ncaa-football/&quot;&gt;Google PageRank, NCAA Football, and Luck&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 03, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[How Good Is the Average Golfer?]]></title>
+  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/golf/how-good-is-the-average-golfer/" />
+  <id>https://www.sumedhmjoshi.com/golf/how-good-is-the-average-golfer</id>
+  <published>2015-07-03T04:47:09+00:00</published>
+  <updated>2015-07-03T04:47:09+00:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri>https://www.sumedhmjoshi.com</uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;figure&gt;
+&lt;center&gt;
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-version=&quot;4&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:358px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://instagram.com/p/4pIxyolf1m/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_top&quot;&gt;Hole 15 Colo Vista. Like 40 yards downhill.&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;A photo posted by sumedh (@ithacaisnotthatgreat) on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2015-07-02T17:50:39+00:00&quot;&gt;Jul 2, 2015 at 10:50am PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;
+   &lt;figcaption&gt; Hole #15 at Cola Vista Golf Course in Bastrop, TX. &lt;/figcaption&gt;
+&lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;handicap&quot;&gt;Handicap&lt;/h3&gt;
+
+&lt;p&gt;A golfer’s skill is often measured by a &lt;em&gt;handicap&lt;/em&gt;, which is the average number of strokes over par that it takes for the golfer to complete a course.  According to the &lt;a href=&quot;https://www.usga.org/Handicapping/handicap-index-statistics/mens-handicap-index-statistics-d24e6096.html&quot;&gt;USGA&lt;/a&gt;, over half of all golfers are a +13.0 handicap or better, and almost 80% of all golfers are a +18.0 or better.  This seems to suggest that the vast majority of golfers take about an extra stroke over par per hole. If you have never played golf, let me just say, shooting a +18 is not easy to do, and is not at all indicative of the average golfer.&lt;/p&gt;
+
+&lt;p&gt;First, the way a handicap is measured is incredibly &lt;a href=&quot;https://usga.org/Rule-Books/Handicap-System-Manual/Rule-10/&quot;&gt;complicated&lt;/a&gt;, but I will try to summarize.  To compute your handicap, you first pick out the best few recent rounds of golf you’ve played.  Then, you throw out the best scores among those (usually about half of your rounds get tossed out), and compute the average score of the remaining rounds.  That average score is your handicap.  Because you’re forced to discard your best few scores, to have a good handicap you either have to be consistently good, or be inconsistent and &lt;em&gt;play&lt;/em&gt; &lt;em&gt;a&lt;/em&gt; &lt;em&gt;lot&lt;/em&gt; &lt;em&gt;of&lt;/em&gt; &lt;em&gt;golf&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The problem with using handicap to measure the average golfer is that most bad golfers don’t even know their handicap, if they keep score (accurately) at all.  And even if they did keep their score (accurately), they probably are not paying to register it with the USGA.  So essentially, nobody really knows how bad the average golfer is.  I would hazard a guess (based on my playing experience) that the average golfer that plays enough to have a handicap probably shoots in the high 110’s which is a +45 handicap.  The distribution of scores is certainly very asymmetrical and likely has a heavy tail, populated with folks like &lt;a href=&quot;https://www.golfchannel.com/media/remembering-angelo-worst-avid-golfer/&quot;&gt;Angelo Spagnolo&lt;/a&gt; who owns the distinction of being the world’s worst avid golfer with a handicap rating of +56, and once shooting over a 200 on a professional PGA course.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-handicap&quot;&gt;My Handicap&lt;/h3&gt;
+
+&lt;p&gt;I’ve only played about 20 or so rounds of golf in my life, and most of those I either didn’t keep score, didn’t finish, or don’t have my scorecard.  But, I do have scores for the last five rounds I’ve played.  It’s not pretty:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Course&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Score&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Greatwood&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;141&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Morris Williams&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;129&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;BlackHawk&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;110&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Bluebonnet Hill&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;104&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Colo Vista&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;125&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Unfortunately, by the letter of the handicap rule, my handicap would be based on entirely my worst score, Greatwood, resulting in a course-adjusted score of about 140.  To put that into perspective, it means that I take about twice as many strokes per hole as allowed!  Greatwood is a tough course, especially for beginners (its &lt;a href=&quot;https://en.wikipedia.org/wiki/Slope_rating&quot;&gt;slope rating&lt;/a&gt; is 145, the highest of any course I’ve played), but it’s not &lt;em&gt;that&lt;/em&gt; tough; I am just a bad golfer.&lt;/p&gt;
+
+&lt;p&gt;But, and this is my point, handicap rating views me really unfavorably for the same reasons it views all beginning golfers unfavorably:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I am inconsistent:&lt;/strong&gt; There is a spread of 37 strokes between my best and my worst scores, that’s like 9 holes of golf!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I haven’t played much:&lt;/strong&gt; And worse, I have not played enough golf to offset my bad outliers with good outliers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;I am not good at golf:&lt;/strong&gt; …&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;(possibly not in that order).  So, to beginning golfers everywhere: ignore the handicap rating entirely; we’re not even playing golf yet.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/golf/how-good-is-the-average-golfer/&quot;&gt;How Good Is the Average Golfer?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 03, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Setting Up a Github Repository for Hosting on Github Pages]]></title>
+  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/meta/setting-up-a-github-repository-for-hosting-on-github-pages/" />
+  <id>https://www.sumedhmjoshi.com/meta/setting-up-a-github-repository-for-hosting-on-github-pages</id>
+  <published>2015-07-03T01:21:01+00:00</published>
+  <updated>2015-07-03T01:21:01+00:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri>https://www.sumedhmjoshi.com</uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Most of this was taken from the helpful guide on Github’s &lt;a href=&quot;https://pages.github.com/&quot;&gt;own webpage&lt;/a&gt;.  It is incredibly easy to host
+pages on Github so long as you have a basic working knowledge of version control (I had never used Git before, but I know Mercurial
+and that was enough).  Here are the steps I took.&lt;/p&gt;
+
+&lt;h3 id=&quot;steps&quot;&gt;Steps&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a Github account with username &lt;em&gt;sumedhjoshi&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a repository called &lt;em&gt;sumedhjoshi.github.io&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;On your local machine, clone the git repository you just made:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;$ git clone sumedhjoshi.github.io&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Copy the Jekyll directory tree that contains your Jekyll webpage into this folder.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;$ cd sumedhjoshi.github.io
+$ cp -R /path/to/jekyll/folder .&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add all the Jekyll files to your repository, and commit and push the changes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;$ git add --all
+$ git commit
+$ git push&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Navigate to &lt;em&gt;sumedhjoshi.github.io&lt;/em&gt;, Github Pages will automatically generate your webpage and serve it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;All future updates can be made locally and pushed with git to &lt;em&gt;sumedhjoshi.github.io&lt;/em&gt; and they will take effect immediately!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/meta/setting-up-a-github-repository-for-hosting-on-github-pages/&quot;&gt;Setting Up a Github Repository for Hosting on Github Pages&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 03, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Setting Up MathJax LaTeX Support]]></title>
+  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/meta/setup/setting-up-mathjax-latex-support/" />
+  <id>https://www.sumedhmjoshi.com/meta/setup/setting-up-mathjax-latex-support</id>
+  <published>2015-06-27T22:31:33+00:00</published>
+  <updated>2015-06-27T22:31:33+00:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri>https://www.sumedhmjoshi.com</uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;This is easy, just add the following snippet into the body of the _layout/post.html:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot;
+  src=&amp;quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;quot;&amp;gt;
+&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This will add MathJax support to all posts. To typset LaTeX, just surround any LaTeX syntax with two dollar signs, like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-latex&quot; data-lang=&quot;latex&quot;&gt;$$ (u,v) = \int_\Omega u(x) v^*(x) d\Omega $$&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;to produce&lt;/p&gt;
+
+\[(u,v) = \int_\Omega u(x) v^*(x) d\Omega\]
+
+&lt;p&gt;If you also want MathJax support on website pages, add the same code snippet to _layout/page.html.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/meta/setup/setting-up-mathjax-latex-support/&quot;&gt;Setting Up MathJax LaTeX Support&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Setting Up Disqus]]></title>
+  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/meta/setup/setting-up-disqus/" />
+  <id>https://www.sumedhmjoshi.com/meta/setup/setting-up-disqus</id>
+  <published>2015-06-27T19:45:07+00:00</published>
+  <updated>2015-06-27T19:45:07+00:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri>https://www.sumedhmjoshi.com</uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;I basically followed the very clear instructions set up on &lt;a href=&quot;https://joshualande.com/jekyll-github-pages-poole/&quot;&gt;this&lt;/a&gt; blog post.
+There are instructions there for setting up a GitHub hosting account (which is free, for some reason, if you’re using Jekyll), setting up a domain name to point to the GitHub host, setting up Google Analytics, and setting up the Disqus commenting system.&lt;/p&gt;
+
+&lt;h2 id=&quot;disqus&quot;&gt;Disqus&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make a &lt;a href=&quot;www.disqus.com&quot;&gt;Disqus&lt;/a&gt; account.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a short-name by registering &lt;a href=&quot;https://disqus.com/admin/create/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enable Disqus by setting the disqus-shortname variable in the Jekyll config file.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Set “comments: true” in the YAML front matter of any post that you want commenting enabled on!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/meta/setup/setting-up-disqus/&quot;&gt;Setting Up Disqus&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[How I Set Up This Site]]></title>
+  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/programming/meta/notes/how-i-set-up-this-site/" />
+  <id>https://www.sumedhmjoshi.com/programming/meta/notes/how-i-set-up-this-site</id>
+  <published>2015-06-27T06:47:07+00:00</published>
+  <updated>2015-06-27T06:47:07+00:00</updated>
+  <author>
+    <name>Sumedh Joshi</name>
+    <uri>https://www.sumedhmjoshi.com</uri>
+    <email>sumedh.m.joshi@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Upgraded Ruby to version 2.1.1 to be compatible with clang.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Downloaded and installed Jekyll from https://jekyllrb.com/.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Downloaded and installed the &lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/blob/master/theme-setup/index.md&quot;&gt;Minimial Mistakes&lt;/a&gt; theme.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Modified the images in the /images folder to be smaller in height to save vertical real estate (first installed imagemagick):&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; $ mogrify -crop 100%x40%+0+0 sample-image-?.jpg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Installed the octopress gem:&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; $ gem install octopress
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Made this post with octopress:&lt;/p&gt;
+
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; $ octopress new post &quot;How I Set Up This Site&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/programming/meta/notes/how-i-set-up-this-site/&quot;&gt;How I Set Up This Site&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+</feed>
