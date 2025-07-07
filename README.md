@@ -1,3 +1,3 @@
 # Sumedh Joshi's Personal Website
 
-# Trying to get it up and running again on the actual web :)
+### This was my late husband's site, built in 2013.  Trying to update all the broken dependancies and get it up and running again :)
