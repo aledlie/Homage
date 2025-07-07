@@ -24,9 +24,9 @@ image:
 
 ## Publications
 
-+ A post-processing technique for stabilizing the discontinuous pressure projection operator in marginally- resolved incompressible inviscid flow, S. M. Joshi, P. J. Diamessis, D. T. Steinmoeller, M. Stastna, G. N. Thomsen, Computers and Fluids (currently in press, [arXiv](http://arxiv.org/abs/1512.01755))
++ A post-processing technique for stabilizing the discontinuous pressure projection operator in marginally- resolved incompressible inviscid flow, S. M. Joshi, P. J. Diamessis, D. T. Steinmoeller, M. Stastna, G. N. Thomsen, Computers and Fluids (currently in press, [arXiv](https://arxiv.org/abs/1512.01755))
 
-+ Deflation-augmented preconditioning of the Poisson-Neumann Schur problem using a high-order discontinuous discretization on long domains, S. M. Joshi, G. N. Thomsen, P.J. Diamessis, Journal of Computational Physics, vol. 313 pp. 209-232 ([arXiv](http://arxiv.org/abs/1512.01756))
++ Deflation-augmented preconditioning of the Poisson-Neumann Schur problem using a high-order discontinuous discretization on long domains, S. M. Joshi, G. N. Thomsen, P.J. Diamessis, Journal of Computational Physics, vol. 313 pp. 209-232 ([arXiv](https://arxiv.org/abs/1512.01756))
 
 + Geoacoustic inversions of horizontal and vertical line array acoustic data from a surface ship source of opportunity, S. A. Stotts, R. A. Koch, S. M. Joshi, V. T. Nguyen and D. P. Knobles, IEEE J. Ocean Engineering, vol. 35 No. 1 p. 79-102 (2010)
 
@@ -38,7 +38,7 @@ image:
 
 + High-order 3D numerical modeling of incompressible stratified flows in deformed domains using a mixed spectral element/Fourier discretization, S. M. Joshi, P. J. Diamessis, and G. N. Thomsen, 8th International Symposium on Stratified Flows, San Diego, CA, August 2016
 
-+ A deflated Schur complement method for the iterative solution of a high-order discontinuous element discretization of the Poisson equation, S. M. Joshi and P. J. Diamessis, 14th Copper Mountain Conference on Iterative Methods, Copper Mountain CO,[arxiv](http://arxiv.org/abs/1601.03432)
++ A deflated Schur complement method for the iterative solution of a high-order discontinuous element discretization of the Poisson equation, S. M. Joshi and P. J. Diamessis, 14th Copper Mountain Conference on Iterative Methods, Copper Mountain CO,[arxiv](https://arxiv.org/abs/1601.03432)
 
 + Applicability of two-dimensional boundary scattering models as a proxy for three-dimensional models, B. Tran, S. M. Joshi, M. J. Isakson, Proceedings of Meetings on Acoustics 19 (1), 070079, 2013
 
@@ -112,26 +112,26 @@ image:
 
 #### Mathematics
 
-+ Partial Differential Equations II ([Evans](http://www.amazon.com/Partial-Differential-Equations-Graduate-Mathematics/dp/0821849743/ref=sr_1_1?s=books&ie=UTF8&qid=1435431428&sr=1-1&keywords=evans+partial+differential+equations))
- + Measure Theory and Lesbesgue Integration ([Bartle](http://www.amazon.com/Elements-Integration-Lebesgue-Measure/dp/0471042226/ref=sr_1_29?s=books&ie=UTF8&qid=1435431255&sr=1-29&keywords=measure+theory))
- + Functional Analysis ([Len Gross Course Notes](http://www.math.cornell.edu/~gross/7130notes2012nk.pdf))
- + Algebraic Topology ([Massey](http://www.amazon.com/Algebraic-Topology-Introduction-Graduate-Mathematics/dp/0387902716))
- + Methods of Applied Mathematics I ([Todd Arbogast Course Notes](http://www.ma.utexas.edu/users/arbogast/appMath08c.pdf))
++ Partial Differential Equations II ([Evans](https://www.amazon.com/Partial-Differential-Equations-Graduate-Mathematics/dp/0821849743/ref=sr_1_1?s=books&ie=UTF8&qid=1435431428&sr=1-1&keywords=evans+partial+differential+equations))
+ + Measure Theory and Lesbesgue Integration ([Bartle](https://www.amazon.com/Elements-Integration-Lebesgue-Measure/dp/0471042226/ref=sr_1_29?s=books&ie=UTF8&qid=1435431255&sr=1-29&keywords=measure+theory))
+ + Functional Analysis ([Len Gross Course Notes](https://www.math.cornell.edu/~gross/7130notes2012nk.pdf))
+ + Algebraic Topology ([Massey](https://www.amazon.com/Algebraic-Topology-Introduction-Graduate-Mathematics/dp/0387902716))
+ + Methods of Applied Mathematics I ([Todd Arbogast Course Notes](https://www.ma.utexas.edu/users/arbogast/appMath08c.pdf))
 
 #### Computational Science
 
- + Matrix Computations ([David Bindel Course Notes](http://www.cs.cornell.edu/~bindel/class/cs6210-f12/))
+ + Matrix Computations ([David Bindel Course Notes](https://www.cs.cornell.edu/~bindel/class/cs6210-f12/))
  + Numerical Analysis II (No Text)
  + Spectral Methods for Environmental Incompressible Flows (No Text)
 
 #### Engineering
  + Turbulence and Turbulent Mixing (No Text)
- + Fluid Mechanics I ([Panton](http://www.amazon.com/Incompressible-Flow-Ronald-L-Panton/dp/1118013433))
- + Physical Acoustics I/II ([Blackstock](http://www.amazon.com/Fundamentals-Physical-Acoustics-David-Blackstock/dp/0471319791/ref=sr_1_1?s=books&ie=UTF8&qid=1435431355&sr=1-1&keywords=blackstock+physical+acoustics))
- + Nonlinear Acoustics ([Hamilton](http://www.amazon.com/Nonlinear-Acoustics-Mark-F-Hamilton/dp/0123218608/ref=sr_1_1?s=books&ie=UTF8&qid=1435431372&sr=1-1&keywords=nonlinear+acoustics))
- + Architectural Acoustics ([Long](http://www.amazon.com/Architectural-Acoustics-Second-Marshall-Long/dp/0123982588/ref=sr_1_2?s=books&ie=UTF8&qid=1435431386&sr=1-2&keywords=architectural+acoustics))
- + Wave Phenomena ([Williams](http://www.amazon.com/Fourier-Acoustics-Radiation-Acoustical-Holography/dp/0127539603/ref=sr_1_1?s=books&ie=UTF8&qid=1435594678&sr=1-1&keywords=fourier+acoustics))
- + Wave Phyiscs ([Graff](http://www.amazon.com/Motion-Elastic-Solids-Dover-Physics/dp/0486667456))
+ + Fluid Mechanics I ([Panton](https://www.amazon.com/Incompressible-Flow-Ronald-L-Panton/dp/1118013433))
+ + Physical Acoustics I/II ([Blackstock](https://www.amazon.com/Fundamentals-Physical-Acoustics-David-Blackstock/dp/0471319791/ref=sr_1_1?s=books&ie=UTF8&qid=1435431355&sr=1-1&keywords=blackstock+physical+acoustics))
+ + Nonlinear Acoustics ([Hamilton](https://www.amazon.com/Nonlinear-Acoustics-Mark-F-Hamilton/dp/0123218608/ref=sr_1_1?s=books&ie=UTF8&qid=1435431372&sr=1-1&keywords=nonlinear+acoustics))
+ + Architectural Acoustics ([Long](https://www.amazon.com/Architectural-Acoustics-Second-Marshall-Long/dp/0123982588/ref=sr_1_2?s=books&ie=UTF8&qid=1435431386&sr=1-2&keywords=architectural+acoustics))
+ + Wave Phenomena ([Williams](https://www.amazon.com/Fourier-Acoustics-Radiation-Acoustical-Holography/dp/0127539603/ref=sr_1_1?s=books&ie=UTF8&qid=1435594678&sr=1-1&keywords=fourier+acoustics))
+ + Wave Phyiscs ([Graff](https://www.amazon.com/Motion-Elastic-Solids-Dover-Physics/dp/0486667456))
 
 
 In parenthesis is the text used.

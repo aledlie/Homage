@@ -12,7 +12,7 @@ comments: true
 date: 2015-07-21T12:12:22-05:00
 ---
 
-I use [Mercurial](https://mercurial.selenic.com/) as a version control system for part of my dissertation work, the development of a finite element code.  Besides being easy to use, [hosted online](http://www.bitbucket.org), and useful, it also lets me evaluate how/when I make changes to my code.  By looking at the number of changes I make per day/month/whatever, I can get a rough estimate of when I'm working, when I'm not, and what my work habits are in general.  In Mercurial, this is really easy to do since all change logs can be accessed via command line with 
+I use [Mercurial](https://mercurial.selenic.com/) as a version control system for part of my dissertation work, the development of a finite element code.  Besides being easy to use, [hosted online](https://www.bitbucket.org), and useful, it also lets me evaluate how/when I make changes to my code.  By looking at the number of changes I make per day/month/whatever, I can get a rough estimate of when I'm working, when I'm not, and what my work habits are in general.  In Mercurial, this is really easy to do since all change logs can be accessed via command line with 
 
 {% highlight bash %}
 $ hg log -v > logs.txt

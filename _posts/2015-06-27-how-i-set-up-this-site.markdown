@@ -12,7 +12,7 @@ date: 2015-06-27T01:47:07-05:00
 
 0. Upgraded Ruby to version 2.1.1 to be compatible with clang.
 
-1. Downloaded and installed Jekyll from http://jekyllrb.com/.
+1. Downloaded and installed Jekyll from https://jekyllrb.com/.
 
 2. Downloaded and installed the [Minimial Mistakes](https://github.com/mmistakes/minimal-mistakes/blob/master/theme-setup/index.md) theme.
 

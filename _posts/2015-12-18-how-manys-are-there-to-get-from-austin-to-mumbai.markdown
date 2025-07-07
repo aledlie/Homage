@@ -22,14 +22,14 @@ date: 2015-12-18T03:47:46+05:30
 
 This winter break, I flew with my wife and family to India, and made the colossal mistake of splitting up my flights into three segments.  First, from Ausin to New York JFK, JFK to Paris, and finally from Paris to Mumbai.  Each stop inexplicably required that I go through security again (even when our departure gate was in the _same terminal_!), and for this reason JFK and Charles de Gaulle may be the worst airports for international travel I've ever been through.
 
-In general, splitting up the 30 or so hour trip into three segments is a bad idea, but we were left with basically no choice.  Scanning the excellent database of flights/airlines/airports at [Openflights](http://openflights.org/), it turns out there are not so many ways to fly from Austin to Mumbai with only one stop.  In fact, there are just two:
+In general, splitting up the 30 or so hour trip into three segments is a bad idea, but we were left with basically no choice.  Scanning the excellent database of flights/airlines/airports at [Openflights](https://openflights.org/), it turns out there are not so many ways to fly from Austin to Mumbai with only one stop.  In fact, there are just two:
 
 
 <figure>
 <center>
    <a href="/images/austin_to_bombay_two_legs.gif"><img width="80%" src="/images/austin_to_bombay_two_legs.gif"></a>
 </center>
-   <figcaption> All the ways to get from Austin to Mumbai with only one stop along the way.  Graphic courtesy http://www.gcmap.com/. </figcaption>
+   <figcaption> All the ways to get from Austin to Mumbai with only one stop along the way.  Graphic courtesy https://www.gcmap.com/. </figcaption>
 </figure>
 
 These two routes are
@@ -47,7 +47,7 @@ If you're willing to stop twice along the way, there are plenty more options tha
 <center>
    <a href="/images/austin_to_bombay_three_legs.gif"><img width="80%" src="/images/austin_to_bombay_three_legs.gif"></a>
 </center>
-   <figcaption> All the ways to get from Austin to Mumbai with two stops along the way.  My favorites are the ones connecting through Cancun.  Graphic courtesy http://www.gcmap.com/. </figcaption>
+   <figcaption> All the ways to get from Austin to Mumbai with two stops along the way.  My favorites are the ones connecting through Cancun.  Graphic courtesy https://www.gcmap.com/. </figcaption>
 </figure>
 
 There are some crazy itineraries here.  For example, since you can fly directly from Newark/London to Mumbai, there are flights that take you through various American cities before heading to Newark/London.  Austin-Seattle-Paris-Mumbai is a particularly ludicrous one.  Some of my favorites are the four or five that fly through Cancun on their way to Frankfurt/Paris/London/Munich, or the several that connect through Johannesburg.  I think it's safe to say that of all of the available three-segment routes to get to Mumbai, Austin-JFK-Paris-Mumbai is one of the better ones.

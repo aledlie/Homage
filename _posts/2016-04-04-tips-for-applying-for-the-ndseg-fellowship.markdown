@@ -47,7 +47,7 @@ First, my grades were okay, but not great (something like a 3.5 out of 4.0).  Se
 
 * Get letters of rec from people who are either well-known in the field, know you really well, or are likely to write really well.  Ideally they're academics or research scientists, and ideally they satisfy more than one of those tenants.
 
-* Read [Philip Guo's page for general advice on fellowship applications]( http://www.pgbovine.net/fellowship-tips.htm).
+* Read [Philip Guo's page for general advice on fellowship applications]( https://www.pgbovine.net/fellowship-tips.htm).
 
 * Grades and scores are not critically important, my grades and scores were both below average for graduate students.  However, make sure you demonstrate that you have a good idea that you are sincerely interested in.
 

@@ -15,7 +15,7 @@ This is easy, just add the following snippet into the body of the \_layout/post.
 
 {% highlight html %}
 <script type="text/javascript"
-  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 {% endhighlight %}
 

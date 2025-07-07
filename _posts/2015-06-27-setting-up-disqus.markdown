@@ -11,7 +11,7 @@ image:
 date: 2015-06-27T14:45:07-05:00
 ---
 
-I basically followed the very clear instructions set up on [this](http://joshualande.com/jekyll-github-pages-poole/) blog post.
+I basically followed the very clear instructions set up on [this](https://joshualande.com/jekyll-github-pages-poole/) blog post.
 There are instructions there for setting up a GitHub hosting account (which is free, for some reason, if you're using Jekyll), setting up a domain name to point to the GitHub host, setting up Google Analytics, and setting up the Disqus commenting system.
 
 ## Disqus
