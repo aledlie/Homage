@@ -7,7 +7,7 @@ image:
   feature: sample-image-3.jpg
   credit: WeGraphics
   creditlink: https://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
-published: false
+published: true
 ---
 
 {% include _toc.html %}
