@@ -113,6 +113,8 @@ Example `title: My Awesome Site`
 #### url
 
 Used to generate absolute urls in `sitemap.xml`, `feed.xml`, and for generating canonical URLs in `<head>`. When developing locally either comment this out or use something like `https://localhost:4000` so all assets load properly. *Don't include a trailing `/`*.
+<link rel="stylesheet" href="/assets/css/glightbox.min.css">
+<link rel="stylesheet" href="glightbox.min.css">
 
 Examples:
 

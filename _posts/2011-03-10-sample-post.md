@@ -14,6 +14,8 @@ published: false
 
 <section id="table-of-contents" class="toc">
   <header>
+<link rel="stylesheet" href="/assets/css/glightbox.min.css">
+<link rel="stylesheet" href="glightbox.min.css">
     <h3>Overview</h3>
   </header>
 <div id="drawer" markdown="1">
