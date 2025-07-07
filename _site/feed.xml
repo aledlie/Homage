@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<feed xmlns="https://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Sumedh Joshi</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="https://www.sumedhmjoshi.com/feed.xml" />
-<link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com" />
-<updated>2025-07-07T13:11:32-05:00</updated>
-<id>https://www.sumedhmjoshi.com/</id>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2025-07-07T13:44:39-05:00</updated>
+<id>http://localhost:4000/</id>
 <author>
   <name>Sumedh Joshi</name>
-  <uri>https://www.sumedhmjoshi.com/</uri>
+  <uri>http://localhost:4000/</uri>
   <email>sumedh.m.joshi@gmail.com</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[Tracking the Growth of My Dissertation Over Time]]></title>
-  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/academia/tracking-the-growth-of-my-dissertation-over-time/" />
-  <id>https://www.sumedhmjoshi.com/academia/tracking-the-growth-of-my-dissertation-over-time</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/academia/tracking-the-growth-of-my-dissertation-over-time/" />
+  <id>http://localhost:4000/academia/tracking-the-growth-of-my-dissertation-over-time</id>
   <published>2016-04-25T06:27:08-05:00</published>
   <updated>2016-04-25T06:27:08-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri>https://www.sumedhmjoshi.com</uri>
+    <uri>http://localhost:4000</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -36,20 +36,20 @@
 
 &lt;p&gt;The first couple of days I was just copy and pasting in old papers, so those days look productive but don’t let that fool you.  Then for about two weeks I did basically nothing.  And then in the last week or so, and mostly in the last two days, I wrote another 10,000 words (well, 10,000 words of LaTeX code).  Tl;dr I really should have started working on this sooner.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/academia/tracking-the-growth-of-my-dissertation-over-time/&quot;&gt;Tracking the Growth of My Dissertation Over Time&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on April 25, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/academia/tracking-the-growth-of-my-dissertation-over-time/&quot;&gt;Tracking the Growth of My Dissertation Over Time&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://localhost:4000&quot;&gt;Sumedh Joshi&lt;/a&gt; on April 25, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Tips for Applying for the NDSEG Fellowship]]></title>
-  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/academia/tips-for-applying-for-the-ndseg-fellowship/" />
-  <id>https://www.sumedhmjoshi.com/academia/tips-for-applying-for-the-ndseg-fellowship</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/academia/tips-for-applying-for-the-ndseg-fellowship/" />
+  <id>http://localhost:4000/academia/tips-for-applying-for-the-ndseg-fellowship</id>
   <published>2016-04-04T19:11:56-05:00</published>
   <updated>2016-04-04T19:11:56-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri>https://www.sumedhmjoshi.com</uri>
+    <uri>http://localhost:4000</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -105,7 +105,7 @@
     &lt;p&gt;Get letters of rec from people who are either well-known in the field, know you really well, or are likely to write really well.  Ideally they’re academics or research scientists, and ideally they satisfy more than one of those tenants.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Read &lt;a href=&quot;http://www.pgbovine.net/fellowship-tips.htm&quot;&gt;Philip Guo’s page for general advice on fellowship applications&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;Read &lt;a href=&quot;https://www.pgbovine.net/fellowship-tips.htm&quot;&gt;Philip Guo’s page for general advice on fellowship applications&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Grades and scores are not critically important, my grades and scores were both below average for graduate students.  However, make sure you demonstrate that you have a good idea that you are sincerely interested in.&lt;/p&gt;
@@ -117,20 +117,20 @@
 &lt;p&gt;In general, you should apply for a fellowship when you feel ready to formulate a problem that you are interested in working on.  In my opinion, it is unfortunate that most of the big fellowships are only awarded in years one and two of a doctoral degree; it was a little bit later that I was more certain of what I wanted to do.  But, you should use these applications as good opportunities to solidify for yourself what it is you want to do.  If you can describe cogently and clearly what your plan for graduate school is, you’re probably a good candidate for the NDSEG, and, other fellowships.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/academia/tips-for-applying-for-the-ndseg-fellowship/&quot;&gt;Tips for Applying for the NDSEG Fellowship&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on April 04, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/academia/tips-for-applying-for-the-ndseg-fellowship/&quot;&gt;Tips for Applying for the NDSEG Fellowship&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://localhost:4000&quot;&gt;Sumedh Joshi&lt;/a&gt; on April 04, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[How many routes are there to fly from Austin to Mumbai?]]></title>
-  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/misc/how-manys-are-there-to-get-from-austin-to-mumbai/" />
-  <id>https://www.sumedhmjoshi.com/misc/how-manys-are-there-to-get-from-austin-to-mumbai</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/misc/how-manys-are-there-to-get-from-austin-to-mumbai/" />
+  <id>http://localhost:4000/misc/how-manys-are-there-to-get-from-austin-to-mumbai</id>
   <published>2015-12-17T16:17:46-06:00</published>
   <updated>2015-12-17T16:17:46-06:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri>https://www.sumedhmjoshi.com</uri>
+    <uri>http://localhost:4000</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -145,13 +145,13 @@
 
 &lt;p&gt;This winter break, I flew with my wife and family to India, and made the colossal mistake of splitting up my flights into three segments.  First, from Ausin to New York JFK, JFK to Paris, and finally from Paris to Mumbai.  Each stop inexplicably required that I go through security again (even when our departure gate was in the &lt;em&gt;same terminal&lt;/em&gt;!), and for this reason JFK and Charles de Gaulle may be the worst airports for international travel I’ve ever been through.&lt;/p&gt;
 
-&lt;p&gt;In general, splitting up the 30 or so hour trip into three segments is a bad idea, but we were left with basically no choice.  Scanning the excellent database of flights/airlines/airports at &lt;a href=&quot;http://openflights.org/&quot;&gt;Openflights&lt;/a&gt;, it turns out there are not so many ways to fly from Austin to Mumbai with only one stop.  In fact, there are just two:&lt;/p&gt;
+&lt;p&gt;In general, splitting up the 30 or so hour trip into three segments is a bad idea, but we were left with basically no choice.  Scanning the excellent database of flights/airlines/airports at &lt;a href=&quot;https://openflights.org/&quot;&gt;Openflights&lt;/a&gt;, it turns out there are not so many ways to fly from Austin to Mumbai with only one stop.  In fact, there are just two:&lt;/p&gt;
 
 &lt;figure&gt;
 &lt;center&gt;
    &lt;a href=&quot;/images/austin_to_bombay_two_legs.gif&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/austin_to_bombay_two_legs.gif&quot; /&gt;&lt;/a&gt;
 &lt;/center&gt;
-   &lt;figcaption&gt; All the ways to get from Austin to Mumbai with only one stop along the way.  Graphic courtesy http://www.gcmap.com/. &lt;/figcaption&gt;
+   &lt;figcaption&gt; All the ways to get from Austin to Mumbai with only one stop along the way.  Graphic courtesy https://www.gcmap.com/. &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;These two routes are&lt;/p&gt;
@@ -171,7 +171,7 @@
 &lt;center&gt;
    &lt;a href=&quot;/images/austin_to_bombay_three_legs.gif&quot;&gt;&lt;img width=&quot;80%&quot; src=&quot;/images/austin_to_bombay_three_legs.gif&quot; /&gt;&lt;/a&gt;
 &lt;/center&gt;
-   &lt;figcaption&gt; All the ways to get from Austin to Mumbai with two stops along the way.  My favorites are the ones connecting through Cancun.  Graphic courtesy http://www.gcmap.com/. &lt;/figcaption&gt;
+   &lt;figcaption&gt; All the ways to get from Austin to Mumbai with two stops along the way.  My favorites are the ones connecting through Cancun.  Graphic courtesy https://www.gcmap.com/. &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;There are some crazy itineraries here.  For example, since you can fly directly from Newark/London to Mumbai, there are flights that take you through various American cities before heading to Newark/London.  Austin-Seattle-Paris-Mumbai is a particularly ludicrous one.  Some of my favorites are the four or five that fly through Cancun on their way to Frankfurt/Paris/London/Munich, or the several that connect through Johannesburg.  I think it’s safe to say that of all of the available three-segment routes to get to Mumbai, Austin-JFK-Paris-Mumbai is one of the better ones.&lt;/p&gt;
@@ -214,20 +214,20 @@ G_{ij} = \begin{cases}
 &lt;p&gt;In conclusion, it is interesting to me how disconnected, on average, the world still seems to be.  The hub-and-spoke routing model’s prevalence means that there are relatively few direct flights between cities, but almost all regional cities are within 2 flights of one another (source -&amp;gt; hub -&amp;gt; destination), almost all domestic cities are within 3 flights of one another (source -&amp;gt; hub -&amp;gt; hub -&amp;gt; destination), and finally almost all international cities are within 4 flights of one another (source -&amp;gt; domestic hub -&amp;gt; international hub -&amp;gt; domestic hub -&amp;gt; destination).  It would be really interesting if OpenFlights had historical routing data to watch the time-evolution of the graph, as its topology undoubtedly changes to react to economic booms/busts, population migration, and growth in developing countries.  In any case, the clear takeaway is that if you’re going to fly three segments to Mumbai from Austin, definitely plan to fly through Cancun instead of New York Kennedy.  Lesson learned.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/misc/how-manys-are-there-to-get-from-austin-to-mumbai/&quot;&gt;How many routes are there to fly from Austin to Mumbai?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on December 17, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/misc/how-manys-are-there-to-get-from-austin-to-mumbai/&quot;&gt;How many routes are there to fly from Austin to Mumbai?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://localhost:4000&quot;&gt;Sumedh Joshi&lt;/a&gt; on December 17, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Carl Sagan's Contact and Prime Numbers]]></title>
-  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/books/carl-sagans-contact-and-prime-numbers/" />
-  <id>https://www.sumedhmjoshi.com/books/carl-sagans-contact-and-prime-numbers</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/books/carl-sagans-contact-and-prime-numbers/" />
+  <id>http://localhost:4000/books/carl-sagans-contact-and-prime-numbers</id>
   <published>2015-12-08T13:17:16-06:00</published>
   <updated>2015-12-08T13:17:16-06:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri>https://www.sumedhmjoshi.com</uri>
+    <uri>http://localhost:4000</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -261,20 +261,20 @@ is twenty-six light-years away, then the message had to be sent twenty-six years
 &lt;p&gt;Interestingly, I don’t think this mistake remains in the movie version, which came out much later.  &lt;em&gt;Contact&lt;/em&gt; was actually always intended to be a movie way back in 1979, but because of the development hell that it found itself in, Sagan eventually just wrote a book; the movie came out in 1997, tragically just after his death in 1996.  The movie is very good, but the book is better.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/books/carl-sagans-contact-and-prime-numbers/&quot;&gt;Carl Sagan&apos;s Contact and Prime Numbers&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on December 08, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/books/carl-sagans-contact-and-prime-numbers/&quot;&gt;Carl Sagan&apos;s Contact and Prime Numbers&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://localhost:4000&quot;&gt;Sumedh Joshi&lt;/a&gt; on December 08, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[How Many of Me Would It Take to Shoot Par in a Scramble?]]></title>
-  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/" />
-  <id>https://www.sumedhmjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/" />
+  <id>http://localhost:4000/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble</id>
   <published>2015-10-09T11:24:52-05:00</published>
   <updated>2015-10-09T11:24:52-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri>https://www.sumedhmjoshi.com</uri>
+    <uri>http://localhost:4000</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -361,20 +361,20 @@ is twenty-six light-years away, then the message had to be sent twenty-six years
 &lt;p&gt;I think the thing to fix here is that my probability distribution of a golf shot is incorrect; I should model it as a non-symmetric distribution skewed towards short vs. long.  Secondly, while I don’t know of a good way to do this, I should incorporate penalty strokes into my model; these would disproportionally hurt bad golfers like me and correctly inflate my score.  Finally, I should probably have different distributions for putts, iron shots, and driver/woods, as most people (especially bad golfers) play these differently.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/&quot;&gt;How Many of Me Would It Take to Shoot Par in a Scramble?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on October 09, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/golf/how-many-of-me-would-it-take-to-shoot-par-in-a-scramble/&quot;&gt;How Many of Me Would It Take to Shoot Par in a Scramble?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://localhost:4000&quot;&gt;Sumedh Joshi&lt;/a&gt; on October 09, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Computing the CFL Number for Deformed Grids]]></title>
-  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/numerical/computing-the-cfl-number-for-deformed-grids/" />
-  <id>https://www.sumedhmjoshi.com/numerical/computing-the-cfl-number-for-deformed-grids</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/numerical/computing-the-cfl-number-for-deformed-grids/" />
+  <id>http://localhost:4000/numerical/computing-the-cfl-number-for-deformed-grids</id>
   <published>2015-08-10T15:58:40-05:00</published>
   <updated>2015-08-10T15:58:40-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri>https://www.sumedhmjoshi.com</uri>
+    <uri>http://localhost:4000</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -481,20 +481,20 @@ is twenty-six light-years away, then the message had to be sent twenty-six years
 &lt;p&gt;Finally, what if we skipped this computation and instead used a heuristic to estimate the time-step?  If instead of doing the above computation, we were to establish a minimum time-step by guessing an average grid spacing and the using the maximum velocity, we would get a very different (and too large) answer of \(\Delta t_{max} \approx 6.3\) seconds.  If we attempted to be more conservative and calculated the difference between closest two grid points and divided by the maximum velocity in the grid, we’d get a far too conservative answer of \(\Delta t_{max} \approx 3 \times 10^{-4}\) seconds.  The point being: don’t skip this computation.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/numerical/computing-the-cfl-number-for-deformed-grids/&quot;&gt;Computing the CFL Number for Deformed Grids&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on August 10, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/numerical/computing-the-cfl-number-for-deformed-grids/&quot;&gt;Computing the CFL Number for Deformed Grids&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://localhost:4000&quot;&gt;Sumedh Joshi&lt;/a&gt; on August 10, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Guessing the Winning Team in a College Football Game]]></title>
-  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/football/estimating-the-winning-team-in-a-college-football-game/" />
-  <id>https://www.sumedhmjoshi.com/football/estimating-the-winning-team-in-a-college-football-game</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/football/estimating-the-winning-team-in-a-college-football-game/" />
+  <id>http://localhost:4000/football/estimating-the-winning-team-in-a-college-football-game</id>
   <published>2015-08-06T13:51:11-05:00</published>
   <updated>2015-08-06T13:51:11-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri>https://www.sumedhmjoshi.com</uri>
+    <uri>http://localhost:4000</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -526,13 +526,13 @@ is twenty-six light-years away, then the message had to be sent twenty-six years
          P(x_1, x_2, x_3, x_4) = \frac{1}{e^{-(\beta_0 + \beta_1x_1 + \beta_2x_2 + \beta_3 x_3 + \beta_4 x_4)}}.
       \end{align}\]
 
-&lt;p&gt;Using the historical data set I’ve compiled, I used the python package &lt;a href=&quot;http://pandas.pydata.org/&quot;&gt;Pandas&lt;/a&gt; to find the set of weights \(\beta_0, \beta_1, \beta_2, \beta_3, \beta_4\) that best fit the data; these weights are then used to calculate \(P(x_1,x_2,x_3,x_4)\) for any given game state as described by the four predictive variables_.&lt;/p&gt;
+&lt;p&gt;Using the historical data set I’ve compiled, I used the python package &lt;a href=&quot;https://pandas.pydata.org/&quot;&gt;Pandas&lt;/a&gt; to find the set of weights \(\beta_0, \beta_1, \beta_2, \beta_3, \beta_4\) that best fit the data; these weights are then used to calculate \(P(x_1,x_2,x_3,x_4)\) for any given game state as described by the four predictive variables_.&lt;/p&gt;
 
 &lt;p&gt;Let’s examine the meaning of the four predictor variables \(x_1, x_2, x_3, x_4\).  The first two are relatively straightforward.  The first measures how far the team with the ball has to go to score, and the second measures how the team with the ball is doing (e.g. are they winning or losing, and if so by how much?).  The third is a measure of how many yards per play the offense has to average to get another first down.  This is important because football is a discrete game in a sense, resetting itself every first down.  Finally, the last predictor variable measures the difficulty of overcoming a defecit or sustaining a lead based on the amount of time left in the game.  If there is very little time left, any defecit/lead is amplified by dividing by the time left in the game.   Admittedly, choosing these four involves a lot of guesswork.&lt;/p&gt;
 
 &lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
 
-&lt;p&gt;As an exampl, below is the win probability graph of the LSU-Wisconsin game from the 2014 season that &lt;a href=&quot;http://scores.espn.go.com/ncf/recap?gameId=400548000&quot;&gt;ended with LSU overcoming a 24-7 deficit&lt;/a&gt; in the fouth quarter on their way to an improbable win.  The win probability graph reflects this result, showing Wisconsin’s odds of winning plunging from North of 90% to under 10% in about ten minutes of game play.  Over this period of time, Wisconsin surrendered an LSU passing TD, promptly turned the ball over, allowed another long LSU rushing TD, and then once again surrendered the ball on an interception.  What was a 24-13 lead quickly evaporated in a 28-24 loss.&lt;/p&gt;
+&lt;p&gt;As an exampl, below is the win probability graph of the LSU-Wisconsin game from the 2014 season that &lt;a href=&quot;https://scores.espn.go.com/ncf/recap?gameId=400548000&quot;&gt;ended with LSU overcoming a 24-7 deficit&lt;/a&gt; in the fouth quarter on their way to an improbable win.  The win probability graph reflects this result, showing Wisconsin’s odds of winning plunging from North of 90% to under 10% in about ten minutes of game play.  Over this period of time, Wisconsin surrendered an LSU passing TD, promptly turned the ball over, allowed another long LSU rushing TD, and then once again surrendered the ball on an interception.  What was a 24-13 lead quickly evaporated in a 28-24 loss.&lt;/p&gt;
 
 &lt;figure&gt;
 &lt;center&gt;
@@ -543,28 +543,28 @@ is twenty-six light-years away, then the message had to be sent twenty-six years
 
 &lt;h2 id=&quot;ramblings&quot;&gt;Ramblings&lt;/h2&gt;
 
-&lt;p&gt;Some things to note about this regression model.  First, it’s not very sophisticated.  It ignores things like in-game performance of both teams, historical team strengths/weaknesses, and is cobbled together based on my own intuition.  That said, the results are usually intuitive and the win probabilities even decently smooth (which is perhaps not so surprisingly since the predictor variables all are decently smooth in time themselves).  Second, while I don’t have the data in front me, I recall it correlating pretty well with Las Vegas-based in-game odds predictions last football season (e.g. &lt;a href=&quot;http://www.pivit.io/&quot;&gt;Pivit&lt;/a&gt;).  Finally, since this approach is so straightforward, I wonder how well this would work with other binary games (basketball, political elections, etc.).&lt;/p&gt;
+&lt;p&gt;Some things to note about this regression model.  First, it’s not very sophisticated.  It ignores things like in-game performance of both teams, historical team strengths/weaknesses, and is cobbled together based on my own intuition.  That said, the results are usually intuitive and the win probabilities even decently smooth (which is perhaps not so surprisingly since the predictor variables all are decently smooth in time themselves).  Second, while I don’t have the data in front me, I recall it correlating pretty well with Las Vegas-based in-game odds predictions last football season (e.g. &lt;a href=&quot;https://www.pivit.io/&quot;&gt;Pivit&lt;/a&gt;).  Finally, since this approach is so straightforward, I wonder how well this would work with other binary games (basketball, political elections, etc.).&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;For more examples, see some of my Burnt Orange Nation blog posts with more plots like these &lt;a href=&quot;http://www.burntorangenation.com/2014/9/2/6095989/postgame-statistical-summary-texas-vs-unt?_ga=1.81211159.1400728072.1434051539&quot;&gt;here&lt;/a&gt;, &lt;a href=&quot;http://www.burntorangenation.com/2014/10/14/6973381/postgame-statistical-summary-texas-vs-oklahoma?_ga=1.81211159.1400728072.1434051539&quot;&gt;here&lt;/a&gt;, and &lt;a href=&quot;http://www.burntorangenation.com/2014/9/9/6121005/postgame-statistical-summary-texas-vs-byu&quot;&gt;here&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For more examples, see some of my Burnt Orange Nation blog posts with more plots like these &lt;a href=&quot;https://www.burntorangenation.com/2014/9/2/6095989/postgame-statistical-summary-texas-vs-unt?_ga=1.81211159.1400728072.1434051539&quot;&gt;here&lt;/a&gt;, &lt;a href=&quot;https://www.burntorangenation.com/2014/10/14/6973381/postgame-statistical-summary-texas-vs-oklahoma?_ga=1.81211159.1400728072.1434051539&quot;&gt;here&lt;/a&gt;, and &lt;a href=&quot;https://www.burntorangenation.com/2014/9/9/6121005/postgame-statistical-summary-texas-vs-byu&quot;&gt;here&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/football/estimating-the-winning-team-in-a-college-football-game/&quot;&gt;Guessing the Winning Team in a College Football Game&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on August 06, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/football/estimating-the-winning-team-in-a-college-football-game/&quot;&gt;Guessing the Winning Team in a College Football Game&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://localhost:4000&quot;&gt;Sumedh Joshi&lt;/a&gt; on August 06, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[When Do I Write Code?]]></title>
-  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/programming/when-do-i-write-code/" />
-  <id>https://www.sumedhmjoshi.com/programming/when-do-i-write-code</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/programming/when-do-i-write-code/" />
+  <id>http://localhost:4000/programming/when-do-i-write-code</id>
   <published>2015-07-21T12:12:22-05:00</published>
   <updated>2015-07-21T12:12:22-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri>https://www.sumedhmjoshi.com</uri>
+    <uri>http://localhost:4000</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;I use &lt;a href=&quot;https://mercurial.selenic.com/&quot;&gt;Mercurial&lt;/a&gt; as a version control system for part of my dissertation work, the development of a finite element code.  Besides being easy to use, &lt;a href=&quot;http://www.bitbucket.org&quot;&gt;hosted online&lt;/a&gt;, and useful, it also lets me evaluate how/when I make changes to my code.  By looking at the number of changes I make per day/month/whatever, I can get a rough estimate of when I’m working, when I’m not, and what my work habits are in general.  In Mercurial, this is really easy to do since all change logs can be accessed via command line with&lt;/p&gt;
+    &lt;p&gt;I use &lt;a href=&quot;https://mercurial.selenic.com/&quot;&gt;Mercurial&lt;/a&gt; as a version control system for part of my dissertation work, the development of a finite element code.  Besides being easy to use, &lt;a href=&quot;https://www.bitbucket.org&quot;&gt;hosted online&lt;/a&gt;, and useful, it also lets me evaluate how/when I make changes to my code.  By looking at the number of changes I make per day/month/whatever, I can get a rough estimate of when I’m working, when I’m not, and what my work habits are in general.  In Mercurial, this is really easy to do since all change logs can be accessed via command line with&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;$ hg log -v &amp;gt; logs.txt&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -629,20 +629,20 @@ is twenty-six light-years away, then the message had to be sent twenty-six years
 &lt;p&gt;To conclude: today is Tuesday, it is July, and it is about 2:30pm.  By historical measures, I should be working diligently instead of writing this post, which is the only commit I’m making to any repository today.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/programming/when-do-i-write-code/&quot;&gt;When Do I Write Code?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 21, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/programming/when-do-i-write-code/&quot;&gt;When Do I Write Code?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://localhost:4000&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 21, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Google PageRank, NCAA Football, and Luck]]></title>
-  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/football/google-pagerank-and-ncaa-football/" />
-  <id>https://www.sumedhmjoshi.com/football/google-pagerank-and-ncaa-football</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/football/google-pagerank-and-ncaa-football/" />
+  <id>http://localhost:4000/football/google-pagerank-and-ncaa-football</id>
   <published>2015-07-03T03:00:45-05:00</published>
   <updated>2015-07-03T03:00:45-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri>https://www.sumedhmjoshi.com</uri>
+    <uri>http://localhost:4000</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -843,20 +843,20 @@ is twenty-six light-years away, then the message had to be sent twenty-six years
 
 &lt;p&gt;I would be curious to see what would happen if I did a similar PageRank + noise experiment with other sports leagues, especially those, like the NBA, whose graphs are complete.  Would the PageRank then be more resilient to noise?&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/football/google-pagerank-and-ncaa-football/&quot;&gt;Google PageRank, NCAA Football, and Luck&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 03, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/football/google-pagerank-and-ncaa-football/&quot;&gt;Google PageRank, NCAA Football, and Luck&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://localhost:4000&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 03, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[How Good Is the Average Golfer?]]></title>
-  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/golf/how-good-is-the-average-golfer/" />
-  <id>https://www.sumedhmjoshi.com/golf/how-good-is-the-average-golfer</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/golf/how-good-is-the-average-golfer/" />
+  <id>http://localhost:4000/golf/how-good-is-the-average-golfer</id>
   <published>2015-07-02T23:47:09-05:00</published>
   <updated>2015-07-02T23:47:09-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri>https://www.sumedhmjoshi.com</uri>
+    <uri>http://localhost:4000</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -870,11 +870,11 @@ is twenty-six light-years away, then the message had to be sent twenty-six years
 
 &lt;h3 id=&quot;handicap&quot;&gt;Handicap&lt;/h3&gt;
 
-&lt;p&gt;A golfer’s skill is often measured by a &lt;em&gt;handicap&lt;/em&gt;, which is the average number of strokes over par that it takes for the golfer to complete a course.  According to the &lt;a href=&quot;http://www.usga.org/Handicapping/handicap-index-statistics/mens-handicap-index-statistics-d24e6096.html&quot;&gt;USGA&lt;/a&gt;, over half of all golfers are a +13.0 handicap or better, and almost 80% of all golfers are a +18.0 or better.  This seems to suggest that the vast majority of golfers take about an extra stroke over par per hole. If you have never played golf, let me just say, shooting a +18 is not easy to do, and is not at all indicative of the average golfer.&lt;/p&gt;
+&lt;p&gt;A golfer’s skill is often measured by a &lt;em&gt;handicap&lt;/em&gt;, which is the average number of strokes over par that it takes for the golfer to complete a course.  According to the &lt;a href=&quot;https://www.usga.org/Handicapping/handicap-index-statistics/mens-handicap-index-statistics-d24e6096.html&quot;&gt;USGA&lt;/a&gt;, over half of all golfers are a +13.0 handicap or better, and almost 80% of all golfers are a +18.0 or better.  This seems to suggest that the vast majority of golfers take about an extra stroke over par per hole. If you have never played golf, let me just say, shooting a +18 is not easy to do, and is not at all indicative of the average golfer.&lt;/p&gt;
 
-&lt;p&gt;First, the way a handicap is measured is incredibly &lt;a href=&quot;http://usga.org/Rule-Books/Handicap-System-Manual/Rule-10/&quot;&gt;complicated&lt;/a&gt;, but I will try to summarize.  To compute your handicap, you first pick out the best few recent rounds of golf you’ve played.  Then, you throw out the best scores among those (usually about half of your rounds get tossed out), and compute the average score of the remaining rounds.  That average score is your handicap.  Because you’re forced to discard your best few scores, to have a good handicap you either have to be consistently good, or be inconsistent and &lt;em&gt;play&lt;/em&gt; &lt;em&gt;a&lt;/em&gt; &lt;em&gt;lot&lt;/em&gt; &lt;em&gt;of&lt;/em&gt; &lt;em&gt;golf&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;First, the way a handicap is measured is incredibly &lt;a href=&quot;https://usga.org/Rule-Books/Handicap-System-Manual/Rule-10/&quot;&gt;complicated&lt;/a&gt;, but I will try to summarize.  To compute your handicap, you first pick out the best few recent rounds of golf you’ve played.  Then, you throw out the best scores among those (usually about half of your rounds get tossed out), and compute the average score of the remaining rounds.  That average score is your handicap.  Because you’re forced to discard your best few scores, to have a good handicap you either have to be consistently good, or be inconsistent and &lt;em&gt;play&lt;/em&gt; &lt;em&gt;a&lt;/em&gt; &lt;em&gt;lot&lt;/em&gt; &lt;em&gt;of&lt;/em&gt; &lt;em&gt;golf&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;The problem with using handicap to measure the average golfer is that most bad golfers don’t even know their handicap, if they keep score (accurately) at all.  And even if they did keep their score (accurately), they probably are not paying to register it with the USGA.  So essentially, nobody really knows how bad the average golfer is.  I would hazard a guess (based on my playing experience) that the average golfer that plays enough to have a handicap probably shoots in the high 110’s which is a +45 handicap.  The distribution of scores is certainly very asymmetrical and likely has a heavy tail, populated with folks like &lt;a href=&quot;http://www.golfchannel.com/media/remembering-angelo-worst-avid-golfer/&quot;&gt;Angelo Spagnolo&lt;/a&gt; who owns the distinction of being the world’s worst avid golfer with a handicap rating of +56, and once shooting over a 200 on a professional PGA course.&lt;/p&gt;
+&lt;p&gt;The problem with using handicap to measure the average golfer is that most bad golfers don’t even know their handicap, if they keep score (accurately) at all.  And even if they did keep their score (accurately), they probably are not paying to register it with the USGA.  So essentially, nobody really knows how bad the average golfer is.  I would hazard a guess (based on my playing experience) that the average golfer that plays enough to have a handicap probably shoots in the high 110’s which is a +45 handicap.  The distribution of scores is certainly very asymmetrical and likely has a heavy tail, populated with folks like &lt;a href=&quot;https://www.golfchannel.com/media/remembering-angelo-worst-avid-golfer/&quot;&gt;Angelo Spagnolo&lt;/a&gt; who owns the distinction of being the world’s worst avid golfer with a handicap rating of +56, and once shooting over a 200 on a professional PGA course.&lt;/p&gt;
 
 &lt;h3 id=&quot;my-handicap&quot;&gt;My Handicap&lt;/h3&gt;
 
@@ -930,20 +930,20 @@ is twenty-six light-years away, then the message had to be sent twenty-six years
 &lt;p&gt;(possibly not in that order).  So, to beginning golfers everywhere: ignore the handicap rating entirely; we’re not even playing golf yet.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/golf/how-good-is-the-average-golfer/&quot;&gt;How Good Is the Average Golfer?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 02, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/golf/how-good-is-the-average-golfer/&quot;&gt;How Good Is the Average Golfer?&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://localhost:4000&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 02, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Setting Up a Github Repository for Hosting on Github Pages]]></title>
-  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/meta/setting-up-a-github-repository-for-hosting-on-github-pages/" />
-  <id>https://www.sumedhmjoshi.com/meta/setting-up-a-github-repository-for-hosting-on-github-pages</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/meta/setting-up-a-github-repository-for-hosting-on-github-pages/" />
+  <id>http://localhost:4000/meta/setting-up-a-github-repository-for-hosting-on-github-pages</id>
   <published>2015-07-02T20:21:01-05:00</published>
   <updated>2015-07-02T20:21:01-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri>https://www.sumedhmjoshi.com</uri>
+    <uri>http://localhost:4000</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -992,27 +992,27 @@ $ git push&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 &lt;/ul&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/meta/setting-up-a-github-repository-for-hosting-on-github-pages/&quot;&gt;Setting Up a Github Repository for Hosting on Github Pages&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 02, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/meta/setting-up-a-github-repository-for-hosting-on-github-pages/&quot;&gt;Setting Up a Github Repository for Hosting on Github Pages&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://localhost:4000&quot;&gt;Sumedh Joshi&lt;/a&gt; on July 02, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Setting Up MathJax LaTeX Support]]></title>
-  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/meta/setup/setting-up-mathjax-latex-support/" />
-  <id>https://www.sumedhmjoshi.com/meta/setup/setting-up-mathjax-latex-support</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/meta/setup/setting-up-mathjax-latex-support/" />
+  <id>http://localhost:4000/meta/setup/setting-up-mathjax-latex-support</id>
   <published>2015-06-27T17:31:33-05:00</published>
   <updated>2015-06-27T17:31:33-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri>https://www.sumedhmjoshi.com</uri>
+    <uri>http://localhost:4000</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
     &lt;p&gt;This is easy, just add the following snippet into the body of the _layout/post.html:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot;
-  src=&amp;quot;http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;quot;&amp;gt;
+  src=&amp;quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&amp;quot;&amp;gt;
 &amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;This will add MathJax support to all posts. To typset LaTeX, just surround any LaTeX syntax with two dollar signs, like this:&lt;/p&gt;
@@ -1025,24 +1025,24 @@ $ git push&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;If you also want MathJax support on website pages, add the same code snippet to _layout/page.html.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/meta/setup/setting-up-mathjax-latex-support/&quot;&gt;Setting Up MathJax LaTeX Support&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/meta/setup/setting-up-mathjax-latex-support/&quot;&gt;Setting Up MathJax LaTeX Support&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://localhost:4000&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Setting Up Disqus]]></title>
-  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/meta/setup/setting-up-disqus/" />
-  <id>https://www.sumedhmjoshi.com/meta/setup/setting-up-disqus</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/meta/setup/setting-up-disqus/" />
+  <id>http://localhost:4000/meta/setup/setting-up-disqus</id>
   <published>2015-06-27T14:45:07-05:00</published>
   <updated>2015-06-27T14:45:07-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri>https://www.sumedhmjoshi.com</uri>
+    <uri>http://localhost:4000</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;I basically followed the very clear instructions set up on &lt;a href=&quot;http://joshualande.com/jekyll-github-pages-poole/&quot;&gt;this&lt;/a&gt; blog post.
+    &lt;p&gt;I basically followed the very clear instructions set up on &lt;a href=&quot;https://joshualande.com/jekyll-github-pages-poole/&quot;&gt;this&lt;/a&gt; blog post.
 There are instructions there for setting up a GitHub hosting account (which is free, for some reason, if you’re using Jekyll), setting up a domain name to point to the GitHub host, setting up Google Analytics, and setting up the Disqus commenting system.&lt;/p&gt;
 
 &lt;h2 id=&quot;disqus&quot;&gt;Disqus&lt;/h2&gt;
@@ -1062,20 +1062,20 @@ There are instructions there for setting up a GitHub hosting account (which is f
   &lt;/li&gt;
 &lt;/ol&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/meta/setup/setting-up-disqus/&quot;&gt;Setting Up Disqus&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/meta/setup/setting-up-disqus/&quot;&gt;Setting Up Disqus&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://localhost:4000&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[How I Set Up This Site]]></title>
-  <link rel="alternate" type="text/html" href="https://www.sumedhmjoshi.com/programming/meta/notes/how-i-set-up-this-site/" />
-  <id>https://www.sumedhmjoshi.com/programming/meta/notes/how-i-set-up-this-site</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/programming/meta/notes/how-i-set-up-this-site/" />
+  <id>http://localhost:4000/programming/meta/notes/how-i-set-up-this-site</id>
   <published>2015-06-27T01:47:07-05:00</published>
   <updated>2015-06-27T01:47:07-05:00</updated>
   <author>
     <name>Sumedh Joshi</name>
-    <uri>https://www.sumedhmjoshi.com</uri>
+    <uri>http://localhost:4000</uri>
     <email>sumedh.m.joshi@gmail.com</email>
   </author>
   <content type="html">
@@ -1084,7 +1084,7 @@ There are instructions there for setting up a GitHub hosting account (which is f
     &lt;p&gt;Upgraded Ruby to version 2.1.1 to be compatible with clang.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Downloaded and installed Jekyll from http://jekyllrb.com/.&lt;/p&gt;
+    &lt;p&gt;Downloaded and installed Jekyll from https://jekyllrb.com/.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Downloaded and installed the &lt;a href=&quot;https://github.com/mmistakes/minimal-mistakes/blob/master/theme-setup/index.md&quot;&gt;Minimial Mistakes&lt;/a&gt; theme.&lt;/p&gt;
@@ -1109,7 +1109,7 @@ There are instructions there for setting up a GitHub hosting account (which is f
   &lt;/li&gt;
 &lt;/ol&gt;
 
-    &lt;p&gt;&lt;a href=&quot;https://www.sumedhmjoshi.com/programming/meta/notes/how-i-set-up-this-site/&quot;&gt;How I Set Up This Site&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;https://www.sumedhmjoshi.com&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/programming/meta/notes/how-i-set-up-this-site/&quot;&gt;How I Set Up This Site&lt;/a&gt; was originally published by Sumedh Joshi at &lt;a href=&quot;http://localhost:4000&quot;&gt;Sumedh Joshi&lt;/a&gt; on June 27, 2015.&lt;/p&gt;
   </content>
 </entry>
 
