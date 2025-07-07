@@ -1,9 +1,8 @@
-# Adding comments here to re-trigger the action now that i've set a default remote in the using gh 
-name: Deploy Jekyll
+name: Deploy Site from deploy branch
 on:
   push:
     branches: ["main"]
-    workflow_dispatch:
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -30,44 +29,17 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Set up Jekyll
+      - name: Install Jekyll dependencies
         run: gem install bundler && bundle install
       - name: Build site
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
+      - name: Set custom url
+        run: echo "www.sumedhmjoshi.com" > _site/CNAME
+      - name: Deploy to `deploy` branch
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          name: compiled-site
-          path: _site
-  
-deploy:
-    environment:
-      name: github-pages
-      url: www.sumedhmjoshi.com
-    name: Deploy
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: deploy
-      - name: Commit and push
-        run: |
-          git config user.name "aledlie"
-          git config user.email "aledlie@users.noreply.github.com"
-          git pull target deploy
-          git add _site
-          git commit -m "Auto generated from ${GITHUB_SHA::7}"
-          git push
-      - name: Download artifacts
-        uses: actions/download-artifact@v3
-        with:
-          name: compiled-site
-          path: _site
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-	branch: deploy
-	folder: _site
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: deploy
