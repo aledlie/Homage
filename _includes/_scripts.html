@@ -17,6 +17,13 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
+<!-- Add functionality for GLightbox library -->
+<script src="/assets/js/glightbox.min.js"></script>
+<script>
+  const lightbox = GLightbox({
+    selector: '.glightbox'
+  });
+</script>
 {% endif %}
 {% if page.comments %}
   {% include _disqus_comments.html %}
