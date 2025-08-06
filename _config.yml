@@ -4,6 +4,9 @@ title:            Sumedh Joshi
 locale:           en_US
 url:              https://www.sumedhmjoshi.com
 #url:             localhost:4000
+description:      Personal Site of the late Sumedh Joshi, computational physicist, football nerd, obsessive musician, and loved and missed every day.
+respository:      aledlie/Homage
+og_image:         /images/default-thumb.png
 
 # Jekyll configuration
 
@@ -37,13 +40,14 @@ owner:
   facebook: sumedh.joshi.12
   google:
     plus:
-    analytics:
-    verify:
+    analytics: G-JM6DN1H5LZ
+    verify: gqKcgBHjbuRW6cYY8BO_GdFOVNsIekipkuiC_2pb6g0
     ad-client:
     ad-slot:
   bing-verify:
   github: sumedhjoshi
-  stackoverflow: https://scicomp.stackexchange.com/users/4879/sumedh-joshi
+  stackoverflow:
+  scicomp.stackexchange: scicomp.stackexchange
   linkedin: sumedhjoshi
   xing: #username
   instagram: phdmyselfandi
