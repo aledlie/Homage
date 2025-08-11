@@ -7,6 +7,11 @@ url:              https://www.sumedhmjoshi.com
 description:      Personal Site of the late Sumedh Joshi, computational physicist, football nerd, obsessive musician, and loved and missed every day.
 respository:      aledlie/Homage
 og_image:         /images/default-thumb.png
+analytics:
+  provider: "google-gtag" # Or "google-universal" if using an older UA ID
+  google:
+    tracking_id: G-WGG5H639B7
+    anonymize_ip: false # Optional, default is false
 
 # Jekyll configuration
 
@@ -40,7 +45,7 @@ owner:
   facebook: sumedh.joshi.12
   google:
     plus:
-    analytics: G-JM6DN1H5LZ
+    analytics: 11455069991
     verify: gqKcgBHjbuRW6cYY8BO_GdFOVNsIekipkuiC_2pb6g0
     ad-client:
     ad-slot:
