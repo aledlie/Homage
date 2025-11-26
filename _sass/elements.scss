@@ -45,6 +45,7 @@ svg:not(:root) {
 		img {
 			@include grid.grid(12,6);
 		}
+
 		figcaption {
 			@include grid.grid(12,12);
 		}
@@ -60,6 +61,7 @@ svg:not(:root) {
 		img {
 			@include grid.grid(12,4);
 		}
+
 		figcaption {
 			@include grid.grid(12,12);
 		}
@@ -77,6 +79,7 @@ svg:not(:root) {
   margin-bottom: 20px;
   padding: 8px 20px;
   @include mixins.font-rem(14);
+
   font-family: variables.$heading-font;
   font-weight: 700;
   background-color: variables.$primary;
@@ -86,9 +89,11 @@ svg:not(:root) {
   border-color: variables.$primary;
   text-decoration: none !important;
   @include mixins.rounded(3px);
+
   &:visited {
     color: variables.$white;
   }
+
   &:hover {
     background-color: variables.$white;
     color: variables.$primary;
@@ -101,9 +106,11 @@ svg:not(:root) {
   background-color: variables.$success;
   color: variables.$white;
   border-color: variables.$success;
+
   &:visited {
     color: variables.$white;
   }
+
   &:hover {
     background-color: variables.$white;
     color: variables.$success;
@@ -116,9 +123,11 @@ svg:not(:root) {
   background-color: variables.$warning;
   color: variables.$white;
   border-color: variables.$warning;
+
   &:visited {
     color: variables.$white;
   }
+
   &:hover {
     background-color: variables.$white;
     color: variables.$warning;
@@ -131,9 +140,11 @@ svg:not(:root) {
   background-color: variables.$danger;
   color: variables.$white;
   border-color: variables.$danger;
+
   &:visited {
     color: variables.$white;
   }
+
   &:hover {
     background-color: variables.$white;
     color: variables.$danger;
@@ -146,9 +157,11 @@ svg:not(:root) {
   background-color: variables.$info;
   color: variables.$white;
   border-color: variables.$info;
+
   &:visited {
     color: variables.$white;
   }
+
   &:hover {
     background-color: variables.$white;
     color: variables.$info;

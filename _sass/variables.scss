@@ -1,4 +1,5 @@
 @use "sass:color";
+
 /* ==========================================================================
    Sass variables
    ========================================================================== */
@@ -12,7 +13,7 @@ $doc-line-height: 26;
 $paragraph-indent: true !default;
 $base-font: 'PT Serif', serif;
 $heading-font: 'PT Sans Narrow', sans-serif;
-$code-font: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+$code-font: monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
 $alt-font: $base-font;
 
 /*
@@ -50,7 +51,7 @@ $rss-color          : #fa9b39;
 $tumblr-color       : #2c4762;
 $twitter-color      : #55acee;
 $vimeo-color        : #1ab7ea;
-$youtube-color      : #ff3333;
+$youtube-color      : #f33;
 
 /* links */
 $linkcolor 		: #343434;

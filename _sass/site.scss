@@ -1,6 +1,7 @@
 @use "sass:color";
 @use 'variables' as *;
 @use 'mixins' as *;
+
 /* ==========================================================================
    Site wide styles
    ========================================================================== */
@@ -9,11 +10,12 @@
    Selection
    ========================================================================== */
 
-::-moz-selection { 
+::selection { 
 	background-color: color.adjust($basecolor, $lightness: 65%); 
 	color: $basecolor; 
 	text-shadow: none; 
 }  	
+
 ::selection { 
 	background-color: color.adjust($basecolor, $lightness: 65%); 
 	color: $basecolor; 
@@ -38,6 +40,7 @@
 .pull-right {
 	float: right;
 }
+
 .image-pull-right {
 	float: right;
 	margin-top: 0;
@@ -46,12 +49,14 @@
 /* Clearfix */
 .clearfix {
 	*zoom: 1;
-	&:before,
-	&:after {
+
+	&::before,
+	&::after {
 		display: table;
 	    content: "";
 	}
-	&:after {
+
+	&::after {
 		clear: both;
 	}
 }
@@ -61,6 +66,7 @@
 	list-style: none;
 	margin-left: 0;
 	padding-left: 0;
+
 	li {
 		list-style-type: none;
 	}
