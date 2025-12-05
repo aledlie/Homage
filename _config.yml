@@ -10,7 +10,7 @@ og_image:         /images/default-thumb.png
 analytics:
   provider: "google-gtag" # Or "google-universal" if using an older UA ID
   google:
-    tracking_id: G-J7TL7PQH7S
+    tracking_id: G-DEP2PN5W4S
     anonymize_ip: false # Optional, default is false
 
 # Jekyll configuration
@@ -45,7 +45,7 @@ owner:
   facebook: sumedh.joshi.12
   google:
     plus:
-    analytics: G-J7TL7PQH7S
+    analytics: G-DEP2PN5W4S
     verify: gqKcgBHjbuRW6cYY8BO_GdFOVNsIekipkuiC_2pb6g0
     ad-client:
     ad-slot:
